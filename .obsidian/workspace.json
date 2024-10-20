@@ -1,0 +1,334 @@
+{
+  "main": {
+    "id": "d735c2e4a03cdfcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e49bec0f137a7920",
+        "type": "tabs",
+        "dimension": 57.711864406779654,
+        "children": [
+          {
+            "id": "af7a9c9a7ede9f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/TIDY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TIDY"
+            }
+          },
+          {
+            "id": "c47cd2cedc82a563",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/barkground.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "barkground"
+            }
+          },
+          {
+            "id": "a954ce33ea01d092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/TIDY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TIDY"
+            }
+          },
+          {
+            "id": "24d33cfcb8e2059c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/technology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "technology"
+            },
+            "group": "984c11467ad250e5"
+          },
+          {
+            "id": "1aa931b394d81f0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "principle"
+            }
+          },
+          {
+            "id": "b56033d8878ea913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/barkground.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "barkground"
+            }
+          },
+          {
+            "id": "cc3c1e0a72ff6203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "algorithm"
+            }
+          },
+          {
+            "id": "588b24d92103e6ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/Abstract.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Abstract"
+            }
+          },
+          {
+            "id": "e91a3c9d3d83112c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perpare/algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "algorithm"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "68834aa10f07cad6",
+        "type": "tabs",
+        "dimension": 42.28813559322034,
+        "children": [
+          {
+            "id": "90e34aaa4191e174",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "perpare/technology.md"
+              },
+              "icon": "lucide-list",
+              "title": "technology 的大纲"
+            },
+            "group": "984c11467ad250e5"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "854f2fb5a4382ab0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a1c79ddc6502051",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2b5d8e6ce8e1892",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "15c88791796b66e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5fc1b12ff330124d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.49999618530273
+  },
+  "right": {
+    "id": "048ac434f655e920",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f799bef0a5b08af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c9816190c4a41ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "perpare/algorithm.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "algorithm 的反向链接列表"
+            }
+          },
+          {
+            "id": "4ba9e6e44db7f7c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "perpare/algorithm.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "algorithm 的出链列表"
+            }
+          },
+          {
+            "id": "78041553989106c1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "9bef93e3eeb2cc4d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "619448946e002b28",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "perpare/algorithm.md"
+              },
+              "icon": "lucide-list",
+              "title": "algorithm 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 328.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "90e34aaa4191e174",
+  "lastOpenFiles": [
+    "perpare/technology.md",
+    "perpare/TIDY.md",
+    "perpare/principle.md",
+    "perpare/barkground.md",
+    "perpare/compare.md",
+    "perpare/project.md",
+    "perpare/future.md",
+    "perpare/algorithm.md",
+    "paper/style/Neural Style Transfer.pdf",
+    "paper/style/Neural Style Transfer.pdf.crdownload",
+    "paper/style",
+    "paper/新建文件夹",
+    "work/Abstract.md",
+    "example/2409.02108v1.pdf",
+    "example/2209.15179v3.pdf",
+    "未命名.canvas",
+    "work",
+    "perpare",
+    "example",
+    "paper"
+  ]
+}
