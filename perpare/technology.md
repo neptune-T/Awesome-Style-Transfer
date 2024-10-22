@@ -1,9 +1,9 @@
 
 
 
+# IOB-NST（基于图像优化的神经风格迁移方法）
 
-
-# 1. A Neural Algorithm of Artistic Style (2015)
+## 1. A Neural Algorithm of Artistic Style (2015)
 
    - **作者**：Leon A. Gatys等人  
    - **贡献**：这是风格迁移领域的奠基性论文，首次提出利用卷积神经网络（CNN）实现内容与风格分离。通过格拉姆矩阵捕捉风格特征，并通过优化生成与风格图像的匹配，生成图像既保留了内容的结构，又具有目标艺术风格。  
@@ -94,7 +94,7 @@
 
 
 
-# 2. Neural Style Transfer: A Review (2017)
+## 2. Neural Style Transfer: A Review (2017)
    - **作者**：综述论文  
    - **贡献**：总结了神经风格迁移（Neural Style Transfer, NST）的发展历程，讨论了不同的纹理建模方法以及如何通过CNN实现风格和内容的分离。文中回顾了早期的纹理建模方法，如基于马尔可夫随机场（MRF）等模型。  
    - **核心思想**：通过对NST技术的演变进行综述，为未来的研究提供了指导。  
@@ -119,3 +119,4 @@
 
 
 
+# IOB-NST（基于图像优化的神经风格迁移方法）

@@ -3,8 +3,6 @@
 
 生图  ->  图中提取语义信息  ->  风格提取  -> 优化算法  ->  生成
 
-
-
 ## 生图怎么来的? [[barkground]]
 
 	  vae -> gan -> diffusion
@@ -20,7 +18,7 @@
 
 研究如何将一种图像的艺术风格（如画家的风格）应用到另一幅图像上。[[technology]]
 		Neural Style Transfer
-
+[[paper-dolist]]
 ### 优化算法[[algorithm]]
 
 
