@@ -6,7 +6,7 @@
       {
         "id": "e49bec0f137a7920",
         "type": "tabs",
-        "dimension": 72.45762711864407,
+        "dimension": 78.16593886462883,
         "children": [
           {
             "id": "af7a9c9a7ede9f5b",
@@ -54,12 +54,66 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "perpare/technology.md",
+                "file": "perpare/paper-dolist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "technology"
+              "title": "paper-dolist"
+            }
+          },
+          {
+            "id": "a9bdcb7311a07b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Autoencoding beyond pixels using a learned similarity metric"
+            }
+          },
+          {
+            "id": "c68c687187db3cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Universal Style Transfer via Feature Transforms"
+            }
+          },
+          {
+            "id": "ada4582629bb4464",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "paper/Style transfer algorithm/Universal Style Transfer via Feature Transforms.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Universal Style Transfer via Feature Transforms"
+            }
+          },
+          {
+            "id": "e5cc54046ade0f9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization"
             }
           },
           {
@@ -193,12 +247,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "68834aa10f07cad6",
         "type": "tabs",
-        "dimension": 27.54237288135593,
+        "dimension": 21.83406113537118,
         "children": [
           {
             "id": "90e34aaa4191e174",
@@ -206,10 +260,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "perpare/technology.md"
+                "file": "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md"
               },
               "icon": "lucide-list",
-              "title": "technology 的大纲"
+              "title": "Autoencoding beyond pixels using a learned similarity metric 的大纲"
             }
           }
         ]
@@ -268,7 +322,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.49999618530273
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "048ac434f655e920",
@@ -364,34 +419,42 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "42e428f4eb0b0547",
+  "active": "a9bdcb7311a07b3f",
   "lastOpenFiles": [
+    "png/Pasted image 20241024193220.png",
+    "perpare/paper-dolist.md",
+    "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
+    "paper/Style transfer algorithm/Autoencoding beyond pixels using a learned similarity metric.pdf",
+    "Paper reading notes/style algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.md",
+    "png/Pasted image 20241023153443.png",
+    "png/Pasted image 20241023150709.png",
+    "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
+    "perpare/TIDY.md",
+    "Paper reading notes/style algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.md",
+    "png/Pasted image 20241022212807.png",
+    "paper/Style transfer algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.pdf",
+    "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
+    "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
+    "paper/Style transfer algorithm/Universal Style Transfer via Feature Transforms.pdf",
+    "perpare/algorithm.md",
+    "perpare/technology.md",
     "perpare/project.md",
     "perpare/principle.md",
-    "perpare/paper-dolist.md",
     "perpare/future.md",
     "perpare/compare.md",
     "perpare/barkground.md",
-    "perpare/algorithm.md",
-    "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
     "png/Pasted image 20241022125238.png",
     "paper/Style transfer algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.pdf",
     "Paper reading notes/style algorithm/Texture Networks.md",
     "paper/Style transfer algorithm/Feed-forward Synthesis of Textures and Stylized Images.pdf",
-    "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
     "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
-    "paper/Style transfer algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.pdf",
-    "perpare/TIDY.md",
     "png/Pasted image 20241021201539.png",
     "paper/Style transfer algorithm/ANeural Algorithm of Artistic Style.pdf",
-    "perpare/technology.md",
     "paper/style a survey/Neural Style Transfer.pdf",
     "work/Abstract.md",
     "png/Pasted image 20241021152746.png",
     "Paper reading notes/style algorithm",
     "paper/style a survey",
-    "paper/style/Neural Style Transfer.pdf",
-    "Paper reading notes",
     "png/Pasted image 20241021152152.png",
     "style transformer.md",
     "Learning Transferable Visual Models From Natural Language Supervision.md",
