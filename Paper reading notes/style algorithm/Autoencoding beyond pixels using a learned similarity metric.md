@@ -14,3 +14,7 @@ $$
 L_{\text{prior}} = D_{\text{KL}} \left( q(z|x) \| p(z) \right)
 $$
 
+![[Pasted image 20241024220638.png]]
+
+
+![[Pasted image 20241024221220.png]]

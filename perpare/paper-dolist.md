@@ -35,16 +35,22 @@ Johnson et al. (2016)
 
 ### 基于变分自编码器（VAE）的风格迁移
 
-- [] Variational Autoencoders (VAE) + GAN (VAE-GAN)[[Autoencoding beyond pixels using a learned similarity metric.pdf]]
+- [x] Variational Autoencoders (VAE) + GAN (VAE-GAN)[[Autoencoding beyond pixels using a learned similarity metric.pdf]]
 
 	[[Autoencoding beyond pixels using a learned similarity metric]]
 
 ### 基于Transformers的风格迁移
 
-StyleGAN (Karras et al., 2019)[[A Style-Based Generator Architecture for Generative Adversarial Networks.pdf]]
+- [x] StyleGAN (Karras et al., 2019)[[A Style-Based Generator Architecture for Generative Adversarial Networks.pdf]]
 
-Style Transformer (Deng et al., 2021)[[Preserving self-similarity in free products of semigroups.pdf]]
+	[[A Style-Based Generator Architecture for Generative Adversarial Networks]]
+ 
+- [x] Style Transformer (Deng et al., 2021)[[Preserving self-similarity in free products of semigroups.pdf]]
 
+	[[Preserving self-similarity in free products of semigroups]]
+ 
 ### 基于CLIP的风格迁移
 
-CLIP + VQGAN (2021)[[Learning Transferable Visual Models From Natural Language Supervision.pdf]]
+- [x] CLIP + VQGAN (2021)[[Learning Transferable Visual Models From Natural Language Supervision.pdf]]
+
+	[[Learning Transferable Visual Models From Natural Language Supervision]]
