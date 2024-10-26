@@ -18,7 +18,7 @@
 
 研究如何将一种图像的艺术风格（如画家的风格）应用到另一幅图像上。[[technology]]
 		Neural Style Transfer
-[[paper-dolist]]
+[[transfer]]
 ### 优化算法[[algorithm]]
 
 
