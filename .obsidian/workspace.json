@@ -28,24 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
+                "file": "perpare/algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization"
-            }
-          },
-          {
-            "id": "490ba5b6e933ad5c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "paper/Style transfer algorithm/Learning Transferable Visual Models From Natural Language Supervision.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Learning Transferable Visual Models From Natural Language Supervision"
+              "title": "algorithm"
             }
           },
           {
@@ -153,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "68834aa10f07cad6",
@@ -166,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper/Style transfer algorithm/Learning Transferable Visual Models From Natural Language Supervision.pdf"
+                "file": "perpare/algorithm.md"
               },
               "icon": "lucide-list",
-              "title": "Learning Transferable Visual Models From Natural Language Supervision 的大纲"
+              "title": "algorithm 的大纲"
             }
           }
         ]
@@ -336,35 +324,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "490ba5b6e933ad5c",
+  "active": "4042a753421dc6b8",
   "lastOpenFiles": [
     "perpare/paper-dolist.md",
-    "paper/Style transfer algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.pdf",
-    "paper/Style transfer algorithm/Preserving self-similarity in free products of semigroups.pdf",
+    "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
+    "Univariate Rational Sums of Squares.md",
+    "perpare/algorithm.md",
+    "paper/algorithm/Diffusion Models Beat GANs on Image Synthesis.pdf",
+    "paper/algorithm/Diffusion Models Beat GANs on Image Synthesis.pdf.crdownload",
+    "paper/algorithm/Denoising Diffusion Probabilistic Models.pdf",
+    "paper/algorithm/Denoising Diffusion Probabilistic Models.pdf.crdownload",
+    "paper/algorithm/Probability Flow Sampling.pdf",
+    "paper/algorithm/Probability Flow Sampling.pdf.crdownload",
+    "paper/algorithm/Generative Modeling by Estimating Gradients of the Data Distribution.pdf",
+    "paper/algorithm/Generative Modeling by Estimating Gradients of the Data Distribution.pdf.crdownload",
+    "paper/algorithm/High-Resolution Image Synthesis with Latent Diffusion Models.pdf",
+    "paper/algorithm/DENOISING DIFFUSION IMPLICIT MODELS.pdf",
     "Paper reading notes/style algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
+    "png/Pasted image 20241026133708.png",
     "Paper reading notes/style algorithm/Preserving self-similarity in free products of semigroups.md",
-    "paper/Style transfer algorithm/Universal Style Transfer via Feature Transforms.pdf",
     "Paper reading notes/style algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.md",
-    "paper/Style transfer algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.pdf",
     "png/Pasted image 20241025112751.png",
     "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
     "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
-    "example/2409.02108v1.pdf",
-    "example/2209.15179v3.pdf",
     "png/Pasted image 20241024221220.png",
     "png/Pasted image 20241024220638.png",
     "png/Pasted image 20241024193220.png",
-    "paper/Style transfer algorithm/Autoencoding beyond pixels using a learned similarity metric.pdf",
     "Paper reading notes/style algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.md",
     "png/Pasted image 20241023153443.png",
     "png/Pasted image 20241023150709.png",
-    "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
     "perpare/TIDY.md",
     "Paper reading notes/style algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.md",
     "png/Pasted image 20241022212807.png",
-    "paper/Style transfer algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.pdf",
-    "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
-    "perpare/algorithm.md",
     "perpare/technology.md",
     "perpare/project.md",
     "perpare/principle.md",
@@ -373,11 +364,9 @@
     "perpare/barkground.md",
     "png/Pasted image 20241022125238.png",
     "Paper reading notes/style algorithm/Texture Networks.md",
-    "paper/Style transfer algorithm/Feed-forward Synthesis of Textures and Stylized Images.pdf",
     "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
     "png/Pasted image 20241021201539.png",
     "work/Abstract.md",
-    "png/Pasted image 20241021152746.png",
     "style transformer.md",
     "Style Transfor.md",
     "未命名.canvas"
