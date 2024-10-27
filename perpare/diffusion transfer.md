@@ -14,7 +14,7 @@
    - [[Blended_Diffusion_Paper.pdf]]
    - [[Blended_Diffusion_Paper]]
 
-### 4. **Diffusion-Based Image-to-Image Translation**  
-   - **Paper:** *SDEdit: Image Synthesis and Editing with Stochastic Differential Equations* – 2021
+### 4. **Diffusion-Based Image-to-Image Translation**  -2021
+   - **Paper:** *SDEdit: Image Synthesis and Editing with Stochastic Differential Equations* 
    - [[SDE_dit.pdf]]
    - [[SDE_dit]]

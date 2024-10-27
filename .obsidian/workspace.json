@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "perpare/diffusion transfer.md",
+                "file": "Paper reading notes/diffusion algorithm/Score-based Generative Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "diffusion transfer"
+              "title": "Score-based Generative Models"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "diffusionclip"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.49999618530273
+    "width": 265.49999618530273
   },
   "right": {
     "id": "048ac434f655e920",
@@ -228,9 +227,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7ea995ed3b5da4ee",
+  "active": "00db448ca10458c8",
   "lastOpenFiles": [
+    "png/Pasted image 20241027224153.png",
+    "perpare/algorithm.md",
+    "paper/diffusion algorithm/Generative Modeling by Estimating Gradients of the Data Distribution.pdf",
     "perpare/diffusion transfer.md",
+    "perpare/compare.md",
+    "paper/diffusion about transfer/Blended_Diffusion_Paper.pdf",
+    "paper/diffusion about transfer/stylediffusion.pdf",
     "Paper reading notes/diffusion about transfer/SDE_dit.md",
     "Paper reading notes/diffusion about transfer/Blended_Diffusion_Paper.md",
     "Paper reading notes/diffusion about transfer/diffusionclip.md",
@@ -242,30 +247,24 @@
     "Paper reading notes/diffusion algorithm/Score-based Generative Models.md",
     "paper/diffusion algorithm/Progressive Distillation for Fast Sampling of Diffusion Models.pdf",
     "Paper reading notes/diffusion algorithm/Progressive Distillation for Fast Sampling of Diffusion Models.md",
-    "paper/diffusion about transfer/stylediffusion.pdf",
     "Paper reading notes/diffusion about transfer/stylediffusion.md",
     "Paper reading notes/diffusion algorithm/DDIM.md",
     "paper/diffusion algorithm/DENOISING DIFFUSION IMPLICIT MODELS.pdf",
     "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
     "paper/diffusion about transfer/SDE_dit.pdf",
     "paper/diffusion about transfer/SDE_dit.pdf.crdownload",
-    "paper/diffusion about transfer/Blended_Diffusion_Paper.pdf",
     "paper/diffusion about transfer/Blended_Diffusion_Paper.pdf.crdownload",
     "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
     "perpare/project.md",
     "perpare/principle.md",
     "perpare/future.md",
-    "perpare/compare.md",
     "perpare/barkground.md",
-    "perpare/algorithm.md",
     "paper/diffusion about transfer/diffusionclip.pdf",
     "paper/diffusion about transfer/diffusionclip.pdf.crdownload",
-    "paper/diffusion about transfer/stylediffusion.pdf.crdownload",
     "Paper reading notes/diffusion algorithm/Probability Flow Sampling.md",
     "Paper reading notes/algorithm/Score-based Generative Modeling with Annealed Langevin Dynamics.md",
     "Paper reading notes/diffusion algorithm/Guided Diffusion Models.md",
     "Paper reading notes/style algorithm/Texture Networks.md",
-    "Paper reading notes/diffusion algorithm/LDM.md",
     "png/Pasted image 20241026133708.png",
     "png/Pasted image 20241025112751.png",
     "png/Pasted image 20241024221220.png",
