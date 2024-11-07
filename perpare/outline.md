@@ -11,6 +11,7 @@
 
 #### 2. 风格迁移的基本概念
    - 2.1 风格迁移的历史背景
+    [[2]]
      - 传统与现代风格迁移方法的演变
    - 2.2 风格与内容的定义
      - 风格与内容特征的区分及量化方法
@@ -86,7 +87,7 @@
    - 3.1 Image Processing-Based Style Transfer Methods
      - Overview of classic algorithms and techniques
    - 3.2 Handcrafted Feature Extraction and Style Transfer Research
-
+[[2.3]]
 #### 4. Variational Autoencoder (VAE) Techniques
    - 4.1 Basic Principles of VAE
      - The role of VAE in generative models
