@@ -54,7 +54,7 @@ Johnson et al. (2016)
 
 - [x] CLIP + VQGAN (2021)[[Learning Transferable Visual Models From Natural Language Supervision.pdf]]
 
-	[[Learning Transferable Visual Models From Natural Language Supervision]]
+	[[Paper reading notes/diffusion algorithm/Learning Transferable Visual Models From Natural Language Supervision]]
 
 
 一,
