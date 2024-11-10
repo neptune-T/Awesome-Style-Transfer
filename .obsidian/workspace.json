@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper reading notes/diffusion algorithm/Style Transfor.md",
+                "file": "perpare/3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Style Transfor"
+              "title": "3"
             }
           },
           {
@@ -214,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.49999618530273
+    "width": 200
   },
   "right": {
     "id": "048ac434f655e920",
@@ -310,19 +310,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b2b5d8e6ce8e1892",
+  "active": "3c16072ec77d3339",
   "lastOpenFiles": [
+    "perpare/2.md",
+    "perpare/2.3.md",
+    "perpare/3.md",
+    "perpare/outline.md",
+    "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
+    "paper/Style transfer algorithm/Preserving self-similarity in free products of semigroups.pdf",
+    "paper/Style transfer algorithm/Learning Transferable Visual Models From Natural Language Supervision.pdf",
+    "paper/Style transfer algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.pdf",
+    "paper/Style transfer algorithm/ANeural Algorithm of Artistic Style.pdf",
+    "Paper reading notes/diffusion algorithm/Style Transfor.md",
     "Paper reading notes/diffusion algorithm/DDIM.md",
     "Paper reading notes/diffusion algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
-    "perpare/outline.md",
     "未命名.canvas",
-    "perpare/3.md",
     "perpare/principle.md",
-    "perpare/2.md",
     "perpare/project.md",
     "perpare/technology.md",
     "perpare/transfer.md",
-    "perpare/2.3.md",
     "perpare/introduction.md",
     "perpare/future.md",
     "perpare/diffusion transfer.md",
@@ -334,11 +340,6 @@
     "paper/diffusion about transfer/diffusionclip.pdf",
     "paper/diffusion about transfer/Blended_Diffusion_Paper.pdf",
     "paper/diffusion algorithm/Progressive Distillation for Fast Sampling of Diffusion Models.pdf",
-    "paper/Style transfer algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.pdf",
-    "paper/Style transfer algorithm/Universal Style Transfer via Feature Transforms.pdf",
-    "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
-    "paper/Style transfer algorithm/Preserving self-similarity in free products of semigroups.pdf",
-    "paper/Style transfer algorithm/Learning Transferable Visual Models From Natural Language Supervision.pdf",
     "Paper reading notes/style algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
     "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
     "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
@@ -347,8 +348,6 @@
     "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
     "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
     "Paper reading notes/diffusion about transfer/Blended_Diffusion_Paper.md",
-    "Paper reading notes/diffusion algorithm/Guided Diffusion Models.md",
-    "perpare/TIDY.md",
     "png/Pasted image 20241029230758.png",
     "png/Pasted image 20241027224153.png",
     "png/Pasted image 20241026133708.png",
