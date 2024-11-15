@@ -6,6 +6,7 @@
       {
         "id": "68834aa10f07cad6",
         "type": "tabs",
+        "dimension": 68.52459016393442,
         "children": [
           {
             "id": "00db448ca10458c8",
@@ -53,15 +54,14 @@
             "id": "3c16072ec77d3339",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "work/Abstract.md",
-                "mode": "source",
-                "source": false
+                "file": "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Abstract"
-            }
+              "icon": "lucide-file-text",
+              "title": "Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation"
+            },
+            "group": "422291e3a645a88b"
           },
           {
             "id": "1feb5df707ef557e",
@@ -147,6 +147,51 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "8fdb580a1023abdb",
+        "type": "tabs",
+        "dimension": 31.475409836065573,
+        "children": [
+          {
+            "id": "0187c801907d61a4",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation 的关系图"
+            },
+            "group": "422291e3a645a88b"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -310,44 +355,43 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3c16072ec77d3339",
+  "active": "b2b5d8e6ce8e1892",
   "lastOpenFiles": [
     "perpare/transfer.md",
-    "perpare/TIDY.md",
-    "perpare/technology.md",
-    "perpare/project.md",
-    "perpare/principle.md",
-    "perpare/outline.md",
-    "perpare/introduction.md",
-    "perpare/future.md",
-    "perpare/diffusion transfer.md",
-    "perpare/barkground.md",
-    "perpare/algorithm.md",
-    "perpare/3.md",
-    "perpare/2.3.md",
-    "perpare/2.md",
-    "Paper reading notes/style algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.md",
-    "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
+    "paper/Style transfer algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.pdf",
     "Paper reading notes/style algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.md",
-    "Paper reading notes/style algorithm/Texture Networks.md",
-    "Paper reading notes/style algorithm/Preserving self-similarity in free products of semigroups.md",
-    "Paper reading notes/style algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
-    "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
-    "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
-    "Paper reading notes/style algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.md",
-    "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
     "Paper reading notes/diffusion about transfer/SDE_dit.md",
-    "Paper reading notes/diffusion algorithm/DDIM.md",
-    "paper/Style transfer algorithm/Universal Style Transfer via Feature Transforms.pdf",
+    "Paper reading notes/algorithm/Score-based Generative Modeling with Annealed Langevin Dynamics.md",
+    "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
     "paper/Style transfer algorithm/Preserving self-similarity in free products of semigroups.pdf",
     "paper/Style transfer algorithm/Learning Transferable Visual Models From Natural Language Supervision.pdf",
     "paper/Style transfer algorithm/Feed-forward Synthesis of Textures and Stylized Images.pdf",
     "paper/Style transfer algorithm/Autoencoding beyond pixels using a learned similarity metric.pdf",
-    "paper/Style transfer algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.pdf",
     "paper/Style transfer algorithm/ANeural Algorithm of Artistic Style.pdf",
+    "paper/Style transfer algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.pdf",
     "paper/style a survey/Neural Style Transfer.pdf",
-    "paper/diffusion algorithm/Diffusion Models Beat GANs on Image Synthesis.pdf",
     "paper/diffusion algorithm/Denoising Diffusion Probabilistic Models.pdf",
+    "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
+    "Paper reading notes/style algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.md",
+    "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
+    "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
+    "Paper reading notes/style algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
+    "Paper reading notes/style algorithm/Texture Networks.md",
+    "Paper reading notes/style algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.md",
+    "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
+    "perpare/algorithm.md",
+    "perpare/barkground.md",
+    "perpare/outline.md",
+    "perpare/diffusion transfer.md",
+    "perpare/future.md",
+    "perpare/2.3.md",
+    "perpare/2.md",
+    "Paper reading notes/diffusion algorithm/Progressive Distillation for Fast Sampling of Diffusion Models.md",
+    "work/Abstract.md",
+    "Paper reading notes/diffusion algorithm/style transformer.md",
+    "Paper reading notes/diffusion algorithm/Style Transfor.md",
+    "Paper reading notes/diffusion algorithm/Score-based Generative Models.md",
+    "Paper reading notes/diffusion algorithm/Probability Flow Sampling.md",
     "未命名.canvas",
     "png/Pasted image 20241029230758.png",
     "png/Pasted image 20241027224153.png",
