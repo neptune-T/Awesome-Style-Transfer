@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "perpare/algorithm.md",
+                "file": "perpare/future.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithm"
+              "title": "future"
             },
             "group": "422291e3a645a88b"
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "perpare/algorithm.md",
+                "file": "perpare/future.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -189,7 +189,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "algorithm 的关系图"
+              "title": "future 的关系图"
             },
             "group": "422291e3a645a88b"
           }
@@ -261,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 327.49999618530273
   },
   "right": {
     "id": "048ac434f655e920",
@@ -359,42 +359,42 @@
   },
   "active": "3c16072ec77d3339",
   "lastOpenFiles": [
-    "perpare/~$table.pptx",
-    "Paper reading notes/diffusion algorithm/DDPM.md",
-    "Paper reading notes/diffusion algorithm/DDIM.md",
-    "paper/Style transfer algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf",
-    "perpare/transfer.md",
-    "paper/Style transfer algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.pdf",
-    "Paper reading notes/style algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.md",
-    "Paper reading notes/diffusion about transfer/SDE_dit.md",
-    "Paper reading notes/algorithm/Score-based Generative Modeling with Annealed Langevin Dynamics.md",
-    "paper/Style transfer algorithm/Preserving self-similarity in free products of semigroups.pdf",
-    "paper/Style transfer algorithm/Learning Transferable Visual Models From Natural Language Supervision.pdf",
-    "paper/Style transfer algorithm/Feed-forward Synthesis of Textures and Stylized Images.pdf",
-    "paper/Style transfer algorithm/Autoencoding beyond pixels using a learned similarity metric.pdf",
-    "paper/Style transfer algorithm/ANeural Algorithm of Artistic Style.pdf",
-    "paper/Style transfer algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.pdf",
-    "paper/style a survey/Neural Style Transfer.pdf",
-    "paper/diffusion algorithm/Denoising Diffusion Probabilistic Models.pdf",
-    "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
-    "Paper reading notes/style algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.md",
-    "Paper reading notes/style algorithm/Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization.md",
-    "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
-    "Paper reading notes/style algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
-    "Paper reading notes/style algorithm/Texture Networks.md",
-    "Paper reading notes/style algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.md",
-    "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
-    "perpare/algorithm.md",
-    "perpare/barkground.md",
-    "perpare/outline.md",
     "perpare/diffusion transfer.md",
-    "perpare/future.md",
+    "perpare/barkground.md",
+    "perpare/algorithm.md",
+    "perpare/3.md",
     "perpare/2.3.md",
     "perpare/2.md",
+    "Paper reading notes/style algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.md",
+    "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
+    "Paper reading notes/style algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.md",
+    "Paper reading notes/style algorithm/Texture Networks.md",
+    "Paper reading notes/style algorithm/Preserving self-similarity in free products of semigroups.md",
+    "Paper reading notes/style algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
+    "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
+    "Paper reading notes/style algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.md",
+    "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
     "Paper reading notes/diffusion algorithm/Progressive Distillation for Fast Sampling of Diffusion Models.md",
-    "work/Abstract.md",
-    "Paper reading notes/diffusion algorithm/style transformer.md",
+    "Paper reading notes/diffusion algorithm/Score-based Generative Models.md",
     "Paper reading notes/diffusion algorithm/Style Transfor.md",
+    "Paper reading notes/diffusion algorithm/style transformer.md",
+    "Paper reading notes/diffusion algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
+    "Paper reading notes/diffusion algorithm/LDM.md",
+    "Paper reading notes/diffusion algorithm/Guided Diffusion Models.md",
+    "Paper reading notes/diffusion algorithm/DDPM.md",
+    "Paper reading notes/diffusion algorithm/DDIM.md",
+    "Paper reading notes/diffusion about transfer/stylediffusion.md",
+    "Paper reading notes/diffusion about transfer/diffusionclip.md",
+    "paper/Style transfer algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.pdf",
+    "paper/style a survey/Neural Style Transfer.pdf",
+    "paper/diffusion survey/2209.00796v13.pdf",
+    "paper/diffusion algorithm/Denoising Diffusion Probabilistic Models.pdf",
+    "paper/diffusion algorithm/DENOISING DIFFUSION IMPLICIT MODELS.pdf",
+    "paper/diffusion about transfer/stylediffusion.pdf",
+    "paper/diffusion about transfer/SDE_dit.pdf",
+    "paper/diffusion about transfer/diffusionclip.pdf",
+    "paper/diffusion about transfer/Blended_Diffusion_Paper.pdf",
+    "example/2409.02108v1.pdf",
     "未命名.canvas",
     "png/Pasted image 20241029230758.png",
     "png/Pasted image 20241027224153.png",

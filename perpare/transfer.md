@@ -57,25 +57,6 @@ Johnson et al. (2016)
 	[[Paper reading notes/diffusion algorithm/Learning Transferable Visual Models From Natural Language Supervision]]
 
 
-一,
-
-什么是软件,面向就业和软件能玩什么?
-
-前端后端工具链介绍
-
-算法基础介绍
-
-vscode的配置和使用(如何使用vscode编写自己的代码,介绍ide)
-
-必要工具的介绍和认识(markdown latex jupyter notebook )
-
-git和github使用了解和使用原理
-
-视频推荐
-
-二,编程基础介绍和认识
-
-三,算法培训
 
 
 
