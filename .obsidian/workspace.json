@@ -151,16 +151,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "perpare/introduction.md",
+                "file": "perpare/barkground.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "introduction"
+              "title": "barkground"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -288,10 +288,14 @@
             "id": "9bef93e3eeb2cc4d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "perpare/algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "algorithm"
             }
           },
           {
@@ -323,17 +327,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9bef93e3eeb2cc4d",
+  "active": "96c22c3c81bca1d5",
   "lastOpenFiles": [
+    "perpare/algorithm.md",
+    "perpare/barkground.md",
     "perpare/diffusion.md",
+    "perpare/principle.md",
+    "perpare/project.md",
+    "perpare/table.pdf",
+    "perpare/transfer.md",
+    "perpare/TIDY.md",
+    "perpare/technology.md",
+    "perpare/introduction.md",
     "perpare/2.md",
     "perpare/2.3.md",
     "perpare/3.md",
-    "perpare/algorithm.md",
-    "perpare/barkground.md",
     "png/Pasted image 20241124150124.png",
     "work/Abstract.md",
-    "perpare/transfer.md",
     "Paper reading notes/style algorithm/A Neural Algorithm of Artistic Style.md",
     "Paper reading notes/style algorithm/Autoencoding beyond pixels using a learned similarity metric.md",
     "Paper reading notes/style algorithm/Preserving self-similarity in free products of semigroups.md",
@@ -343,11 +353,7 @@
     "Paper reading notes/style algorithm/Texture Networks.md",
     "paper/Style transfer algorithm/Feed-forward Synthesis of Textures and Stylized Images.pdf",
     "paper/Style transfer algorithm/ANeural Algorithm of Artistic Style.pdf",
-    "perpare/TIDY.md",
     "perpare/outline.md",
-    "perpare/project.md",
-    "perpare/table.pdf",
-    "perpare/technology.md",
     "png/Pasted image 20241124150518.png",
     "png/Pasted image 20241124150437.png",
     "png/Pasted image 20241124150401.png",
@@ -356,8 +362,6 @@
     "Paper reading notes/style algorithm/Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.md",
     "Paper reading notes/style algorithm/Universal Style Transfer via Feature Transforms.md",
     "Paper reading notes/style algorithm/Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.md",
-    "Paper reading notes/style algorithm/Learning Transferable Visual Models From Natural Language Supervision.md",
-    "Paper reading notes/style algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.md",
     "paper/Style transfer algorithm/A Style-Based Generator Architecture for Generative Adversarial Networks.pdf",
     "paper/style a survey/Neural Style Transfer.pdf",
     "paper/diffusion survey/2209.00796v13.pdf",
