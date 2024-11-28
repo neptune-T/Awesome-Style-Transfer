@@ -1,4 +1,0 @@
-*.md linguist-documentation=false
-
-*.js linguist-vendored
-*.cpp linguist-vendored
