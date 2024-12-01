@@ -1,14 +1,21 @@
+扩散模型作为基于马尔可夫链的生成模型，最初用于去噪任务，其优势在于逐步生成的过程，其中每个生成状态仅依赖于前一状态。这一性质使得扩散模型在图像合成等生成任务中展现了显著优势，尤其在图像风格迁移领域，取得了显著进展。风格迁移任务的核心在于如何将源图像的风格特征有效地传递到目标图像，同时保留目标图像的内容信息。扩散模型在此过程中，因其逐步生成和去噪的机制，能够实现精细的风格特征传递，但与传统方法相比，如何平衡内容和风格的关系，仍是当前研究的挑战之一。
 
-diffusion因为是马尔科夫链,所以并不是适合去做去噪处理的方法,这里使用了各种方法来去做风格偏移处理
- 
- Inversion-Based Style Transfer with Diffusion Models
- 文章是通过一张style image,通过clip把图片信息进行编码,然后提取成一些风格特征信息,再经过diffusion中的u-net来去把提取的clip信息进行传递加噪和去噪,最后就生成照片信息了,但是这一篇的clip本质的核心在于需要自己添加prompt来去作微调,不符合我们说的传统的风格迁移,而且因为需要自己写prompt并且没有限制,能难做到目标图片一致只改变风格
+扩散模型的风格迁移过程往往需要结合其他技术来优化风格特征的提取与传递。**CLIP（Contrastive Language-Image Pretraining）**便是其中一项关键技术。CLIP通过将图像与文本映射到共享特征空间，能够有效地捕捉图像的风格特征，并在此基础上引导风格迁移过程。CLIP的优势在于其灵活性，通过对文本提示（prompt）的设计，用户可以对风格进行微调，然而这种灵活性也带来了不确定性。具体而言，风格的定义缺乏严格约束，导致风格迁移的结果可能存在不稳定性，尤其在风格与目标图像内容之间的平衡难以保证时，可能导致迁移效果不如预期。
 
-Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer
-使用difffusion加噪,在去噪中使用clip引导出新的特征信息,而zecon做一致性检测然后得出结论,这里使用了clip加cgan的idea去做一致性处理,这里做了损失优化,用到了多区域检测,保证了每一个地方的一致性,避免出现风格偏移失败的问题
+为解决这一问题，**"Inversion-Based Style Transfer with Diffusion Models"** 提出了一种基于CLIP和U-Net的风格迁移方法。该方法通过逐步将风格特征注入目标图像，并通过扩散模型中的去噪过程调整目标图像的风格。尽管此方法有效利用了CLIP来精确提取风格信息，但其效果仍然受到用户输入提示词的影响，且由于CLIP在风格定义上的灵活性，风格迁移的结果可能存在一定的不稳定性。进一步的研究提出了**"Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer"**方法，通过引入Zero-Shot对比损失来优化风格迁移的精度与一致性。该方法结合了扩散模型的加噪与去噪机制，并通过对比损失优化风格一致性。通过多区域一致性检测策略，确保了风格特征在局部区域内的精准传递，并避免了传统方法中风格偏移的现象。
 
-ArtBank: Artistic Style Transfer with Pre-trained Diffusion Model and Implicit Style Prompt Bank
-使用了clip做信息检索,创新的使用attention结合提出了代替adain的ssam和存储的ssam,在使用风格处理的时候使用正确的switch做特征处理,经过训练的模型在inference使用随机反转来保证图片的正确性
+在此基础上，**"ArtBank: Artistic Style Transfer with Pre-trained Diffusion Model and Implicit Style Prompt Bank"**提出了一种新的风格迁移方法，创新性地结合了预训练扩散模型与CLIP的风格特征提取能力，并采用隐式风格提示库，避免了显式风格特征的依赖。该方法提出了SSAM（Self-Similarity Attention Module）模块来替代传统的AdaIN模块，通过注意力机制精确地传递风格信息，同时保持图像的结构。SSAM的另一创新之处在于引入存储式机制，使得模型在推理阶段能够灵活选择风格，并通过“开关”机制调控风格转换的过程。此外，随机反转技术的应用提升了风格迁移的多样性与鲁棒性。
 
-Style Injection in Diffusion: A Training-free Approach  for Adapting Large-scale Diffusion Models for Style Transfer
+另一种创新的风格迁移方法**"Style Injection in Diffusion: A Training-free Approach for Adapting Large-scale Diffusion Models for Style Transfer"**则通过无需训练的风格注入机制，简化了风格迁移过程。该方法首先通过扩散模型对图像进行加噪处理，并在潜在噪声空间中进行初步的风格融合，然后通过自注意力机制和逆扩散过程逐步注入风格特征。无需额外的训练调整，使得该方法在多种应用场景下具备较强的适应性与通用性。
+
+针对传统风格迁移中常见的全局风格失衡问题，**"DiffStyler: Diffusion-based Localized Image Style Transfer"**提出了一种局部风格迁移方法。通过低秩特征适应（LOFA）技术，DiffStyler优化了风格与内容特征的匹配，提升了计算效率并确保风格在局部区域内的精确传递。该方法不仅提高了风格迁移的精度，还保证了图像的整体结构不受破坏，从而克服了全局风格失衡的问题。
+
+此外，**"FreeStyle: Free Lunch for Text-guided Style Transfer using Diffusion Models"**提出了一种基于文本提示的风格迁移方法。该方法结合了扩散模型与CLIP技术，通过文本描述驱动风格的生成，实现在无额外训练的情况下完成风格迁移。文本提示首先通过CLIP将风格信息转化为风格嵌入，随后与内容图像的结构特征相结合，通过U-Net模型进行风格注入。U-Net的编码器-解码器结构能够有效处理图像中的内容与风格信息，确保风格与内容的有机融合。解码器部分通过调整图像的纹理、颜色等特征，将风格特征精确注入目标图像，最终生成符合目标风格的图像。值得注意的是，**频域特征的隐式调整**也是FreeStyle方法中的一个重要特点。在扩散模型的生成过程中，图像的高频与低频特征通过潜空间表示和去噪过程进行隐式调整，从而细致地调整图像的纹理、细节与整体结构。
+
+这些研究进展表明，扩散模型在风格迁移任务中具备广阔的应用前景。通过结合先进的技术如CLIP、Zero-Shot对比损失、SSAM等，研究者们不断优化风格特征的提取与传递过程，提升了风格迁移的精度与稳定性。同时，随着无训练方法和局部风格迁移的提出，扩散模型在风格迁移中的应用更加灵活且高效，展现出其在计算机视觉中的巨大潜力。
+
+
+
+Technical Innovation, Artistic Merit, Visual Quality, Computational Efficiency,
+and Creative Potential.
 
