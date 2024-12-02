@@ -16,6 +16,37 @@
 
 
 
-Technical Innovation, Artistic Merit, Visual Quality, Computational Efficiency,
-and Creative Potential.
+
+
+| 文章标题 | 核心技术 | 风格编码方法 | 内容保留机制 | 计算复杂度 | 创新点 | 适用场景 |
+|----------|----------|--------------|--------------|------------|----------|----------|
+| Inversion-Based Style Transfer | CLIP编码 | 图像风格特征 | U-Net结构 | 中等 | 首次尝试CLIP风格编码 | 通用图像风格转换 |
+| Zero-Shot Contrastive Loss | 对比学习 | 文本+图像提示 | 多区域一致性检测 | 较低 | 零样本学习 | 跨模态风格迁移 |
+| ArtBank | 隐式风格提示库 | SSAM模块 | 自相似性注意力 | 低 | 预训练模型 | 艺术风格精细转换 |
+| Style Injection in Diffusion | 潜空间融合 | 自注意力机制 | 逆扩散过程 | 最低 | 无训练方法 | 快速风格迁移 |
+| DiffStyler | 低秩特征适应 | 局部风格编码 | 区域级别控制 | 中等 | 局部风格精确控制 | 精细风格编辑 |
+| FreeStyle | 文本引导 | 多尺度文本编码 | 多层特征保留 | 中等 | 端到端文本风格转换 | 语义引导的风格迁移 |
+
+
+
+
+
+| 特征类型 | 特点描述 | 代表文章 | 技术实现 | 创新机制 |
+|----------|----------|----------|----------|----------|
+| **风格编码** | 基于CLIP的编码 | Inversion-Based | 图像风格特征提取 | 首次将CLIP应用于风格迁移 |
+| | 对比学习编码 | Zero-Shot Contrastive | 多模态特征匹配 | 引入零样本学习策略 |
+| | 隐式风格提示 | ArtBank | 自相似性注意力模块 | 构建隐式风格提示库 |
+| | 文本引导编码 | FreeStyle | 多尺度语义特征 | 自然语言驱动风格转换 |
+| **内容保留** | 全局结构保持 | Inversion-Based | U-Net标准架构 | 多层级特征解耦 |
+| | 局部风格控制 | DiffStyler | 低秩特征适应 | 区域级别风格精确注入 |
+| | 多尺度特征保留 | FreeStyle | 残差学习 | 多层特征显式保留 |
+| **生成策略** | 潜空间特征融合 | Style Injection | 自注意力机制 | 无额外训练 |
+| | 逆扩散生成 | ArtBank | 存储式SSAM | 随机反转增强多样性 |
+| | 端到端生成 | FreeStyle | 跳跃连接 | 隐式频域特征调整 |
+| **计算效率** | 低开销 | Style Injection | 直接利用预训练模型 | 即插即用 |
+| | 零样本学习 | Zero-Shot Contrastive | 对比损失优化 | 降低计算复杂度 |
+| | 预训练模型 | ArtBank | 隐式提示库 | 提高生成效率 |
+| **技术创新** | 模型解耦 | Inversion-Based | CLIP解耦 | 风格与内容分离 |
+| | 对比学习 | Zero-Shot Contrastive | 多区域一致性 | 跨模态特征对齐 |
+| | 局部增强 | DiffStyler | 低秩特征适应 | 精细风格控制 |
 
