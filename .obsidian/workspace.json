@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diffusion(ord)/1.abstract.md",
+                "file": "diffusion(new)/2理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.abstract"
+              "title": "2理论"
             }
           },
           {
@@ -437,11 +437,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "00db448ca10458c8",
+  "active": "b2b5d8e6ce8e1892",
   "lastOpenFiles": [
-    "diffusion(ord)/2.basic_concepts.md",
-    "diffusion(new)/1.引言.md",
     "diffusion(new)/list.md",
+    "diffusion(new)/2理论.md",
+    "diffusion(new)/1.引言.md",
+    "diffusion(ord)/2.basic_concepts.md",
     "diffusion(ord)/1.abstract.md",
     "diffusion(ord)/7.discussion.md",
     "diffusion(ord)/6.diffusion.md",
@@ -470,7 +471,6 @@
     "perpare/diffusion transfer.md",
     "综述研究.md",
     "example/2409.02108v1.pdf",
-    "discuss.md",
     "paper/style a survey/Neural Style Transfer.pdf",
     "paper/diffusion survey/2209.00796v13.pdf",
     "paper/diffusion algorithm/Progressive Distillation for Fast Sampling of Diffusion Models.pdf",
