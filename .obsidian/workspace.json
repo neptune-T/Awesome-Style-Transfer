@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "原来.md",
+                "file": "diffusion(new)/list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "原来"
+              "title": "list"
+            }
+          },
+          {
+            "id": "e368e2bdf213962c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "diffusion(ord)/5.gan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.gan"
             }
           },
           {
@@ -312,7 +326,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -466,18 +480,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "761cc6250b21c294",
+  "active": "e368e2bdf213962c",
   "lastOpenFiles": [
-    "diffusion(new)/2理论.md",
-    "diffusion(new)/list.md",
     "原来.md",
+    "vae.md",
+    "diffusion(ord)/4.vae.md",
+    "diffusion(new)/list.md",
+    "diffusion(new)/2理论.md",
     "diffusion(new)/1.引言.md",
     "diffusion(ord)/2.basic_concepts.md",
     "diffusion(ord)/1.abstract.md",
     "diffusion(ord)/7.discussion.md",
     "diffusion(ord)/6.diffusion.md",
     "diffusion(ord)/5.gan.md",
-    "diffusion(ord)/4.vae.md",
     "diffusion(ord)/3.traditional_mothods.md",
     "diffusion(new)",
     "list",
@@ -498,7 +513,6 @@
     "perpare/barkground.md",
     "perpare/diffusion.md",
     "perpare/future.md",
-    "perpare/diffusion transfer.md",
     "example/2409.02108v1.pdf",
     "paper/style a survey/Neural Style Transfer.pdf",
     "paper/diffusion survey/2209.00796v13.pdf",
