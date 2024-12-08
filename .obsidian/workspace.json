@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diffusion(ord)/5.gan.md",
+                "file": "原来.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.gan"
+              "title": "原来"
             }
           },
           {
@@ -480,10 +480,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e368e2bdf213962c",
+  "active": "b2b5d8e6ce8e1892",
   "lastOpenFiles": [
-    "原来.md",
     "vae.md",
+    "diffusion(ord)/6.diffusion.md",
+    "diffusion(ord)/5.gan.md",
+    "原来.md",
     "diffusion(ord)/4.vae.md",
     "diffusion(new)/list.md",
     "diffusion(new)/2理论.md",
@@ -491,8 +493,6 @@
     "diffusion(ord)/2.basic_concepts.md",
     "diffusion(ord)/1.abstract.md",
     "diffusion(ord)/7.discussion.md",
-    "diffusion(ord)/6.diffusion.md",
-    "diffusion(ord)/5.gan.md",
     "diffusion(ord)/3.traditional_mothods.md",
     "diffusion(new)",
     "list",
