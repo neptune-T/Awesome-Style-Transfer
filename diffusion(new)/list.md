@@ -56,6 +56,8 @@
 
 ## 3. 生成模型在风格迁移中的发展与应用（Development and Application of Generative Models in Style Transfer）
 
+[[gan]]
+
 ### 3.1 基于GAN的风格迁移（GAN-Based Style Transfer）
 
 - **CycleGAN与无监督风格迁移**：解决无对齐数据集的问题。
