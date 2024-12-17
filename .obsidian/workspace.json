@@ -6,7 +6,6 @@
       {
         "id": "704c4d5df84e2ca8",
         "type": "tabs",
-        "dimension": 60.17857142857142,
         "children": [
           {
             "id": "0210a6b65351a990",
@@ -84,37 +83,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application.md",
+                "file": "Image Processing and Handcrafted Style Transfer Techniques(others).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Application"
-            },
-            "group": "a6f702ddcd66f57d"
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "e863783e3cdd9985",
-        "type": "tabs",
-        "dimension": 39.82142857142857,
-        "children": [
+              "title": "Image Processing and Handcrafted Style Transfer Techniques(others)"
+            }
+          },
           {
-            "id": "cf6940c05ccb0cf8",
+            "id": "df292eefa890a36c",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "Application.md"
+                "file": "gan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-list",
-              "title": "Application 的大纲"
-            },
-            "group": "a6f702ddcd66f57d"
+              "icon": "lucide-file",
+              "title": "gan"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -251,13 +243,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "343c5b7f117d65c1",
+  "active": "df292eefa890a36c",
   "lastOpenFiles": [
-    "Image Processing and Handcrafted Style Transfer Techniques(others).md",
+    "vae.md",
+    "Application.md",
     "gan.md",
+    "Image Processing and Handcrafted Style Transfer Techniques(others).md",
     "Diffusion.md",
     "未命名 1.md",
-    "Application.md",
     "Dataset.md",
     "未命名"
   ]
