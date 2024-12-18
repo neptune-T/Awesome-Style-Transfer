@@ -97,16 +97,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gan.md",
+                "file": "Image Processing and Handcrafted Style Transfer Techniques(others).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gan"
-            }
+              "title": "Image Processing and Handcrafted Style Transfer Techniques(others)"
+            },
+            "group": "8ce19b4fa0450566"
           }
         ],
         "currentTab": 6
+      },
+      {
+        "id": "3d765c90b774e974",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baa613ab301c95e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Image Processing and Handcrafted Style Transfer Techniques(others).md"
+              },
+              "icon": "lucide-list",
+              "title": "Image Processing and Handcrafted Style Transfer Techniques(others) 的大纲"
+            },
+            "group": "8ce19b4fa0450566"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,13 +265,13 @@
   },
   "active": "df292eefa890a36c",
   "lastOpenFiles": [
-    "vae.md",
-    "Application.md",
     "gan.md",
-    "Image Processing and Handcrafted Style Transfer Techniques(others).md",
-    "Diffusion.md",
-    "未命名 1.md",
     "Dataset.md",
+    "Application.md",
+    "Diffusion.md",
+    "vae.md",
+    "Image Processing and Handcrafted Style Transfer Techniques(others).md",
+    "未命名 1.md",
     "未命名"
   ]
 }
