@@ -13,8 +13,9 @@
 | Portrait Diffusion         | 2023 | ArXiv    | [paper](https://arxiv.org/pdf/2312.02212)     | [code](https://github.com/liujin112/PortraitDiffusion)  |
 | ProSpect                   | 2023 | SIGGRAPH | [paper](https://arxiv.org/pdf/2305.16225)     | [code](https://github.com/zyxElsa/ProSpect)             |
 | InST                       | 2023 | CVPR     | [paper](https://arxiv.org/pdf/2211.13203)     | [code](https://github.com/zyxElsa/InST)                 |
-| OSDiffST                   | 2024 | ECCVW    | [paper](https://arxiv.org/abs/2411.10130)     | [code](https://github.com/YushenZuo/OSDiffST)           |
 | Zero-Shot Contrastive Loss | 2023 | ICCV     | [paper](https://arxiv.org/pdf/2303.08622.pdf) | [code](https://github.com/YSerin/ZeCon)                 |
+| Art-Free                   | 2024 | ArXiv    | [paper](https://arxiv.org/abs/2412.00176)     | [code](https://github.com/rhfeiyang/art-free-diffusion) |
+|                            |      |          |                                               |                                                         |
 
 
 
