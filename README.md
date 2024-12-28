@@ -9,7 +9,7 @@ A curated collection of cutting-edge research papers, datasets, and resources in
 
 ## 🚀 Highlights
 
-- **A vast collection** carefully selected papers from 2016 to 2024
+- **A vast collection:** carefully selected papers from 2016 to 2024
 - **5** major categories of methods
 - **Multiple domains** including image, video, 3D, and text
 - **Rich datasets** across different applications
