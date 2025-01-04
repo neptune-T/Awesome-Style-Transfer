@@ -125,14 +125,15 @@
 
 
 
-#### **Domain-Specific Conditioning for Cross-Domain Transfer**
+#### Domain-Specific Conditioning for Cross-Domain Transfer
 
 
 
-#### **Hybrid Conditioning Architectures**
+#### Hybrid Conditioning Architectures
 
 [Improving Diffusion-Based Image Synthesis with Context Prediction](https://openreview.net/forum?id=wRhLd65bDt)
-#### **Cross-Modal Style Consistency**
+
+#### Cross-Modal Style Consistency
 
 
 
