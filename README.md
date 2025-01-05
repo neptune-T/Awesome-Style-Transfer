@@ -67,8 +67,6 @@ We welcome contributions! Here's how you can help:
 - 🔧 Submit pull requests
 - ⭐ Star this repository if you find it helpful!
 
-See our [Contributing Guidelines](CONTRIBUTING.md) for more details.
-
 ## 📖 Citation
 
 If you find this repository useful for your research, please consider citing:
