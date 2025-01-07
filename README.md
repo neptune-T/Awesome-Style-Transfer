@@ -226,13 +226,6 @@ A comprehensive collection of research papers, datasets, and resources related t
 | YAFC Corpus | 2018 | Largest stylistic corpus | Style Transfer | [link](https://github.com/raosudha89/GYAFC-corpus) |
 | ParaDetox | 2020 | 10,000 toxic sentences | Detoxification | [link](https://github.com/s-nlp/paradetox) |
 
-## Features
-
-- 📚 **Comprehensive Coverage**: From foundational papers to cutting-edge research
-- 🔍 **Easy Navigation**: Well-organized categories and subcategories
-- 🔄 **Regular Updates**: Latest papers and methods added frequently
-- 🔗 **Implementation Links**: Direct access to official code repositories
-- 📋 **Detailed Documentation**: Clear descriptions and categorizations
 
 ## Contributing
 
