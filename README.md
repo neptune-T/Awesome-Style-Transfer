@@ -37,14 +37,35 @@ A comprehensive collection of research papers, datasets, and resources related t
 ## Methods
 
 ### Traditional Methods
-
 | Title | Year | Publish | Paper | Code |
 |-------|------|---------|-------|------|
+| Neural Style Transfer (NST) | 2015 | CVPR | [paper](https://arxiv.org/abs/1508.06576) | - |
+| Fast Style Transfer | 2016 | ECCV | [paper](https://arxiv.org/abs/1603.08155) | [code](https://github.com/lengstrom/fast-style-transfer) |
+| Texture Net | 2016 | arXiv | [paper](https://arxiv.org/abs/1603.03417) | [code](https://github.com/DmitryUlyanov/texture-nets) |
+| Instance Normalization | 2016 | arXiv | [paper](https://arxiv.org/abs/1607.08022) | [code](https://github.com/CellEight/Pytorch-Adaptive-Instance-Normalization) |
+| Universal Style Transfer | 2017 | NIPS | [paper]() | [code]() |
+| Light-weight Style Transfer | 2017 | CVPR | [paper]() | [code]() |
 | Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 | ICCV | [paper](https://arxiv.org/abs/1703.06868) | [code](https://github.com/xunhuang1995/AdaIN-style) |
+| Histogram Loss | 2017 | CVPR | [paper]() | [code]() |
+| Multimodal Style Transfer (AdaIN Extension) | 2018 | CVPR | [paper]() | [code]() |
 | Avatar-Net | 2018 | CVPR | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sheng_Avatar-Net_Multi-Scale_Zero-Shot_CVPR_2018_paper.pdf) | [code](https://lucassheng.github.io/avatar-net/) |
+| NST-MetaNet | 2018 | CVPR | - | - |
+| AMST | 2019 | CVPR | - | - |
+| SEAN | 2020 | CVPR | - | - |
 | AdaAttN | 2021 | ICCV | [paper](https://arxiv.org/pdf/2108.03647) | [code](https://github.com/Huage001/AdaAttN) |
 | ArtFlow | 2021 | CVPR | [paper](https://arxiv.org/pdf/2103.16877) | [code](https://github.com/pkuanjie/ArtFlow) |
 | CLIPstyler | 2021 | CVPR | [paper](https://arxiv.org/abs/2112.00374) | [code](https://github.com/cyclomon/CLIPstyler) |
+| ST-RAFS | 2021 | CVPR | - | - |
+| CSD-AST | 2022 | ICCV | - | - |
+| RCST | 2023 | arXiv | - | - |
+| OIT-SD | 2023 | arXiv | - | - |
+| Puff-Net | 2024 | CVPR | - | - |
+| S2WAT | 2024 | AAAI | - | - |
+| EUC-HSTN | 2024 | Heliyon | - | - |
+| ReLU-Oscillator | 2024 | ESWA | - | - |
+| AEANet | 2024 | arXiv | - | - |
+| ANST-AS | 2024 | arXiv | - | - |
+| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2405.05027) | - |
 
 ### GAN-based Methods
 
@@ -69,7 +90,8 @@ A comprehensive collection of research papers, datasets, and resources related t
 | Title | Year | Publish | Paper | Code |
 |-------|------|---------|-------|------|
 | WAE | - | - | [paper](https://arxiv.org/abs/1711.01558) | - |
-| Representative Feature Extraction During Diffusion Process | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.04362v1) | - |
+| Representative Feature Extraction During Diffusion Process | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.04362v1) | - |https://arxiv.org/pdf/2401.04362v1
+| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.04362) | [code]() |
 
 ### Diffusion-based Methods
 
