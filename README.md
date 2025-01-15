@@ -65,7 +65,7 @@ A comprehensive collection of research papers, datasets, and resources related t
 | ReLU-Oscillator | 2024 | ESWA | - | - |
 | AEANet | 2024 | arXiv | - | - |
 | ANST-AS | 2024 | arXiv | - | - |
-| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2405.05027) | - |
+| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2405.05027) |  |
 
 ### GAN-based Methods
 
