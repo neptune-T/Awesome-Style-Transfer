@@ -43,8 +43,8 @@ A comprehensive collection of research papers, datasets, and resources related t
 | Fast Style Transfer | 2016 | ECCV | [paper](https://arxiv.org/abs/1603.08155) | [code](https://github.com/lengstrom/fast-style-transfer) |
 | Texture Net | 2016 | arXiv | [paper](https://arxiv.org/abs/1603.03417) | [code](https://github.com/DmitryUlyanov/texture-nets) |
 | Instance Normalization | 2016 | arXiv | [paper](https://arxiv.org/abs/1607.08022) | [code](https://github.com/CellEight/Pytorch-Adaptive-Instance-Normalization) |
-| Universal Style Transfer | 2017 | NIPS | [paper]() | [code]() |
-| Light-weight Style Transfer | 2017 | CVPR | [paper]() | [code]() |
+| Universal Style Transfer | 2017 | NIPS | [paper](https://arxiv.org/abs/1705.08086) | - |
+| Light-weight Style Transfer | 2017 | CVPR | [paper](https://arxiv.org/abs/1701.02096) | [code](https://github.com/DmitryUlyanov/texture_nets) |
 | Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 | ICCV | [paper](https://arxiv.org/abs/1703.06868) | [code](https://github.com/xunhuang1995/AdaIN-style) |
 | Histogram Loss | 2017 | CVPR | [paper]() | [code]() |
 | Multimodal Style Transfer (AdaIN Extension) | 2018 | CVPR | [paper]() | [code]() |
