@@ -397,13 +397,7 @@ Feel free to open an issue or submit a pull request if you:
 If you find this repository useful for your research, please consider citing:
 
 ```bibtex
-@article{
-  author = {Neptune-T},
-  title = {Awesome Style Transfer Papers},
-  journal = {GitHub Repository},
-  year = {2024},
-  url = {https://github.com/neptune-T/Awesome-Style-Transfer}
-}
+
 ```
 
 ## Star History
