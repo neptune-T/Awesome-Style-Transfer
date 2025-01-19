@@ -32,6 +32,7 @@ A comprehensive collection of research papers, datasets, and resources related t
    - [3D Dataset](#3d-dataset)
    - [Text Dataset](#text-dataset)
    - [Domain Dataset](#domain-dataset)
+   - [Data Augmentation](#data-augmentation)
 
 
 ## Methods
@@ -203,6 +204,27 @@ A comprehensive collection of research papers, datasets, and resources related t
 | DEADiff | 2024 | - | - | - |
 | DRL | 2024 | - | - | - |
 | StyleTokenizer | 2024 | - | [paper](https://arxiv.org/abs/2409.02543) | [code](https://github.com/alipay/style-tokenizer) |
+| PFGM | 2022 | NeurIPS | [paper](https://arxiv.org/abs/2209.11178) | - |
+| VP-DGM-SM | 2021 | ICLR | [paper](https://arxiv.org/abs/2101.03288) | - |
+| Frido-FPD | 2022 | - | [paper](https://arxiv.org/abs/2208.12446) | - |
+| GLIDE | 2022 | ICLR | [paper](https://arxiv.org/abs/2112.10741) | - |
+| DreamBooth | 2023 | ICLR | [paper](https://arxiv.org/abs/2208.12242) | [code](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion) |
+| UniTune | 2023 | - | [paper](https://arxiv.org/abs/2306.12423) | - |
+| RealCompo | 2024 | - | [paper](https://arxiv.org/abs/2401.12868) | - |
+| EditWorld | 2024 | - | [paper](https://arxiv.org/abs/2403.06392) | - |
+| IterComp | 2024 | - | [paper](https://arxiv.org/abs/2402.05408) | - |
+| AdaptiveDiffusion | 2024 | - | [paper](https://arxiv.org/abs/2401.05356) | - |
+| Step-Adaptive Training | 2024 | - | [paper](https://arxiv.org/abs/2401.05146) | - |
+| AdaDiff | 2024 | - | [paper](https://arxiv.org/abs/2401.14902) | - |
+| MDT | 2024 | - | [paper](https://arxiv.org/abs/2401.12077) | - |
+| U-ViT | 2023 | - | [paper](https://arxiv.org/abs/2307.15979) | - |
+| DiffiT | 2024 | - | [paper](https://arxiv.org/abs/2401.10568) | - |
+| FastDiff 2 | 2023 | - | [paper](https://arxiv.org/abs/2311.11545) | - |
+| HLDM-TFIST | 2024 | - | [paper](https://arxiv.org/abs/2401.11605) | - |
+| ZeroShotCL | 2023 | - | [paper](https://arxiv.org/abs/2312.12419) | - |
+| MTID-MLLM | 2024 | - | [paper](https://arxiv.org/abs/2401.11708) | - |
+| MUMU | 2024 | - | [paper](https://arxiv.org/abs/2401.09711) | - |
+| Rectified Diffusion | 2024 | - | [paper](https://arxiv.org/abs/2402.02009) | - |
 
 ## Applications
 
@@ -342,6 +364,19 @@ A comprehensive collection of research papers, datasets, and resources related t
 | YAFC Corpus | 2018 | Largest stylistic corpus | Style Transfer | [link](https://github.com/raosudha89/GYAFC-corpus) |
 | ParaDetox | 2020 | 10,000 toxic sentences | Detoxification | [link](https://github.com/s-nlp/paradetox) |
 
+### Data Augmentation
+
+| Title | Year | Publish | Paper | Code |
+|-------|------|---------|-------|------|
+| STaDA | 2019 | VISIGRAPP | [paper](https://arxiv.org/abs/1909.01688) | - |
+| CycleGAN-Emotion Augmentation | 2019 | VISIGRAPP | [paper](https://arxiv.org/abs/1903.11949) | - |
+| Cross-Domain NST Augmentation | 2019 | arXiv | [paper](https://arxiv.org/abs/1904.11617) | - |
+| AugMix | 2019 | arXiv | [paper](https://arxiv.org/abs/1912.02781) | [code](https://github.com/google-research/augmix) |
+| InstaBoost | 2019 | arXiv | [paper](https://arxiv.org/abs/1908.07801) | [code](https://github.com/GothicAi/Instaboost) |
+| CutMix | 2019 | arXiv | [paper](https://arxiv.org/abs/1905.04899) | [code](https://github.com/clovaai/CutMix-PyTorch) |
+| Parallel Formality Augmentation | 2020 | ACL | [paper](https://aclanthology.org/2020.acl-main.294/) | - |
+| Albumentations | 2020 | Information | [paper](https://www.mdpi.com/2078-2489/11/2/125) | [code](https://github.com/albumentations-team/albumentations) |
+| AugLy | 2022 | arXiv | [paper](https://arxiv.org/abs/2201.06494) | [code](https://github.com/facebookresearch/AugLy) |
 
 ## Contributing
 
