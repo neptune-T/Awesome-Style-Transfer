@@ -71,44 +71,138 @@ A comprehensive collection of research papers, datasets, and resources related t
 
 | Title | Year | Publish | Paper | Code |
 |-------|------|---------|-------|------|
-| Generative Image Modeling using Style and Structure Adversarial Networks | 2016 | - | [paper](https://arxiv.org/abs/1603.05631v2) | - |
+| GAN | 2014 | NeurIPS | [paper](https://arxiv.org/abs/1406.2661) | - |
+| DCGAN | 2015 | ICLR | [paper](https://arxiv.org/abs/1511.06434) | - |
+| LAPGAN | 2015 | ICML | [paper](https://arxiv.org/abs/1506.05751) | - |
+| ImprovedGAN | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1606.03498) | - |
+| EBGAN | 2016 | arXiv | [paper](https://arxiv.org/abs/1609.03126) | - |
+| VideoGAN | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1609.02612) | - |
+| InfoGAN | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1606.03657) | - |
+| CycleGAN | 2017 | ICCV | [paper](https://arxiv.org/abs/1703.10593) | [code](https://github.com/junyanz/CycleGAN) |
+| PGGAN | 2017 | ICLR | [paper](https://arxiv.org/abs/1710.10196) | - |
+| WGAN | 2017 | ICML | [paper](https://arxiv.org/abs/1701.07875) | - |
+| LSGAN | 2017 | ICCV | [paper](https://arxiv.org/abs/1611.04076) | - |
+| BEGAN | 2017 | ICLR | [paper](https://arxiv.org/abs/1703.10717) | - |
+| Pix2Pix | 2017 | CVPR | [paper](https://arxiv.org/abs/1611.07004) | [code](https://github.com/phillipi/pix2pix) |
+| FID-GAN | 2017 | NeurIPS | [paper](https://arxiv.org/abs/1706.08500) | - |
+| DualGAN | 2017 | ICCV | [paper](https://arxiv.org/abs/1704.02510) | - |
+| SeqGAN | 2017 | AAAI | [paper](https://arxiv.org/abs/1609.05473) | - |
+| SRGAN | 2017 | CVPR | [paper](https://arxiv.org/abs/1609.04802) | - |
 | ArtGAN | 2017 | arxiv | [paper](https://arxiv.org/abs/1702.03410) | [code](https://arxiv.org/abs/1702.03410) |
 | ComboGAN | 2017 | CVPR | [paper](https://arxiv.org/abs/1712.06909) | - |
-| Face Translation between Images and Videos | 2017 | arxiv | [paper](https://arxiv.org/abs/1712.00971) | - |
+| Identity-aware CycleGAN | 2017 | arXiv | [paper](https://arxiv.org/abs/1712.00971) | - |
+| PoseNormGAN | 2017 | ECCV | [paper](https://arxiv.org/abs/1712.02225) | - |
+| BigGAN | 2018 | ICLR | [paper](https://arxiv.org/abs/1809.11096) | [code](https://github.com/ajbrock/BigGAN-PyTorch) |
+| GANimation | 2018 | ECCV | [paper](https://arxiv.org/abs/1807.09251) | - |
+| PacGAN | 2018 | NeurIPS | [paper](https://arxiv.org/abs/1712.04086) | - |
+| RecycleGAN | 2018 | CVPR | [paper](https://arxiv.org/abs/1808.05174) | - |
+| StarGAN | 2018 | CVPR | [paper](https://arxiv.org/abs/1711.09020) | [code](https://github.com/yunjey/StarGAN) |
 | MaskGAN | 2018 | ICLR | [paper](https://arxiv.org/abs/1801.07736) | - |
-| Perceptually Optimized GAN | 2018 | arXiv | [paper](https://arxiv.org/abs/1805.01084) | - |
+| POGAN-Dehaze | 2018 | arXiv | [paper](https://arxiv.org/abs/1805.01084) | - |
+| ChipGAN | 2018 | ACM | [paper](https://dl.acm.org/doi/10.1145/3240508.3240655) | - |
+| StyleGAN | 2019 | CVPR | [paper](https://arxiv.org/abs/1812.04948) | [code](https://github.com/NVlabs/stylegan) |
+| GANPaint | 2019 | SIGGRAPH | [paper](https://arxiv.org/abs/1903.07392) | - |
+| SinGAN | 2019 | ICCV | [paper](https://arxiv.org/abs/1905.01164) | [code](https://github.com/tamarott/SinGAN) |
+| SAGAN | 2019 | ICML | [paper](https://arxiv.org/abs/1805.08318) | - |
+| StyleGAN2 | 2020 | CVPR | [paper](https://arxiv.org/abs/1912.04958) | [code](https://github.com/NVlabs/stylegan2) |
+| ConSinGAN | 2020 | CVPR | [paper](https://arxiv.org/abs/2003.11512) | [code](https://github.com/tohinz/ConSinGAN) |
+| PaintGAN | 2020 | ECCV | [paper](https://arxiv.org/abs/2008.05775) | - |
+| TecoGAN | 2020 | ICLR | [paper](https://arxiv.org/abs/1811.09393) | [code](https://github.com/thunil/TecoGAN) |
+| U-GAT-IT | 2020 | ICLR | [paper](https://arxiv.org/abs/1907.10830) | [code](https://github.com/taki0112/UGATIT) |
 | NICE-GAN | 2020 | CVPR | [paper](https://arxiv.org/abs/2003.00273v6) | [code](https://github.com/alpc91/NICE-GAN-pytorch) |
+| White-box-Cartoonization | 2020 | CVPR | [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Learning_to_Cartoonize_Using_White-Box_Cartoon_Representations_CVPR_2020_paper.pdf) | [code](https://github.com/SystemErrorWang/White-box-Cartoonization) |
+| E2ECP | 2020 | CVPR | [paper](https://arxiv.org/abs/2003.11258) | - |
+| StyleGAN3 | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2106.12423) | [code](https://github.com/NVlabs/stylegan3) |
+| GANformer | 2021 | CVPR | [paper](https://arxiv.org/abs/2103.01209) | - |
+| FastGAN | 2021 | arXiv | [paper](https://arxiv.org/abs/2101.04775) | - |
 | BlendGAN | 2021 | arXiv | [paper](https://arxiv.org/abs/2110.11728) | - |
+| CoModGAN | 2021 | CVPR | [paper](https://arxiv.org/abs/2102.04432) | [code](https://github.com/zsyzzsoft/co-mod-gan) |
+| StyleSwin | 2022 | CVPR | [paper](https://arxiv.org/abs/2112.10762) | - |
 | SemanticStyleGAN | 2022 | CVPR | [paper](https://arxiv.org/abs/2112.02236) | - |
-| GP-UNIT | 2022 | CVPR | [paper](https://arxiv.org/pdf/2204.03641) | [code](https://github.com/williamyang1991/GP-UNIT) |
+| InstGAN | 2022 | CVPR | [paper](https://arxiv.org/abs/2111.13800) | - |
 | Style-Aware-Discriminator | 2022 | CVPR | [paper](https://arxiv.org/abs/2203.15375) | [code](https://github.com/kunheek/style-aware-discriminator) |
+| GP-UNIT | 2022 | CVPR | [paper](https://arxiv.org/pdf/2204.03641) | [code](https://github.com/williamyang1991/GP-UNIT) |
+| GigaGAN | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.05511) | [code](https://github.com/NVlabs/gigagan) |
+| CLCAE | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.12641) | - |
+| DeltaEdit | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.06285) | [code](https://github.com/Yueming6568/DeltaEdit) |
+| NoisyTwins | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.08133) | - |
+| AdaptiveMix | 2023 | CVPR | [paper](https://arxiv.org/abs/2212.10543) | - |
+| CREPS | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.11413) | - |
+| CoralStyleCLIP | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.14343) | - |
 | ISSA | 2023 | arXiv | [paper](https://arxiv.org/abs/2307.00648v1) | [code](https://github.com/boschresearch/ISSA) |
-| zGAN | 2024 | - | [paper](https://arxiv.org/abs/2410.20808v2) | - |
+| zGAN | 2024 | arXiv | [paper](https://arxiv.org/abs/2410.20808v2) | - |
+| mmist | 2024 | WACV | [paper](https://arxiv.org/abs/2311.00813) | - |
+| CCST-GAN | 2024 | ICIP | [paper](https://ieeexplore.ieee.org/document/10586662) | - |
+| JPSF-SD-ControlNet | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.08740) | - |
+| MRStyle | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.09853) | - |
 
 ### VAE-based Methods
 
 | Title | Year | Publish | Paper | Code |
 |-------|------|---------|-------|------|
-| WAE | - | - | [paper](https://arxiv.org/abs/1711.01558) | - |
-| Representative Feature Extraction During Diffusion Process | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.04362v1) | - |https://arxiv.org/pdf/2401.04362v1
-| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.04362) | [code]() |
+| VAE | 2013 | ICLR | [paper](https://arxiv.org/abs/1312.6114) | - |
+| Conditional VAE (CVAE) | 2015 | NeurIPS | [paper](https://papers.nips.cc/paper/2015/hash/8d55a249e6baa5c06772297520da2051-Abstract.html) | - |
+| Hierarchical VAE | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1602.02282) | - |
+| β-VAE | 2017 | ICLR | [paper](https://openreview.net/forum?id=Sy2fzU9gl) | - |
+| VQ-VAE | 2017 | NeurIPS | [paper](https://arxiv.org/abs/1711.00937) | - |
+| InfoVAE (MMD-VAE) | 2017 | arXiv | [paper](https://arxiv.org/abs/1706.02262) | - |
+| WAE | 2017 | ICLR | [paper](https://arxiv.org/abs/1711.01558) | - |
+| FactorVAE | 2018 | ICML | [paper](https://arxiv.org/abs/1802.05983) | - |
+| DIP-VAE | 2018 | ICLR | [paper](https://openreview.net/forum?id=H1kG7GZAW) | - |
+| β-TCVAE | 2018 | ICML | [paper](https://arxiv.org/abs/1802.04942) | - |
+| BigVAE | 2019 | ICLR | [paper](https://arxiv.org/abs/1809.11096) | - |
+| VQ-VAE-2 | 2019 | NeurIPS | [paper](https://arxiv.org/abs/1906.00446) | - |
+| NVAE | 2020 | NeurIPS | [paper](https://arxiv.org/abs/2007.03898) | - |
+| Parallel VAE | 2020 | ICML | [paper](https://arxiv.org/abs/1805.07837) | - |
+| StyleVAE | 2021 | CVPR | [paper](https://arxiv.org/abs/2012.05471) | - |
+| Score-VAE | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2106.02036) | - |
+| Distilled-VAE | 2022 | ICML | [paper](https://arxiv.org/abs/2202.00816) | - |
+| Masked-VAE | 2023 | CVPR | [paper](https://arxiv.org/abs/2111.14818) | - |
+| DynamicVAE | 2023 | AAAI | [paper](https://arxiv.org/abs/2212.11266) | - |
+| RFE-DiffSketch | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.04362) | - |
 
 ### Diffusion-based Methods
 
 | Title | Year | Publish | Paper | Code |
 |-------|------|---------|-------|------|
-| StyleTokenizer | 2024 | ECCV | [paper](https://arxiv.org/pdf/2409.02543) | [code](https://github.com/alipay/style-tokenizer) |
-| MagicFace | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2408.07433) | [code](https://github.com/CodeGoat24/MagicFace) |
-| SCEPTER | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2404.12154) | [code](https://github.com/modelscope/scepter) |
-| B-LoRA | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2403.14572) | [code](https://github.com/yardenfren1996/B-LoRA) |
-| CreativeSynth | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2401.14066) | [code](https://github.com/haha-lisa/CreativeSynth) |
-| FreeStyle | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2401.15636) | [code](https://github.com/FreeStyleFreeLunch/FreeStyle) |
-| InstantID | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2401.07519) | [code](https://github.com/InstantID/InstantID) |
-| StyleAligned | 2024 | CVPR | [paper](https://arxiv.org/pdf/2312.02133) | [code](https://github.com/google/style-aligned) |
-| StyleID | 2024 | CVPR | [paper](https://arxiv.org/pdf/2312.09008) | [code](https://github.com/jiwoogit/StyleID) |
-| Portrait Diffusion | 2023 | ArXiv | [paper](https://arxiv.org/pdf/2312.02212) | [code](https://github.com/liujin112/PortraitDiffusion) |
-| ProSpect | 2023 | SIGGRAPH | [paper](https://arxiv.org/pdf/2305.16225) | [code](https://github.com/zyxElsa/ProSpect) |
-| InST | 2023 | CVPR | [paper](https://arxiv.org/pdf/2211.13203) | [code](https://github.com/zyxElsa/InST) |
+| DDIM | 2020 | NeurIPS | [paper](https://arxiv.org/abs/2010.02502) | [code](https://github.com/ermongroup/ddim) |
+| IDDPM | 2021 | ICML | [paper](https://arxiv.org/abs/2102.09672) | - |
+| SBGMLS | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2106.01565) | - |
+| SBGM-SDE | 2021 | ICML | [paper](https://arxiv.org/abs/2011.13456) | - |
+| MLT-SBDM | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2101.11859) | - |
+| SDDMDSS | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2107.00630) | - |
+| DiffusionCLIP | 2022 | CVPR | [paper](https://arxiv.org/abs/2110.02711) | [code](https://github.com/gwang-kim/DiffusionCLIP) |
+| HRIS-LDM | 2022 | CVPR | [paper](https://arxiv.org/abs/2112.10752) | [code](https://github.com/CompVis/latent-diffusion) |
+| DPM-Solver | 2022 | NeurIPS | [paper](https://arxiv.org/abs/2206.00927) | [code](https://github.com/LuChengTHU/dpm-solver) |
+| SBGM-CDLD | 2022 | - | - | - |
+| VQDM-TIS | 2022 | CVPR | - | - |
+| CCDF-SC | 2022 | CVPR | - | - |
+| PNM-DMM | 2022 | - | - | - |
+| ASM-ISIG | 2022 | - | - | - |
+| StyleDiffusion | 2023 | - | [paper](https://arxiv.org/abs/2303.09268) | - |
+| gDDIM | 2023 | - | [paper](https://arxiv.org/abs/2306.04848) | - |
+| FS-DM-EI | 2023 | - | - | - |
+| DACDM | 2023 | - | - | - |
+| StyleID | 2023 | - | [paper](https://arxiv.org/abs/2312.09008) | [code](https://github.com/jiwoogit/StyleID) |
+| PortraitDiff | 2024 | - | [paper](https://arxiv.org/abs/2312.02212) | [code](https://github.com/liujin112/PortraitDiffusion) |
+| CMCDM | 2024 | - | - | - |
+| SGAT-DM | 2024 | - | - | - |
+| CFM-Velocity | 2024 | - | - | - |
+| ADM-MP | 2024 | - | - | - |
+| HEDSDM | 2024 | - | - | - |
+| SLDM | 2024 | - | - | - |
+| REDAP | 2024 | - | - | - |
+| ARTID | 2024 | - | - | - |
+| TiNO-Edit | 2024 | - | - | - |
+| IDIS-CP | 2024 | - | - | - |
+| SCEPTER | 2024 | - | [paper](https://arxiv.org/abs/2404.12154) | [code](https://github.com/modelscope/scepter) |
+| MagicFace | 2024 | - | [paper](https://arxiv.org/abs/2408.07433) | [code](https://github.com/CodeGoat24/MagicFace) |
+| InstantID | 2024 | - | [paper](https://arxiv.org/abs/2401.07519) | [code](https://github.com/InstantID/InstantID) |
+| CreativeSynth | 2024 | - | [paper](https://arxiv.org/abs/2401.14066) | [code](https://github.com/haha-lisa/CreativeSynth) |
+| B-LoRA | 2024 | - | [paper](https://arxiv.org/abs/2403.14572) | [code](https://github.com/yardenfren1996/B-LoRA) |
+| DEADiff | 2024 | - | - | - |
+| DRL | 2024 | - | - | - |
+| StyleTokenizer | 2024 | - | [paper](https://arxiv.org/abs/2409.02543) | [code](https://github.com/alipay/style-tokenizer) |
 
 ## Applications
 
@@ -268,7 +362,13 @@ Feel free to open an issue or submit a pull request if you:
 If you find this repository useful for your research, please consider citing:
 
 ```bibtex
-
+@article{
+  author = {Neptune-T},
+  title = {Awesome Style Transfer Papers},
+  journal = {GitHub Repository},
+  year = {2024},
+  url = {https://github.com/neptune-T/Awesome-Style-Transfer}
+}
 ```
 
 ## Star History
