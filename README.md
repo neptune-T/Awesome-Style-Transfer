@@ -1,15 +1,45 @@
-<h1 align="center">Awesome Style Transfer Papers</h1>
+<div align="center">
+
+# Awesome Style Transfer Papers
 
 <p align="center">
-<a href="https://awesome.re">
-<img alt="Awesome" src="https://awesome.re/badge.svg"></a>
+  <img src="assets/banner.jpg" width="800px">
 </p>
 
-<p align="center">
-<img src="assets/banner.jpg" width=100%>
-<p>
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A comprehensive collection of research papers, datasets, and resources related to Style Transfer across different domains. From traditional methods to the latest diffusion models, this repository provides a curated list of cutting-edge research in style transfer.
+[![Survey](https://img.shields.io/badge/Survey-Style%20Transfer-brightgreen)](https://github.com/neptune-T/Awesome-Style-Transfer)
+[![Update](https://img.shields.io/badge/Update-Weekly-green.svg)](https://github.com/neptune-T/Awesome-Style-Transfer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/neptune-T/Awesome-Style-Transfer?style=social)](https://github.com/neptune-T/Awesome-Style-Transfer)
+
+<p align="center">
+    <a href="#methods">Methods</a> |
+    <a href="#applications">Applications</a> |
+    <a href="#datasets">Datasets</a> |
+    <a href="#contributing">Contributing</a>
+</p>
+
+</div>
+
+## 🎨 About This Repository
+
+A collection of research papers, datasets, and resources related to Style Transfer across various domains. This repository offers a curated list of methods, from traditional techniques to the more recent diffusion models, to provide insights into the ongoing advancements in style transfer.
+
+### Key Features:
+
+- 📚 **Traditional Methods**: Neural style transfer and its variants
+- 🖼️ **GAN-based Methods**: Generative approaches for style transfer
+- 🎯 **VAE-based Methods**: Variational methods for style manipulation  
+- 🌟 **Diffusion-based Methods**: Latest advances in diffusion models
+- 📊 **Applications**: Portrait, Video, 3D, Text style transfer
+- 💾 **Datasets**: Curated datasets for style transfer research
+
+<div align="center">
+  <img src="assets/comparison.jpg" width="800px">
+  <br>
+  <em>Style transfer results comparison across different methods</em>
+</div>
 
 ## 📑 Table of Contents
 
@@ -33,7 +63,6 @@ A comprehensive collection of research papers, datasets, and resources related t
    - [Text Dataset](#text-dataset)
    - [Domain Dataset](#domain-dataset)
    - [Data Augmentation](#data-augmentation)
-
 
 ## Methods
 
