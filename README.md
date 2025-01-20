@@ -62,12 +62,13 @@ A collection of research papers, datasets, and resources related to Style Transf
   </tr>
   <tr>
     <td><em>City Scene</em></td>
-    <td><em>Monet's Style</em></td>
+    <td><em>Van Gogh's Starry Night</em></td>
     <td><em>Artistic City</em></td>
   </tr>
 </table>
 </div>
 
+> *From:[S2WAT: Image Style Transfer via Hierarchical Vision Transformer using Strips Window Attention](https://github.com/AlienZhang1996/S2WAT)*
 
 ### Key Features:
 
@@ -78,13 +79,7 @@ A collection of research papers, datasets, and resources related to Style Transf
 - 📊 **Applications**: Portrait, Video, 3D, Text style transfer
 - 💾 **Datasets**: Curated datasets for style transfer research
 
-<div align="center">
-  <img src="assets/fig_st_examples.png" width="800px">
-  <br>
-  <em>Style transfer results comparison across different methods</em> 
-  
-  From: [S2WAT: Image Style Transfer via Hierarchical Vision Transformer using Strips Window Attention](https://github.com/AlienZhang1996/S2WAT)
-</div>
+
 
 ## 📑 Table of Contents
 
