@@ -36,9 +36,11 @@ A collection of research papers, datasets, and resources related to Style Transf
 - 💾 **Datasets**: Curated datasets for style transfer research
 
 <div align="center">
-  <img src="assets/comparison.jpg" width="800px">
+  <img src="assets/fig_st_examples.png" width="800px">
   <br>
-  <em>Style transfer results comparison across different methods</em>
+  <em>Style transfer results comparison across different methods</em> 
+  
+  From: [S2WAT: Image Style Transfer via Hierarchical Vision Transformer using Strips Window Attention](https://github.com/AlienZhang1996/S2WAT)
 </div>
 
 ## 📑 Table of Contents
