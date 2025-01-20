@@ -26,6 +26,49 @@
 
 A collection of research papers, datasets, and resources related to Style Transfer across various domains. This repository offers a curated list of methods, from traditional techniques to the more recent diffusion models, to provide insights into the ongoing advancements in style transfer.
 
+## 🎨 Style Transfer Examples
+
+<div align="center">
+<table>
+  <tr>
+    <th>Content Image</th>
+    <th>Style Image</th>
+    <th>Transferred Result</th>
+  </tr>
+  <tr>
+    <td><img src="assets/content1.jpg" width="256px"></td>
+    <td><img src="assets/style1.jpg" width="256px"></td>
+    <td><img src="assets/result1.jpg" width="256px"></td>
+  </tr>
+  <tr>
+    <td><em>Original Photo</em></td>
+    <td><em>Van Gogh's Starry Night</em></td>
+    <td><em>Stylized Output</em></td>
+  </tr>
+  <tr>
+    <td><img src="assets/content2.jpg" width="256px"></td>
+    <td><img src="assets/style2.jpg" width="256px"></td>
+    <td><img src="assets/result2.jpg" width="256px"></td>
+  </tr>
+  <tr>
+    <td><em>Original Portrait</em></td>
+    <td><em>Ukiyo-e Style</em></td>
+    <td><em>Stylized Portrait</em></td>
+  </tr>
+  <tr>
+    <td><img src="assets/content3.jpg" width="256px"></td>
+    <td><img src="assets/style3.jpg" width="256px"></td>
+    <td><img src="assets/result3.jpg" width="256px"></td>
+  </tr>
+  <tr>
+    <td><em>City Scene</em></td>
+    <td><em>Monet's Style</em></td>
+    <td><em>Artistic City</em></td>
+  </tr>
+</table>
+</div>
+
+
 ### Key Features:
 
 - 📚 **Traditional Methods**: Neural style transfer and its variants
@@ -446,3 +489,5 @@ Thanks to all researchers and developers who made their work publicly available.
 <div align="center">
   <sub>By Monet's Impression of Sunrise</sub>
 </div>
+
+
