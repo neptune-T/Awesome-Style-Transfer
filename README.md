@@ -50,23 +50,23 @@ A comprehensive collection of research papers, datasets, and resources related t
 | Histogram Loss | 2017 | CVPR | [paper]() | [code]() |
 | Multimodal Style Transfer (AdaIN Extension) | 2018 | CVPR | [paper]() | [code]() |
 | Avatar-Net | 2018 | CVPR | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sheng_Avatar-Net_Multi-Scale_Zero-Shot_CVPR_2018_paper.pdf) | [code](https://lucassheng.github.io/avatar-net/) |
-| NST-MetaNet | 2018 | CVPR | - | - |
-| AMST | 2019 | CVPR | - | - |
-| SEAN | 2020 | CVPR | - | - |
+| NST-MetaNet | 2018 | CVPR |  | - |
+| AMST | 2019 | CVPR | [paper](https://arxiv.org/abs/1901.05127) | - |
+| SEAN | 2020 | CVPR | [paper](https://arxiv.org/abs/1903.07291) | [code](https://github.com/NVlabs/SPADE) |
 | AdaAttN | 2021 | ICCV | [paper](https://arxiv.org/pdf/2108.03647) | [code](https://github.com/Huage001/AdaAttN) |
 | ArtFlow | 2021 | CVPR | [paper](https://arxiv.org/pdf/2103.16877) | [code](https://github.com/pkuanjie/ArtFlow) |
 | CLIPstyler | 2021 | CVPR | [paper](https://arxiv.org/abs/2112.00374) | [code](https://github.com/cyclomon/CLIPstyler) |
-| ST-RAFS | 2021 | CVPR | - | - |
-| CSD-AST | 2022 | ICCV | - | - |
-| RCST | 2023 | arXiv | - | - |
-| OIT-SD | 2023 | arXiv | - | - |
-| Puff-Net | 2024 | CVPR | - | - |
-| S2WAT | 2024 | AAAI | - | - |
-| EUC-HSTN | 2024 | Heliyon | - | - |
-| ReLU-Oscillator | 2024 | ESWA | - | - |
-| AEANet | 2024 | arXiv | - | - |
-| ANST-AS | 2024 | arXiv | - | - |
-| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2405.05027) |  |
+| Style Transfer by Rigid Alignment in Neural Net Feature Space | 2021 | CVPR | [paper](https://openaccess.thecvf.com/content/WACV2021/papers/Hada_Style_Transfer_by_Rigid_Alignment_in_Neural_Net_Feature_Space_WACV_2021_paper.pdf) | - |
+| Content and style disentanglement for artistic style transfer | 2022 | ICCV | [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kotovenko_Content_and_Style_Disentanglement_for_Artistic_Style_Transfer_ICCV_2019_paper.pdf) | [code](https://github.com/CompVis/content-style-disentangled-ST) |
+| Region-controlled Style Transfer | 2023 | arXiv | [paper](https://arxiv.org/abs/2310.15658) | - |
+| Optimal Image Transport on Sparse Dictionaries | 2023 | arXiv | [paper](https://arxiv.org/abs/2311.01984) | - |
+| Puff-Net: Efficient Style Transfer with Pure Content and Style Feature Fusion Network | 2024 | CVPR | [paper](https://arxiv.org/html/2405.19775v1) | [code](https://github.com/ZszYmy9/Puff-Net) |
+| S2WAT: Image Style Transfer via Hierarchical Vision Transformer using Strips Window Attention | 2024 | AAAI | [paper](https://github.com/AlienZhang1996/S2WAT) | [code](https://github.com/AlienZhang1996/S2WAT) |
+| Extending user control for image stylization using hierarchical style transfer networks | 2024 | Heliyon | [paper](https://www.sciencedirect.com/science/article/pii/S2405844024030433) | - |
+| Relu-oscillator: Chaotic vgg10 model for real-time neural style transfer on painting au- thentication | 2024 | ESWA | [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417424013770) | - |
+| AEANet: Affinity Enhanced Attentional Networks for Arbitrary Style Transfer | 2024 | arXiv | [paper](https://arxiv.org/abs/2409.14652) | - |
+| Artistic Neural Style Transfer Algorithms with Activation Smoothing | 2024 | arXiv | [paper](https://arxiv.org/abs/2411.08014) | - |
+| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2405.05027) |[code](https://github.com/OliverDOU776/StyleMamba) |
 
 ### GAN-based Methods
 
