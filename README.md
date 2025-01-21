@@ -195,21 +195,21 @@ A collection of research papers, datasets, and resources related to Style Transf
 | Hierarchical VAE | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1602.02282) | - |
 | β-VAE | 2017 | ICLR | [paper](https://openreview.net/forum?id=Sy2fzU9gl) | - |
 | VQ-VAE | 2017 | NeurIPS | [paper](https://arxiv.org/abs/1711.00937) | - |
-| InfoVAE (MMD-VAE) | 2017 | arXiv | [paper](https://arxiv.org/abs/1706.02262) | - |
-| WAE | 2017 | ICLR | [paper](https://arxiv.org/abs/1711.01558) | - |
-| FactorVAE | 2018 | ICML | [paper](https://arxiv.org/abs/1802.05983) | - |
-| DIP-VAE | 2018 | ICLR | [paper](https://openreview.net/forum?id=H1kG7GZAW) | - |
-| β-TCVAE | 2018 | ICML | [paper](https://arxiv.org/abs/1802.04942) | - |
-| BigVAE | 2019 | ICLR | [paper](https://arxiv.org/abs/1809.11096) | - |
-| VQ-VAE-2 | 2019 | NeurIPS | [paper](https://arxiv.org/abs/1906.00446) | - |
-| NVAE | 2020 | NeurIPS | [paper](https://arxiv.org/abs/2007.03898) | - |
-| Parallel VAE | 2020 | ICML | [paper](https://arxiv.org/abs/1805.07837) | - |
-| StyleVAE | 2021 | CVPR | [paper](https://arxiv.org/abs/2012.05471) | - |
-| Score-VAE | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2106.02036) | - |
-| Distilled-VAE | 2022 | ICML | [paper](https://arxiv.org/abs/2202.00816) | - |
-| Masked-VAE | 2023 | CVPR | [paper](https://arxiv.org/abs/2111.14818) | - |
-| DynamicVAE | 2023 | AAAI | [paper](https://arxiv.org/abs/2212.11266) | - |
-| RFE-DiffSketch | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.04362) | - |
+| InfoVAE (MMD-VAE) | 2017 | arXiv | [paper] | - |
+| WAE | 2017 | ICLR | [paper] | - |
+| FactorVAE | 2018 | ICML | [paper] | - |
+| DIP-VAE | 2018 | ICLR | [paper] | - |
+| β-TCVAE | 2018 | ICML | [paper] | - |
+| BigVAE | 2019 | ICLR | [paper] | - |
+| VQ-VAE-2 | 2019 | NeurIPS | [paper] | - |
+| NVAE | 2020 | NeurIPS | [paper] | - |
+| Parallel VAE | 2020 | ICML | [paper] | - |
+| StyleVAE | 2021 | CVPR | [paper] | - |
+| Score-VAE | 2021 | NeurIPS | [paper] | - |
+| Distilled-VAE | 2022 | ICML | [paper] | - |
+| Masked-VAE | 2023 | CVPR | [paper] | - |
+| DynamicVAE | 2023 | AAAI | [paper]| - |
+| RFE-DiffSketch | 2024 | arXiv | [paper] | - |
 
 ### Diffusion-based Methods
 
