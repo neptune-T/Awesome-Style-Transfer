@@ -36,26 +36,6 @@ A collection of research papers, datasets, and resources related to Style Transf
     <th>Transferred Result</th>
   </tr>
   <tr>
-    <td><img src="assets/content1.jpg" width="256px"></td>
-    <td><img src="assets/style1.jpg" width="256px"></td>
-    <td><img src="assets/result1.jpg" width="256px"></td>
-  </tr>
-  <tr>
-    <td><em>Original Photo</em></td>
-    <td><em>Van Gogh's Starry Night</em></td>
-    <td><em>Stylized Output</em></td>
-  </tr>
-  <tr>
-    <td><img src="assets/content2.jpg" width="256px"></td>
-    <td><img src="assets/style2.jpg" width="256px"></td>
-    <td><img src="assets/result2.jpg" width="256px"></td>
-  </tr>
-  <tr>
-    <td><em>Original Portrait</em></td>
-    <td><em>Ukiyo-e Style</em></td>
-    <td><em>Stylized Portrait</em></td>
-  </tr>
-  <tr>
     <td><img src="assets/content3.jpg" width="256px"></td>
     <td><img src="assets/style3.jpg" width="256px"></td>
     <td><img src="assets/result3.jpg" width="256px"></td>
