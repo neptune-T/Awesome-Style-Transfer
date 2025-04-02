@@ -3,7 +3,7 @@
 # Awesome Style Transfer Papers
 
 <p align="center">
-  <img src="assets/banner.jpg" width="800px">
+  <img src="assets/banner.png" width="800px">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -36,19 +36,21 @@ A collection of research papers, datasets, and resources related to Style Transf
     <th>Transferred Result</th>
   </tr>
   <tr>
-    <td><img src="assets/content3.jpg" width="256px"></td>
-    <td><img src="assets/style3.jpg" width="256px"></td>
-    <td><img src="assets/result3.jpg" width="256px"></td>
+    <td><img src="assets/girl.jpg" width="256" height="144" style="object-fit: cover;"></td>
+    <td><img src="assets/meitokonekobasu.jpg" width="256" height="144" style="object-fit: cover;"></td>
+    <td><img src="assets/result3.png" width="256" height="144" style="object-fit: cover;"></td>
   </tr>
   <tr>
-    <td><em>City Scene</em></td>
-    <td><em>Van Gogh's Starry Night</em></td>
-    <td><em>Artistic City</em></td>
+    <td><em>Disaster Girl</em></td>
+    <td><em>となりのトトロ</em></td>
+    <td><em>Transferred Result</em></td>
   </tr>
 </table>
 </div>
 
-> *From:[S2WAT: Image Style Transfer via Hierarchical Vision Transformer using Strips Window Attention](https://github.com/AlienZhang1996/S2WAT)*
+
+
+> *From:ChatGPT 4o*
 
 ### Key Features:
 
