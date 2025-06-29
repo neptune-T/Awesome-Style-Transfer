@@ -8,7 +8,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Survey Paper](https://img.shields.io/badge/Survey-Style%20Transfer-brightgreen)](https://arxiv.org/abs/2506.19278)
+[![Survey](https://img.shields.io/badge/Survey-Style%20Transfer-brightgreen)](https://github.com/neptune-T/Awesome-Style-Transfer)
+[![arXiv](https://img.shields.io/badge/arXiv-2506.19278-b31b1b.svg)]
 [![Update](https://img.shields.io/badge/Update-Weekly-green.svg)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/neptune-T/Awesome-Style-Transfer?style=social)](https://github.com/neptune-T/Awesome-Style-Transfer)
