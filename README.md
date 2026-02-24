@@ -122,6 +122,8 @@ A collection of research papers, datasets, and resources related to Style Transf
 
 ### GAN-based Methods
 
+
+
 | Title | Year | Publish | Paper | Code |
 |-------|------|---------|-------|------|
 | GAN | 2014 | NeurIPS | [paper](https://arxiv.org/abs/1406.2661) | - |
