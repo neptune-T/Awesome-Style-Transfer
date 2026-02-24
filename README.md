@@ -451,14 +451,11 @@ Feel free to open an issue or submit a pull request if you:
 If you find this repository useful for your research, please consider citing:
 
 ```bibtex
-@misc{zhang2025styletransferdecadesurvey,
-      title={Style Transfer: A Decade Survey}, 
-      author={Tianshan Zhang and Hao Tang},
-      year={2025},
-      eprint={2506.19278},
-      archivePrefix={arXiv},
-      primaryClass={cs.GR},
-      url={https://arxiv.org/abs/2506.19278}, 
+@article{zhang2025style,
+  title={Style transfer: A decade survey},
+  author={Zhang, Tianshan and Tang, Hao},
+  journal={arXiv preprint arXiv:2506.19278},
+  year={2025}
 }
 ```
 
