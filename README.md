@@ -7,7 +7,6 @@
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Survey](https://img.shields.io/badge/Survey-Style%20Transfer%3A%20A%20Decade%20Survey-brightgreen)](https://arxiv.org/abs/2506.19278)
 [![Papers](https://img.shields.io/badge/Papers-110%2B-blue)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![Carriers](https://img.shields.io/badge/Style%20Carriers-5-orangeviolet)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![Update](https://img.shields.io/badge/Update-Regularly-green.svg)](https://github.com/neptune-T/Awesome-Style-Transfer)
@@ -26,7 +25,9 @@
 
 ## 🎨 About This Repository
 
-A curated collection of **style transfer** research organized by the **Style-Carrier Taxonomy** introduced in our survey [*Style Transfer: A Decade Survey*](https://arxiv.org/abs/2506.19278).
+A curated collection of **style transfer** research papers spanning **🖼️ 2D image, 🎬 video, 🧊 3D (NeRF / mesh / point cloud / 3DGS) and ⏳ 4D (dynamic scene) stylization** — from classic neural style transfer to the latest diffusion- and foundation-model-era methods — organized by the **Style-Carrier Taxonomy** from our survey *Style Transfer: A Decade Survey* (revised version coming soon).
+
+> **Domain tags:** 🖼️ Image — single-image stylization · 🎬 Video — temporally consistent stylization · 🧊 3D — stylization of neural / explicit 3D representations · ⏳ 4D — stylization of dynamic, time-varying 3D scenes · 🌐 Multiple — methods covering more than one domain
 
 Instead of grouping papers by year, backbone (CNN / GAN / Diffusion / DiT), or output domain, we ask a single question:
 
