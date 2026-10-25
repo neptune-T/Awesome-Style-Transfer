@@ -1,0 +1,21 @@
+cite_key,carrier,leak_term_meaning,leakage_evidence,direct_leakage_metric,style_metric,authors_state_metric_confounded,intervention_representation,intervention_binding,intervention_acquisition,strength_axis_reported,operating_point_matched,semantics_or_layout_counted_as_style,locator_of_confound_statement,records
+wang2024instantstyle,condition,reference_to_output,qualitative,no,none,na,yes,yes,no,yes,no,sometimes,,V4-P199-1;V4-P199-2;V4-P199-3;V4-P199-4
+wang2024instantstyle++,condition,reference_to_output,asserted_not_shown,no,none,na,no,yes,no,yes,no,unclear,,V4-P201-1;V4-P201-4
+ye2023ip-adapter,condition,reproduction_is_objective,qualitative,no,clip_image,no,yes,yes,no,no,na,whole_image,,V4-P187-1;V4-P187-2;V4-P187-4
+xing2024csgo,condition,bidirectional,qualitative,no,csd,no,no,yes,yes,yes,no,unclear,,V4-P267-1;V4-P267-3;V4-P267-4;V4-P267-5
+gao2025styleshot,condition,reference_to_output,qualitative,no,clip_image,partly,yes,no,yes,yes,no,yes,Sec. 4.1 (CLIP scores not ideal),V4-P114-1;V4-P114-2;V4-P114-3;V4-P114-4
+qi2024deadiff,condition,reference_to_output,qualitative,no,clip_filtered,yes,no,yes,yes,yes,partly,no,Sec. 4.2 and Supp. 6.1 (reorganization of the reference),V4-P090-1;V4-P090-2;V4-P090-4
+chen2024artadaptertexttoimagestyletransfer,condition,reference_to_output,qualitative,no,clip_image,no,yes,no,yes,no,na,yes,,V4-P169-1;V4-P169-2;V4-P169-3;V4-P169-4
+ye2025stylemaster,condition,reference_to_output,qualitative,no,csd,yes,yes,no,no,yes,no,unclear,Sec. 4.2 (copies content therefore higher style score),V4-P242-1;V4-P242-2
+liu2024stylecrafter,condition,reference_to_output,qualitative,no,clip_style,yes,no,yes,no,no,na,unclear,Sec. 4.1 (replicating the reference gives close-to-1 style score),V4-P278-5
+zhang2026telestyle,condition,identity_in_training_data,asserted_not_shown,no,csd,no,no,no,yes,no,na,unclear,,V4-P083-1;V4-P083-3
+hertz2024style,feature,sibling_and_reference,qualitative,no,dino_set_consistency,yes,no,yes,no,no,na,yes,Sec. 4.2 (leakage yields higher set consistency),V4-P160-1;V4-P160-2;V4-P160-3;V4-P160-4
+chung2024style,feature,layout_via_initial_latent,mitigation_only,no,artfid_fid,no,no,yes,no,yes,no,no,,V4-P225-2;V4-P225-5
+lei2025stylestudio,feature,reference_to_output,qualitative,no,declined_clip_dino,yes,no,yes,no,yes,no,yes,Appx. D Fig. 14 (metrics favour semantic similarity),V4-P158-1;V4-P158-2;V4-P158-3;V4-P158-4
+huang2017arbitrary,feature,reference_to_output,qualitative,no,own_moment_loss,no,no,yes,no,no,na,no,,V4-P006-4
+an2021artflow,feature,iterated_target_erosion,ablation_qualitative,no,gram,na,no,no,no,no,na,no,,V4-P185-1;V4-P185-2
+sohn2023styledrop,parameter,reference_to_output,qualitative,no,clip_image,yes,no,no,yes,yes,no,no,Sec. 4.4.3 (style score favours content leakage),V4-P161-1;V4-P161-2
+shah2024ziplora,parameter,reference_to_output,qualitative,no,clip_image,yes,no,yes,no,no,na,no,Sec. 4.2 (metrics entangled with semantics),V4-P210-2;V4-P210-3
+frenkel2024implicit,parameter,reference_to_output,qualitative,no,clip_dino,no,no,yes,no,no,na,unclear,,V4-P104-4;V4-P104-5
+chen2025consislora,parameter,reference_to_output,qualitative,no,dreamsim_clip,hypothesized,no,no,yes,no,na,unclear,,V4-P232-1;V4-P232-2
+zhang2023inst,parameter,semantics_counted_as_style,none,no,user_study,na,no,yes,no,yes,na,yes,,V4-P167-3;V4-P167-4

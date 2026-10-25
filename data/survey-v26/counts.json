@@ -1,0 +1,18 @@
+{
+  "unique_bibliographic_records": 301,
+  "included": 136,
+  "core": 108,
+  "adjacent": 24,
+  "boundary": 4,
+  "evidence_records": 192,
+  "evidence_studies": 39,
+  "evidence_core_studies": 38,
+  "author_clusters": 28,
+  "reuse_denominator": 28,
+  "acquired_state_denominator": 26,
+  "binding_denominator": 20,
+  "consistency_core_denominator": 16,
+  "upstream_base_commit": "6a9d81397d7d1ad681de54a4ad3a2781c2ab8eae",
+  "updated_on": "2026-10-25",
+  "new_model_runs": 0
+}

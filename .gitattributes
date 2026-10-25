@@ -1,0 +1,2 @@
+# Keep register bytes stable across checkouts for the SHA-256 manifest.
+data/survey-v26/** text eol=lf
