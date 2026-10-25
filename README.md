@@ -1,15 +1,26 @@
 <div align="center">
 
-# Awesome Style Transfer
+# 🎨 Awesome Style Transfer
 
-<img src="assets/banner.png" width="800" alt="Style transfer examples">
+<p align="center">
+  <img src="assets/banner-magritte.png" width="800px">
+</p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Style carriers](https://img.shields.io/badge/Style%20carriers-4-42647a)](#taxonomy)
-[![Papers](https://img.shields.io/badge/Included%20papers-136-42647a)](#papers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+[![Papers](https://img.shields.io/badge/Papers-136-blue)](https://github.com/00lostin00/Awesome-Style-Transfer)
+[![Carriers](https://img.shields.io/badge/Style%20Carriers-4-orangeviolet)](https://github.com/00lostin00/Awesome-Style-Transfer)
+[![Update](https://img.shields.io/badge/Update-Regularly-green.svg)](https://github.com/00lostin00/Awesome-Style-Transfer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/00lostin00/Awesome-Style-Transfer?style=social)](https://github.com/00lostin00/Awesome-Style-Transfer)
 
-[Taxonomy](#taxonomy) · [Coverage](#coverage) · [Papers](#papers) · [Survey data](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/README.md)
+<p align="center">
+    <a href="#taxonomy">Taxonomy</a> |
+    <a href="#papers">Papers</a> |
+    <a href="#coverage">Coverage</a> |
+    <a href="#-datasets">Datasets</a> |
+    <a href="#-contributing">Contributing</a> |
+    <a href="https://github.com/00lostin00/Awesome-Style-Transfer/tree/codex/survey-v26-evidence/data/survey-v26">Survey data</a>
+</p>
 
 </div>
 
