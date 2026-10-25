@@ -364,7 +364,6 @@ Updated 25 October 2026.
 </details>
 
 <a id="contributing"></a>
-<a id="contributing"></a>
 
 ## 🤝 Contributing
 
@@ -374,8 +373,6 @@ We welcome contributions! When suggesting a paper, please indicate which **style
 - 🧩 **Feature** — direct activation matching, transport, or attention coupling
 - ⚙️ **Parameter** — persistent style asset (weights / LoRA / tokens)
 - 🔌 **Condition** — reference-encoded standalone style condition
-
-Native generative latents can be suggested as **🌀 contextual mechanisms**, and mixed interfaces as **🔀 hybrid configurations**.
 
 Native generative latents can be suggested as **🌀 contextual mechanisms**, and mixed interfaces as **🔀 hybrid configurations**.
 
