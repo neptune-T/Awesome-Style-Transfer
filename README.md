@@ -9,13 +9,13 @@
 [![Papers](https://img.shields.io/badge/Included%20papers-136-42647a)](#papers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
-[Taxonomy](#taxonomy) · [Coverage](#coverage) · [Papers](#papers) · [Survey data](data/survey-v26/README.md)
+[Taxonomy](#taxonomy) · [Coverage](#coverage) · [Papers](#papers) · [Survey data](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/README.md)
 
 </div>
 
 A curated collection of image, video, 3D and dynamic-scene style transfer, organized by how a requested style is acquired, applied and reused. The revised survey uses four primary style carriers and records native generative latents as related mechanisms.
 
-The catalogue contains **136 included publications: 108 core, 24 adjacent and 4 boundary**. [Survey data](data/survey-v26/README.md) provide source-level evidence, protocol coding and the benchmark crosswalk. The [catalogue](data/survey-v26/catalogue.csv) records configuration notes.
+The catalogue contains **136 included publications: 108 core, 24 adjacent and 4 boundary**. [Survey data](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/README.md) provide source-level evidence, protocol coding and the benchmark crosswalk. The [catalogue](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/catalogue.csv) records configuration notes.
 
 ## Taxonomy
 
@@ -230,7 +230,7 @@ These configurations retain an unresolved primary assignment.
 
 ## Survey data
 
-[Evidence guide](data/survey-v26/README.md) · [Paper selection](data/survey-v26/evidence_selection.csv) · [Source observations](data/survey-v26/evidence_register.csv) · [Protocol checks](data/survey-v26/verify_counts.py)
+[Evidence guide](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/README.md) · [Paper selection](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/evidence_selection.csv) · [Source observations](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/evidence_register.csv) · [Protocol checks](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/verify_counts.py)
 
 Updated 25 October 2026. Source measurements retain their experimental units.
 
