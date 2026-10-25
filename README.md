@@ -1,453 +1,305 @@
 <div align="center">
 
-# Awesome Style Transfer Papers
+# Awesome Style Transfer
 
-<p align="center">
-  <img src="assets/banner.png" width="800px">
-</p>
+<img src="assets/banner.png" width="800" alt="Style transfer examples">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Style carriers](https://img.shields.io/badge/Style%20carriers-4-42647a)](#taxonomy)
+[![Papers](https://img.shields.io/badge/Included%20papers-136-42647a)](#papers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
-[![Survey](https://img.shields.io/badge/Survey-Style%20Transfer-brightgreen)](https://github.com/neptune-T/Awesome-Style-Transfer)
-[![arXiv](https://img.shields.io/badge/arXiv-2506.19278-b31b1b.svg)](https://arxiv.org/abs/2506.19278)
-[![Update](https://img.shields.io/badge/Update-Weekly-green.svg)](https://github.com/neptune-T/Awesome-Style-Transfer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/neptune-T/Awesome-Style-Transfer?style=social)](https://github.com/neptune-T/Awesome-Style-Transfer)
+[Taxonomy](#taxonomy) · [Coverage](#coverage) · [Papers](#papers) · [Survey data](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/README.md)
 
-<p align="center">
-    <a href="#methods">Methods</a> |
-    <a href="#applications">Applications</a> |
-    <a href="#datasets">Datasets</a> |
-    <a href="#contributing">Contributing</a>
-</p>
 </div>
 
+A curated collection of image, video, 3D and dynamic-scene style transfer, organized by how a requested style is acquired, applied and reused. The revised survey uses four primary style carriers and records native generative latents as related mechanisms.
 
+The catalogue contains **136 included publications: 108 core, 24 adjacent and 4 boundary**. [Survey data](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/README.md) provide source-level evidence, protocol coding and the benchmark crosswalk. The [catalogue](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/catalogue.csv) records configuration notes.
 
-## 🎨 About This Repository
+## Taxonomy
 
-A collection of research papers, datasets, and resources related to Style Transfer across various domains. This repository offers a curated list of methods, from traditional techniques to the more recent diffusion models, to provide insights into the ongoing advancements in style transfer.
+| Carrier | Deployment interface | Included | Core |
+|---|---|---:|---:|
+| [Objective-defined style](#objective) | Style specifies a loss, score or guidance objective. | 27 | 27 |
+| [Feature-operated style](#feature) | Reference statistics or activations directly transform target features. | 39 | 38 |
+| [Parameter-bound style](#parameter) | Retained style-specific weights or tokens serve subsequent content. | 29 | 18 |
+| [Encoder-conditioned style](#condition) | A separately encoded reference enters a dedicated conditioning interface. | 33 | 22 |
 
-##  Style Transfer Examples
+Labels describe deployment configurations. Meta Networks is Parameter when its generated transformer is retained; the reference-conditioned producer describes acquisition. Native latent context and unresolved hybrids are listed separately.
 
-<div align="center">
-<table>
-  <tr>
-    <th>Content Image</th>
-    <th>Style Image</th>
-    <th>Transferred Result</th>
-  </tr>
-  <tr>
-    <td><img src="assets/girl.jpg" width="256" height="144" style="object-fit: cover;"></td>
-    <td><img src="assets/meitokonekobasu.jpg" width="256" height="144" style="object-fit: cover;"></td>
-    <td><img src="assets/result3.png" width="256" height="144" style="object-fit: cover;"></td>
-  </tr>
-  <tr>
-    <td><em>Disaster Girl</em></td>
-    <td><em>となりのトトロ</em></td>
-    <td><em>Transferred Result</em></td>
-  </tr>
-</table>
-</div>
+## Coverage
 
+Strict-core publications, counted once by their primary carrier and output modality.
 
+| Carrier | Image | Video | 3D | 4D | Multiple | Total |
+|---|---:|---:|---:|---:|---:|---:|
+| Objective-defined style | 7 | 1 | 15 | 3 | 1 | 27 |
+| Feature-operated style | 24 | 2 | 7 | 3 | 2 | 38 |
+| Parameter-bound style | 13 | 5 | 0 | 0 | 0 | 18 |
+| Encoder-conditioned style | 13 | 2 | 6 | 0 | 1 | 22 |
+| Hybrid interfaces | 2 | 1 | 0 | 0 | 0 | 3 |
 
-> *From:ChatGPT 4o*
+Zero cells describe this catalogue; they do not establish an exhaustive absence in the field.
 
-### Key Features:
+## Papers
 
-- 📚 **Traditional Methods**: Neural style transfer and its variants
-- 🖼️ **GAN-based Methods**: Generative approaches for style transfer
-- 🎯 **VAE-based Methods**: Variational methods for style manipulation  
-- 🌟 **Diffusion-based Methods**: Latest advances in diffusion models
-- 📊 **Applications**: Portrait, Video, 3D, Text style transfer
-- 💾 **Datasets**: Curated datasets for style transfer research
+<a id="objective"></a>
+### Objective-defined style
 
+Style specifies a loss, score or guidance objective.
 
+| Paper | Year | Output | Scope |
+|---|---:|---|---|
+| [A neural algorithm of artistic style](https://arxiv.org/pdf/1508.06576v2) | 2015 | Image | Core |
+| [Artistic style transfer for videos](https://arxiv.org/pdf/1604.08610v2) | 2016 | Video | Core |
+| [Deep photo style transfer](https://arxiv.org/abs/1703.07511) | 2017 | Image | Core |
+| [Arbitrary Style Transfer with Deep Feature Reshuffle](https://openaccess.thecvf.com/content_cvpr_2018/html/Gu_Arbitrary_Style_Transfer_CVPR_2018_paper.html) | 2018 | Image | Core |
+| [Style transfer by relaxed optimal transport and self-similarity](https://arxiv.org/abs/1904.12785) | 2019 | Image | Core |
+| [Arf: Artistic radiance fields](https://arxiv.org/pdf/2206.06360) | 2022 | 3D | Core |
+| [CLIPstyler: Image style transfer with a single text condition](https://arxiv.org/abs/2112.00374) | 2022 | Image | Core |
+| [Diffusion-based image translation using disentangled style and content representation](https://arxiv.org/abs/2209.15264) | 2022 | Image | Core |
+| [SNeRF: Stylized neural implicit representations for 3D scenes](https://arxiv.org/pdf/2207.02363v1) | 2022 | 3D | Core |
+| [StyleMesh: Style transfer for indoor 3D scene reconstructions](https://arxiv.org/abs/2112.01530) | 2022 | 3D | Core |
+| [Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization](https://arxiv.org/abs/2212.02766) | 2023 | 3D | Core |
+| [Transforming Radiance Field With Lipschitz Network for Photorealistic 3D Scene Stylization](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Transforming_Radiance_Field_With_Lipschitz_Network_for_Photorealistic_3D_Scene_CVPR_2023_paper.pdf) | 2023 | 3D | Core |
+| [3D Paintbrush: Local Stylization of 3D Shapes with Cascaded Score Distillation](https://arxiv.org/abs/2311.09571) | 2024 | 3D | Core |
+| [NeRF-Art: Text-Driven Neural Radiance Fields Stylization](https://arxiv.org/abs/2212.08070) | 2024 | 3D | Core |
+| [S-DyRF: Reference-Based Stylized Radiance Fields for Dynamic Scenes](https://arxiv.org/pdf/2403.06205v3) | 2024 | 4D | Core |
+| [Balanced image stylization with style matching score](https://arxiv.org/abs/2503.07601) | 2025 | Image | Core |
+| [CLIPGaussian: Universal and Multimodal Style Transfer Based on Gaussian Splatting](https://arxiv.org/abs/2505.22854) | 2025 | Multiple | Core |
+| [Fantasystyle: Controllable stylized distillation for 3d gaussian splatting](https://arxiv.org/abs/2508.08136) | 2025 | 3D | Core |
+| [GAS-NeRF: Geometry-Aware Stylization of Dynamic Radiance Fields](https://arxiv.org/pdf/2503.08483v1) | 2025 | 4D | Core |
+| [Geometry in Style: 3D Stylization via Surface Normal Deformation](https://openaccess.thecvf.com/content/CVPR2025/html/Dinh_Geometry_in_Style_3D_Stylization_via_Surface_Normal_Deformation_CVPR_2025_paper.html) | 2025 | 3D | Core |
+| [GT\^ 2-GS: Geometry-aware Texture Transfer for Gaussian Splatting](https://arxiv.org/abs/2505.15208) | 2025 | 3D | Core |
+| [Morpheus: Text-Driven 3D Gaussian Splat Shape and Color Stylization](https://arxiv.org/abs/2503.02009) | 2025 | 3D | Core |
+| [SGSST: Scaling Gaussian Splatting Style Transfer](https://arxiv.org/abs/2412.03371) | 2025 | 3D | Core |
+| [Stylizedgs: Controllable stylization for 3d gaussian splatting](https://arxiv.org/abs/2404.05220) | 2025 | 3D | Core |
+| [DiffStyle3D: Consistent 3D Gaussian Stylization via Attention Optimization](https://arxiv.org/abs/2601.19717) | 2026 | 3D | Core |
+| [Geometry-Aware Style Transfer in 3D Gaussian Splatting](https://arxiv.org/html/2606.24144) | 2026 | 3D | Core |
+| [Style4D-Bench: A Benchmark Suite for 4D Stylization](https://arxiv.org/pdf/2508.19243v1) | 2026 | 4D | Core |
 
-## 📑 Table of Contents
+<a id="feature"></a>
+### Feature-operated style
 
-1. [Methods](#methods)
-   - [Traditional Methods](#traditional-methods)
-   - [GAN-based Methods](#gan-based-methods)
-   - [VAE-based Methods](#vae-based-methods)
-   - [Diffusion-based Methods](#diffusion-based-methods)
+Reference statistics or activations directly transform target features.
 
-2. [Applications](#applications)
-   - [Portrait Style Transfer](#portrait-style-transfer)
-   - [Video Style Transfer](#video-style-transfer)
-   - [3D Style Transfer](#3d-style-transfer)
-   - [Text Style Transfer](#text-style-transfer)
-   - [Domain Adaptation](#domain-adaptation)
+| Paper | Year | Output | Scope |
+|---|---:|---|---|
+| [Arbitrary style transfer in real-time with adaptive instance normalization](https://arxiv.org/pdf/1703.06868v2) | 2017 | Image | Core |
+| [Universal style transfer via feature transforms](https://arxiv.org/pdf/1705.08086v2) | 2017 | Image | Core |
+| [A closed-form solution to photorealistic image stylization](https://arxiv.org/abs/1802.06474) | 2018 | Image | Core |
+| [Avatar-net: Multi-scale zero-shot style transfer by feature decoration](https://arxiv.org/abs/1805.03857) | 2018 | Image | Core |
+| [Arbitrary Style Transfer with Style-Attentional Networks](https://arxiv.org/abs/1812.02342) | 2019 | Image | Core |
+| [Learning linear transformations for fast image and video style transfer](https://arxiv.org/pdf/1808.04537v1) | 2019 | Multiple | Core |
+| [Photorealistic style transfer via wavelet transforms](https://arxiv.org/abs/1903.09760) | 2019 | Image | Core |
+| [AdaAttN: Revisit attention mechanism in arbitrary neural style transfer](https://arxiv.org/abs/2108.03647) | 2021 | Image | Core |
+| [Arbitrary video style transfer via multi-channel correlation](https://arxiv.org/pdf/2009.08003v2) | 2021 | Video | Core |
+| [Artflow: Unbiased image style transfer via reversible neural flows](https://arxiv.org/pdf/2103.16877v2) | 2021 | Image | Core |
+| [CCPL: Contrastive coherence preserving loss for versatile style transfer](https://arxiv.org/pdf/2207.04808v4) | 2022 | Multiple | Core |
+| [Domain enhanced arbitrary image style transfer via contrastive learning](https://arxiv.org/abs/2205.09542) | 2022 | Image | Core |
+| [Exact feature distribution matching for arbitrary style transfer and domain generalization](https://arxiv.org/abs/2203.07740) | 2022 | Image | Core |
+| [Stytr2: Image style transfer with transformers](https://arxiv.org/abs/2105.14576) | 2022 | Image | Core |
+| [UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene](https://arxiv.org/pdf/2208.07059v2) | 2022 | 3D | Core |
+| [CAP-VSTNet: Content affinity preserved versatile style transfer](https://arxiv.org/abs/2303.17867) | 2023 | Image | Core |
+| [StyleRF: Zero-Shot 3D Style Transfer of Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_StyleRF_Zero-Shot_3D_Style_Transfer_of_Neural_Radiance_Fields_CVPR_2023_paper.pdf) | 2023 | 3D | Core |
+| [Ctrl-x: Controlling structure and appearance for text-to-image generation without guidance](https://arxiv.org/abs/2406.07540) | 2024 | Image | Core |
+| [FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields](https://ojs.aaai.org/index.php/AAAI/article/view/28054) | 2024 | 3D | Core |
+| [G3DST: Generalizing 3D Style Transfer with Neural Radiance Fields across Scenes and Styles](https://arxiv.org/pdf/2408.13508v1) | 2024 | 3D | Core |
+| [Puff-Net: Efficient Style Transfer with Pure Content and Style Feature Fusion Network](https://arxiv.org/abs/2405.19775) | 2024 | Image | Core |
+| [Rethink arbitrary style transfer with transformer and contrastive learning](https://arxiv.org/abs/2404.13584) | 2024 | Image | Core |
+| [Style aligned image generation via shared attention](https://arxiv.org/pdf/2312.02133v2) | 2024 | Image | Core |
+| [Style injection in diffusion: A training-free approach for adapting large-scale diffusion models for style transfer](https://arxiv.org/pdf/2312.09008v2) | 2024 | Image | Core |
+| [StyleDyRF: Zero-shot 4D Style Transfer for Dynamic Neural Radiance Fields](https://arxiv.org/pdf/2403.08310v1) | 2024 | 4D | Core |
+| [StyleGaussian: Instant 3D style transfer with gaussian splatting](https://arxiv.org/pdf/2403.07807v1) | 2024 | 3D | Core |
+| [Training-free consistent text-to-image generation](https://arxiv.org/abs/2402.03286) | 2024 | Image | Adjacent |
+| [Z*: Zero-shot Style Transfer via Attention Reweighting](https://openaccess.thecvf.com/content/CVPR2024/html/Deng_Z_Zero-shot_Style_Transfer_via_Attention_Reweighting_CVPR_2024_paper.html) | 2024 | Image | Core |
+| [A3GS: Arbitrary Artistic Style into Arbitrary 3D Gaussian Splatting](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_A3GS_Arbitrary_Artistic_Style_into_Arbitrary_3D_Gaussian_Splatting_ICCV_2025_paper.html) | 2025 | 3D | Core |
+| [AttenST: A Training-Free Attention-Driven Style Transfer Framework with Pre-Trained Diffusion Models](https://arxiv.org/abs/2503.07307) | 2025 | Image | Core |
+| [D2 Styler: Advancing Arbitrary Style Transfer with Discrete Diffusion Methods](https://arxiv.org/abs/2408.03558) | 2025 | Image | Core |
+| [DVI: Disentangling Semantic and Visual Identity for Training-Free Personalized Generation](https://arxiv.org/abs/2512.18964) | 2025 | Image | Core |
+| [FPGS: Feed-Forward Semantic-aware Photorealistic Style Transfer of Large-Scale Gaussian Splatting](https://arxiv.org/abs/2503.09635) | 2025 | 3D | Core |
+| [SCSA: A Plug-and-Play Semantic Continuous-Sparse Attention for Arbitrary Semantic Style Transfer](https://arxiv.org/abs/2503.04119) | 2025 | Image | Core |
+| [SOYO: A Tuning-Free Approach for Video Style Morphing via Style-Adaptive Interpolation in Diffusion Models](https://arxiv.org/abs/2503.06998) | 2025 | Video | Core |
+| [StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer](https://arxiv.org/abs/2501.11319) | 2025 | Image | Core |
+| [StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements](https://arxiv.org/pdf/2412.08503v2) | 2025 | Image | Core |
+| [ZDySS: Zero-Shot Dynamic Scene Stylization using Gaussian Splatting](https://arxiv.org/abs/2501.03875v1) | 2025 | 4D | Core |
+| [4DStyleGaussian: Generalizable 4D Style Transfer with Gaussian Splatting](https://arxiv.org/pdf/2410.10412v1) | 2026 | 4D | Core |
 
-3. [Datasets](#datasets)
-   - [Image Dataset](#image-dataset)
-   - [Video Dataset](#video-dataset)
-   - [3D Dataset](#3d-dataset)
-   - [Text Dataset](#text-dataset)
-   - [Domain Dataset](#domain-dataset)
-   - [Data Augmentation](#data-augmentation)
+<a id="parameter"></a>
+### Parameter-bound style
 
-## Methods
+Retained style-specific weights or tokens serve subsequent content.
 
-### Traditional Methods
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| Neural Style Transfer (NST) | 2015 | CVPR | [paper](https://arxiv.org/abs/1508.06576) | - |
-| Fast Style Transfer | 2016 | ECCV | [paper](https://arxiv.org/abs/1603.08155) | [code](https://github.com/lengstrom/fast-style-transfer) |
-| Texture Net | 2016 | arXiv | [paper](https://arxiv.org/abs/1603.03417) | [code](https://github.com/DmitryUlyanov/texture-nets) |
-| Instance Normalization | 2016 | arXiv | [paper](https://arxiv.org/abs/1607.08022) | [code](https://github.com/CellEight/Pytorch-Adaptive-Instance-Normalization) |
-| Universal Style Transfer | 2017 | NIPS | [paper](https://arxiv.org/abs/1705.08086) | - |
-| Light-weight Style Transfer | 2017 | CVPR | [paper](https://arxiv.org/abs/1701.02096) | [code](https://github.com/DmitryUlyanov/texture_nets) |
-| Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 | ICCV | [paper](https://arxiv.org/abs/1703.06868) | [code](https://github.com/xunhuang1995/AdaIN-style) |
-| Histogram Loss | 2017 | CVPR | [paper]() | [code]() |
-| Multimodal Style Transfer (AdaIN Extension) | 2018 | CVPR | [paper]() | [code]() |
-| Avatar-Net | 2018 | CVPR | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sheng_Avatar-Net_Multi-Scale_Zero-Shot_CVPR_2018_paper.pdf) | [code](https://lucassheng.github.io/avatar-net/) |
-| NST-MetaNet | 2018 | CVPR |  | - |
-| AMST | 2019 | CVPR | [paper](https://arxiv.org/abs/1901.05127) | - |
-| SEAN | 2020 | CVPR | [paper](https://arxiv.org/abs/1903.07291) | [code](https://github.com/NVlabs/SPADE) |
-| AdaAttN | 2021 | ICCV | [paper](https://arxiv.org/pdf/2108.03647) | [code](https://github.com/Huage001/AdaAttN) |
-| ArtFlow | 2021 | CVPR | [paper](https://arxiv.org/pdf/2103.16877) | [code](https://github.com/pkuanjie/ArtFlow) |
-| CLIPstyler | 2021 | CVPR | [paper](https://arxiv.org/abs/2112.00374) | [code](https://github.com/cyclomon/CLIPstyler) |
-| Style Transfer by Rigid Alignment in Neural Net Feature Space | 2021 | CVPR | [paper](https://openaccess.thecvf.com/content/WACV2021/papers/Hada_Style_Transfer_by_Rigid_Alignment_in_Neural_Net_Feature_Space_WACV_2021_paper.pdf) | - |
-| Content and style disentanglement for artistic style transfer | 2022 | ICCV | [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kotovenko_Content_and_Style_Disentanglement_for_Artistic_Style_Transfer_ICCV_2019_paper.pdf) | [code](https://github.com/CompVis/content-style-disentangled-ST) |
-| Region-controlled Style Transfer | 2023 | arXiv | [paper](https://arxiv.org/abs/2310.15658) | - |
-| Optimal Image Transport on Sparse Dictionaries | 2023 | arXiv | [paper](https://arxiv.org/abs/2311.01984) | - |
-| Puff-Net: Efficient Style Transfer with Pure Content and Style Feature Fusion Network | 2024 | CVPR | [paper](https://arxiv.org/html/2405.19775v1) | [code](https://github.com/ZszYmy9/Puff-Net) |
-| S2WAT: Image Style Transfer via Hierarchical Vision Transformer using Strips Window Attention | 2024 | AAAI | [paper](https://github.com/AlienZhang1996/S2WAT) | [code](https://github.com/AlienZhang1996/S2WAT) |
-| Extending user control for image stylization using hierarchical style transfer networks | 2024 | Heliyon | [paper](https://www.sciencedirect.com/science/article/pii/S2405844024030433) | - |
-| Relu-oscillator: Chaotic vgg10 model for real-time neural style transfer on painting au- thentication | 2024 | ESWA | [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417424013770) | - |
-| AEANet: Affinity Enhanced Attentional Networks for Arbitrary Style Transfer | 2024 | arXiv | [paper](https://arxiv.org/abs/2409.14652) | - |
-| Artistic Neural Style Transfer Algorithms with Activation Smoothing | 2024 | arXiv | [paper](https://arxiv.org/abs/2411.08014) | - |
-| StyleMamba | 2024 | arXiv | [paper](https://arxiv.org/abs/2405.05027) |[code](https://github.com/OliverDOU776/StyleMamba) |
+| Paper | Year | Output | Scope |
+|---|---:|---|---|
+| [Perceptual losses for real-time style transfer and super-resolution](https://arxiv.org/pdf/1603.08155v1) | 2016 | Image | Core |
+| [Texture networks: Feed-forward synthesis of textures and stylized images](https://arxiv.org/abs/1603.03417) | 2016 | Image | Core |
+| [A Learned Representation for Artistic Style](https://arxiv.org/abs/1610.07629) | 2017 | Image | Core |
+| [Coherent online video style transfer](https://arxiv.org/pdf/1703.09211v2) | 2017 | Video | Core |
+| [Real-time neural style transfer for videos](https://openaccess.thecvf.com/content_cvpr_2017/html/Huang_Real-Time_Neural_Style_CVPR_2017_paper.html) | 2017 | Video | Core |
+| [Multi-style generative network for real-time transfer](https://arxiv.org/abs/1703.06953) | 2018 | Image | Core |
+| [Neural Style Transfer via Meta Networks](https://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Neural_Style_Transfer_CVPR_2018_paper.html) | 2018 | Image | Core |
+| [ReCoNet: Real-time coherent video style transfer network](https://arxiv.org/pdf/1807.01197v2) | 2018 | Video | Core |
+| [An image is worth one word: Personalizing text-to-image generation using textual inversion](https://arxiv.org/abs/2208.01618) | 2022 | Image | Boundary |
+| [VToonify: Controllable High-Resolution Portrait Video Style Transfer](https://arxiv.org/abs/2209.11224) | 2022 | Video | Core |
+| [Break-a-scene: Extracting multiple concepts from a single image](https://arxiv.org/abs/2305.16311) | 2023 | Image | Adjacent |
+| [Cones: Concept neurons in diffusion models for customized generation](https://arxiv.org/abs/2303.05125) | 2023 | Image | Core |
+| [DreamBooth3D: Subject-Driven Text-to-3D Generation](https://arxiv.org/abs/2303.13508) | 2023 | 3D | Adjacent |
+| [Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation](https://arxiv.org/abs/2208.12242) | 2023 | Image | Adjacent |
+| [Inversion-Based Style Transfer With Diffusion Models](https://arxiv.org/pdf/2211.13203v3) | 2023 | Image | Core |
+| [Key-locked rank one editing for text-to-image personalization](https://arxiv.org/abs/2305.01644) | 2023 | Image | Adjacent |
+| [Mix-of-show: Decentralized low-rank adaptation for multi-concept customization of diffusion models](https://arxiv.org/abs/2305.18292) | 2023 | Image | Adjacent |
+| [Multi-concept customization of text-to-image diffusion](https://arxiv.org/abs/2212.04488) | 2023 | Image | Adjacent |
+| [Prospect: Prompt spectrum for attribute-aware personalization of diffusion models](https://arxiv.org/abs/2305.16225) | 2023 | Image | Adjacent |
+| [Styledrop: Text-to-image generation in any style](https://arxiv.org/pdf/2306.00983v1) | 2023 | Image | Core |
+| [Styleinv: A temporal style modulated inversion network for unconditional video generation](https://arxiv.org/pdf/2308.16909v1) | 2023 | Video | Core |
+| [ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs](https://arxiv.org/pdf/2311.13600v2) | 2023 | Image | Core |
+| [Dreamvideo: Composing your dream videos with customized subject and motion](https://arxiv.org/abs/2312.04433) | 2024 | Video | Adjacent |
+| [Implicit style-content separation using b-lora](https://arxiv.org/pdf/2403.14572v2) | 2024 | Image | Core |
+| [Magic-me: Identity-specific video customized diffusion](https://arxiv.org/abs/2402.09368) | 2024 | Video | Adjacent |
+| [APT: Adaptive Personalized Training for Diffusion Models with Limited Data](https://arxiv.org/abs/2507.02687) | 2025 | Image | Adjacent |
+| [ConsisLoRA: Enhancing Content and Style Consistency for LoRA-based Style Transfer](https://arxiv.org/pdf/2503.10614v1) | 2025 | Image | Core |
+| [Photodoodle: Learning artistic image editing from few-shot pairwise data](https://arxiv.org/abs/2502.14397) | 2025 | Image | Core |
+| [RegionRoute: Regional Style Transfer with Diffusion Model](https://arxiv.org/html/2602.19254) | 2026 | Image | Core |
 
-### GAN-based Methods
+<a id="condition"></a>
+### Encoder-conditioned style
 
+A separately encoded reference enters a dedicated conditioning interface.
 
+| Paper | Year | Output | Scope |
+|---|---:|---|---|
+| [Exploring the Structure of a Real-time, Arbitrary Neural Artistic Stylization Network](https://arxiv.org/abs/1705.06830) | 2017 | Image | Core |
+| [CLIP-NeRF: Text-and-image driven manipulation of neural radiance fields](https://arxiv.org/abs/2112.05139) | 2022 | 3D | Core |
+| [StylizedNeRF: Consistent 3D Scene Stylization As Stylized NeRF via 2D-3D Mutual Learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Huang_StylizedNeRF_Consistent_3D_Scene_Stylization_As_Stylized_NeRF_via_2D-3D_CVPR_2022_paper.pdf) | 2022 | 3D | Core |
+| [Stylizing 3D Scene via Implicit Representation and HyperNetwork](https://arxiv.org/pdf/2105.13016v3) | 2022 | 3D | Core |
+| [Blip-diffusion: Pre-trained subject representation for controllable text-to-image generation and editing](https://arxiv.org/abs/2305.14720) | 2023 | Image | Adjacent |
+| [Elite: Encoding visual concepts into textual embeddings for customized text-to-image generation](https://arxiv.org/abs/2302.13848) | 2023 | Image | Adjacent |
+| [IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models](https://arxiv.org/pdf/2308.06721v1) | 2023 | Image | Core |
+| [Arc2Face: A Foundation Model for ID-Consistent Human Faces](https://arxiv.org/abs/2403.11641) | 2024 | Image | Adjacent |
+| [ArtAdapter: Text-to-Image Style Transfer using Multi-Level Style Encoder and Explicit Adaptation](https://arxiv.org/pdf/2312.02109v2) | 2024 | Image | Core |
+| [Deadiff: An efficient stylization diffusion model with disentangled representations](https://arxiv.org/pdf/2403.06951v2) | 2024 | Image | Core |
+| [DiffStyler: Diffusion-based Localized Image Style Transfer](https://arxiv.org/abs/2403.18461) | 2024 | Image | Core |
+| [Instantid: Zero-shot identity-preserving generation in seconds](https://arxiv.org/abs/2401.07519) | 2024 | Image | Adjacent |
+| [InstantStyle-Plus: Style Transfer with Content-Preserving in Text-to-Image Generation](https://arxiv.org/pdf/2407.00788v1) | 2024 | Image | Core |
+| [InstantStyle: Free Lunch towards Style-Preserving in Text-to-Image Generation](https://arxiv.org/abs/2404.02733v2) | 2024 | Image | Core |
+| [Photomaker: Customizing realistic human photos via stacked id embedding](https://arxiv.org/abs/2312.04461) | 2024 | Image | Adjacent |
+| [Pulid: Pure and lightning id customization via contrastive alignment](https://arxiv.org/abs/2404.16022) | 2024 | Image | Adjacent |
+| [Ssr-encoder: Encoding selective subject representation for subject-driven generation](https://arxiv.org/abs/2312.16272) | 2024 | Image | Adjacent |
+| [StyleCrafter: Taming Artistic Video Diffusion with Reference-Augmented Adapter Learning](https://arxiv.org/abs/2312.00330) | 2024 | Video | Core |
+| [Stylemamba: State space model for efficient text-driven image style transfer](https://arxiv.org/abs/2405.05027) | 2024 | Image | Core |
+| [CSGO: Content-Style Composition in Text-to-Image Generation](https://arxiv.org/abs/2408.16766) | 2025 | Image | Core |
+| [Free-lunch color-texture disentanglement for stylized image generation](https://arxiv.org/abs/2503.14275) | 2025 | Image | Core |
+| [ID-Consistent, Precise Expression Generation with Blendshape-Guided Diffusion](https://arxiv.org/abs/2510.04706) | 2025 | Image | Adjacent |
+| [Nested attention: Semantic-aware attention values for concept personalization](https://arxiv.org/abs/2501.01407) | 2025 | Image | Adjacent |
+| [Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization](https://arxiv.org/abs/2512.10955) | 2025 | Image | Adjacent |
+| [Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles](https://papers.nips.cc/paper_files/paper/2025/hash/fa1790d7c3036c691d0b2fb3b9a0ce64-Abstract-Conference.html) | 2025 | 3D | Core |
+| [Stylemaster: Stylize your video with artistic generation and translation](https://arxiv.org/pdf/2412.07744v1) | 2025 | Video | Core |
+| [Styleshot: A snapshot on any style](https://arxiv.org/pdf/2407.01414v2) | 2025 | Image | Core |
+| [Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://arxiv.org/pdf/2509.26455v3) | 2025 | 3D | Core |
+| [U-StyDiT: Ultra-high quality artistic style transfer using diffusion transformers](https://arxiv.org/abs/2503.08157) | 2025 | Image | Core |
+| [Uso: Unified style and subject-driven generation via disentangled and reward learning](https://arxiv.org/abs/2508.18966) | 2025 | Image | Boundary |
+| [AnyStyle: Single-Pass Multimodal Stylization for 3D Gaussian Splatting](https://arxiv.org/abs/2602.04043) | 2026 | 3D | Core |
+| [StyleVAR: Controllable Image Style Transfer via Visual Autoregressive Modeling](https://arxiv.org/html/2604.21052) | 2026 | Image | Core |
+| [TeleStyle: Content-Preserving Style Transfer in Images and Videos](https://arxiv.org/pdf/2601.20175v1) | 2026 | Multiple | Core |
 
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| GAN | 2014 | NeurIPS | [paper](https://arxiv.org/abs/1406.2661) | - |
-| DCGAN | 2015 | ICLR | [paper](https://arxiv.org/abs/1511.06434) | - |
-| LAPGAN | 2015 | ICML | [paper](https://arxiv.org/abs/1506.05751) | - |
-| ImprovedGAN | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1606.03498) | - |
-| EBGAN | 2016 | arXiv | [paper](https://arxiv.org/abs/1609.03126) | - |
-| VideoGAN | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1609.02612) | - |
-| InfoGAN | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1606.03657) | - |
-| CycleGAN | 2017 | ICCV | [paper](https://arxiv.org/abs/1703.10593) | [code](https://github.com/junyanz/CycleGAN) |
-| PGGAN | 2017 | ICLR | [paper](https://arxiv.org/abs/1710.10196) | - |
-| WGAN | 2017 | ICML | [paper](https://arxiv.org/abs/1701.07875) | - |
-| LSGAN | 2017 | ICCV | [paper](https://arxiv.org/abs/1611.04076) | - |
-| BEGAN | 2017 | ICLR | [paper](https://arxiv.org/abs/1703.10717) | - |
-| Pix2Pix | 2017 | CVPR | [paper](https://arxiv.org/abs/1611.07004) | [code](https://github.com/phillipi/pix2pix) |
-| FID-GAN | 2017 | NeurIPS | [paper](https://arxiv.org/abs/1706.08500) | - |
-| DualGAN | 2017 | ICCV | [paper](https://arxiv.org/abs/1704.02510) | - |
-| SeqGAN | 2017 | AAAI | [paper](https://arxiv.org/abs/1609.05473) | - |
-| SRGAN | 2017 | CVPR | [paper](https://arxiv.org/abs/1609.04802) | - |
-| ArtGAN | 2017 | arxiv | [paper](https://arxiv.org/abs/1702.03410) | [code](https://arxiv.org/abs/1702.03410) |
-| ComboGAN | 2017 | CVPR | [paper](https://arxiv.org/abs/1712.06909) | - |
-| Identity-aware CycleGAN | 2017 | arXiv | [paper](https://arxiv.org/abs/1712.00971) | - |
-| PoseNormGAN | 2017 | ECCV | [paper](https://arxiv.org/abs/1712.02225) | - |
-| BigGAN | 2018 | ICLR | [paper](https://arxiv.org/abs/1809.11096) | [code](https://github.com/ajbrock/BigGAN-PyTorch) |
-| GANimation | 2018 | ECCV | [paper](https://arxiv.org/abs/1807.09251) | - |
-| PacGAN | 2018 | NeurIPS | [paper](https://arxiv.org/abs/1712.04086) | - |
-| RecycleGAN | 2018 | CVPR | [paper](https://arxiv.org/abs/1808.05174) | - |
-| StarGAN | 2018 | CVPR | [paper](https://arxiv.org/abs/1711.09020) | [code](https://github.com/yunjey/StarGAN) |
-| MaskGAN | 2018 | ICLR | [paper](https://arxiv.org/abs/1801.07736) | - |
-| POGAN-Dehaze | 2018 | arXiv | [paper](https://arxiv.org/abs/1805.01084) | - |
-| ChipGAN | 2018 | ACM | [paper](https://dl.acm.org/doi/10.1145/3240508.3240655) | - |
-| StyleGAN | 2019 | CVPR | [paper](https://arxiv.org/abs/1812.04948) | [code](https://github.com/NVlabs/stylegan) |
-| GANPaint | 2019 | SIGGRAPH | [paper](https://arxiv.org/abs/1903.07392) | - |
-| SinGAN | 2019 | ICCV | [paper](https://arxiv.org/abs/1905.01164) | [code](https://github.com/tamarott/SinGAN) |
-| SAGAN | 2019 | ICML | [paper](https://arxiv.org/abs/1805.08318) | - |
-| StyleGAN2 | 2020 | CVPR | [paper](https://arxiv.org/abs/1912.04958) | [code](https://github.com/NVlabs/stylegan2) |
-| ConSinGAN | 2020 | CVPR | [paper](https://arxiv.org/abs/2003.11512) | [code](https://github.com/tohinz/ConSinGAN) |
-| PaintGAN | 2020 | ECCV | [paper](https://arxiv.org/abs/2008.05775) | - |
-| TecoGAN | 2020 | ICLR | [paper](https://arxiv.org/abs/1811.09393) | [code](https://github.com/thunil/TecoGAN) |
-| U-GAT-IT | 2020 | ICLR | [paper](https://arxiv.org/abs/1907.10830) | [code](https://github.com/taki0112/UGATIT) |
-| NICE-GAN | 2020 | CVPR | [paper](https://arxiv.org/abs/2003.00273v6) | [code](https://github.com/alpc91/NICE-GAN-pytorch) |
-| White-box-Cartoonization | 2020 | CVPR | [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Learning_to_Cartoonize_Using_White-Box_Cartoon_Representations_CVPR_2020_paper.pdf) | [code](https://github.com/SystemErrorWang/White-box-Cartoonization) |
-| E2ECP | 2020 | CVPR | [paper](https://arxiv.org/abs/2003.11258) | - |
-| StyleGAN3 | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2106.12423) | [code](https://github.com/NVlabs/stylegan3) |
-| GANformer | 2021 | CVPR | [paper](https://arxiv.org/abs/2103.01209) | - |
-| FastGAN | 2021 | arXiv | [paper](https://arxiv.org/abs/2101.04775) | - |
-| BlendGAN | 2021 | arXiv | [paper](https://arxiv.org/abs/2110.11728) | - |
-| CoModGAN | 2021 | CVPR | [paper](https://arxiv.org/abs/2102.04432) | [code](https://github.com/zsyzzsoft/co-mod-gan) |
-| StyleSwin | 2022 | CVPR | [paper](https://arxiv.org/abs/2112.10762) | - |
-| SemanticStyleGAN | 2022 | CVPR | [paper](https://arxiv.org/abs/2112.02236) | - |
-| InstGAN | 2022 | CVPR | [paper](https://arxiv.org/abs/2111.13800) | - |
-| Style-Aware-Discriminator | 2022 | CVPR | [paper](https://arxiv.org/abs/2203.15375) | [code](https://github.com/kunheek/style-aware-discriminator) |
-| GP-UNIT | 2022 | CVPR | [paper](https://arxiv.org/pdf/2204.03641) | [code](https://github.com/williamyang1991/GP-UNIT) |
-| GigaGAN | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.05511) | [code](https://github.com/NVlabs/gigagan) |
-| CLCAE | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.12641) | - |
-| DeltaEdit | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.06285) | [code](https://github.com/Yueming6568/DeltaEdit) |
-| NoisyTwins | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.08133) | - |
-| AdaptiveMix | 2023 | CVPR | [paper](https://arxiv.org/abs/2212.10543) | - |
-| CREPS | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.11413) | - |
-| CoralStyleCLIP | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.14343) | - |
-| ISSA | 2023 | arXiv | [paper](https://arxiv.org/abs/2307.00648v1) | [code](https://github.com/boschresearch/ISSA) |
-| zGAN | 2024 | arXiv | [paper](https://arxiv.org/abs/2410.20808v2) | - |
-| mmist | 2024 | WACV | [paper](https://arxiv.org/abs/2311.00813) | - |
-| CCST-GAN | 2024 | ICIP | [paper](https://ieeexplore.ieee.org/document/10586662) | - |
-| JPSF-SD-ControlNet | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.08740) | - |
-| MRStyle | 2024 | arXiv | [paper](https://arxiv.org/abs/2401.09853) | - |
+<a id="context"></a>
+### Generative latent context
 
-### VAE-based Methods
+Native generative coordinates provide related mechanisms alongside the four carriers.
 
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| VAE | 2013 | ICLR | [paper](https://arxiv.org/abs/1312.6114) | - |
-| Conditional VAE (CVAE) | 2015 | NeurIPS | [paper](https://papers.nips.cc/paper/2015/hash/8d55a249e6baa5c06772297520da2051-Abstract.html) | - |
-| Hierarchical VAE | 2016 | NeurIPS | [paper](https://arxiv.org/abs/1602.02282) | - |
-| β-VAE | 2017 | ICLR | [paper](https://openreview.net/forum?id=Sy2fzU9gl) | - |
-| VQ-VAE | 2017 | NeurIPS | [paper](https://arxiv.org/abs/1711.00937) | - |
-| InfoVAE (MMD-VAE) | 2017 | arXiv | [paper] | - |
-| WAE | 2017 | ICLR | [paper] | - |
-| FactorVAE | 2018 | ICML | [paper] | - |
-| DIP-VAE | 2018 | ICLR | [paper] | - |
-| β-TCVAE | 2018 | ICML | [paper] | - |
-| BigVAE | 2019 | ICLR | [paper] | - |
-| VQ-VAE-2 | 2019 | NeurIPS | [paper] | - |
-| NVAE | 2020 | NeurIPS | [paper] | - |
-| Parallel VAE | 2020 | ICML | [paper] | - |
-| StyleVAE | 2021 | CVPR | [paper] | - |
-| Score-VAE | 2021 | NeurIPS | [paper] | - |
-| Distilled-VAE | 2022 | ICML | [paper] | - |
-| Masked-VAE | 2023 | CVPR | [paper] | - |
-| DynamicVAE | 2023 | AAAI | [paper]| - |
-| RFE-DiffSketch | 2024 | arXiv | [paper] | - |
+| Paper | Year | Output | Scope |
+|---|---:|---|---|
+| [Diverse image-to-image translation via disentangled representations](https://arxiv.org/abs/1808.00948) | 2018 | Image | Boundary |
+| [Multimodal unsupervised image-to-image translation](https://arxiv.org/abs/1804.04732) | 2018 | Image | Boundary |
+| [Styleclip: Text-driven manipulation of stylegan imagery](https://arxiv.org/abs/2103.17249) | 2021 | Image | Adjacent |
+| [Diffusion autoencoders: Toward a meaningful and decodable representation](https://arxiv.org/abs/2111.15640) | 2022 | Image | Adjacent |
+| [A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space](https://arxiv.org/html/2511.10555) | 2026 | Image | Adjacent |
 
-### Diffusion-based Methods
+<a id="uncertain"></a>
+### Hybrid interfaces
 
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| DDIM | 2020 | NeurIPS | [paper](https://arxiv.org/abs/2010.02502) | [code](https://github.com/ermongroup/ddim) |
-| IDDPM | 2021 | ICML | [paper](https://arxiv.org/abs/2102.09672) | - |
-| SBGMLS | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2106.01565) | - |
-| SBGM-SDE | 2021 | ICML | [paper](https://arxiv.org/abs/2011.13456) | - |
-| MLT-SBDM | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2101.11859) | - |
-| SDDMDSS | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2107.00630) | - |
-| DiffusionCLIP | 2022 | CVPR | [paper](https://arxiv.org/abs/2110.02711) | [code](https://github.com/gwang-kim/DiffusionCLIP) |
-| HRIS-LDM | 2022 | CVPR | [paper](https://arxiv.org/abs/2112.10752) | [code](https://github.com/CompVis/latent-diffusion) |
-| DPM-Solver | 2022 | NeurIPS | [paper](https://arxiv.org/abs/2206.00927) | [code](https://github.com/LuChengTHU/dpm-solver) |
-| SBGM-CDLD | 2022 | - | - | - |
-| VQDM-TIS | 2022 | CVPR | - | - |
-| CCDF-SC | 2022 | CVPR | - | - |
-| PNM-DMM | 2022 | - | - | - |
-| ASM-ISIG | 2022 | - | - | - |
-| StyleDiffusion | 2023 | - | [paper](https://arxiv.org/abs/2303.09268) | - |
-| gDDIM | 2023 | - | [paper](https://arxiv.org/abs/2306.04848) | - |
-| FS-DM-EI | 2023 | - | - | - |
-| DACDM | 2023 | - | - | - |
-| StyleID | 2023 | - | [paper](https://arxiv.org/abs/2312.09008) | [code](https://github.com/jiwoogit/StyleID) |
-| PortraitDiff | 2024 | - | [paper](https://arxiv.org/abs/2312.02212) | [code](https://github.com/liujin112/PortraitDiffusion) |
-| CMCDM | 2024 | - | - | - |
-| SGAT-DM | 2024 | - | - | - |
-| CFM-Velocity | 2024 | - | - | - |
-| ADM-MP | 2024 | - | - | - |
-| HEDSDM | 2024 | - | - | - |
-| SLDM | 2024 | - | - | - |
-| REDAP | 2024 | - | - | - |
-| ARTID | 2024 | - | - | - |
-| TiNO-Edit | 2024 | - | - | - |
-| IDIS-CP | 2024 | - | - | - |
-| SCEPTER | 2024 | - | [paper](https://arxiv.org/abs/2404.12154) | [code](https://github.com/modelscope/scepter) |
-| MagicFace | 2024 | - | [paper](https://arxiv.org/abs/2408.07433) | [code](https://github.com/CodeGoat24/MagicFace) |
-| InstantID | 2024 | - | [paper](https://arxiv.org/abs/2401.07519) | [code](https://github.com/InstantID/InstantID) |
-| CreativeSynth | 2024 | - | [paper](https://arxiv.org/abs/2401.14066) | [code](https://github.com/haha-lisa/CreativeSynth) |
-| B-LoRA | 2024 | - | [paper](https://arxiv.org/abs/2403.14572) | [code](https://github.com/yardenfren1996/B-LoRA) |
-| DEADiff | 2024 | - | - | - |
-| DRL | 2024 | - | - | - |
-| StyleTokenizer | 2024 | - | [paper](https://arxiv.org/abs/2409.02543) | [code](https://github.com/alipay/style-tokenizer) |
-| PFGM | 2022 | NeurIPS | [paper](https://arxiv.org/abs/2209.11178) | - |
-| VP-DGM-SM | 2021 | ICLR | [paper](https://arxiv.org/abs/2101.03288) | - |
-| Frido-FPD | 2022 | - | [paper](https://arxiv.org/abs/2208.12446) | - |
-| GLIDE | 2022 | ICLR | [paper](https://arxiv.org/abs/2112.10741) | - |
-| DreamBooth | 2023 | ICLR | [paper](https://arxiv.org/abs/2208.12242) | [code](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion) |
-| UniTune | 2023 | - | [paper](https://arxiv.org/abs/2306.12423) | - |
-| RealCompo | 2024 | - | [paper](https://arxiv.org/abs/2401.12868) | - |
-| EditWorld | 2024 | - | [paper](https://arxiv.org/abs/2403.06392) | - |
-| IterComp | 2024 | - | [paper](https://arxiv.org/abs/2402.05408) | - |
-| AdaptiveDiffusion | 2024 | - | [paper](https://arxiv.org/abs/2401.05356) | - |
-| Step-Adaptive Training | 2024 | - | [paper](https://arxiv.org/abs/2401.05146) | - |
-| AdaDiff | 2024 | - | [paper](https://arxiv.org/abs/2401.14902) | - |
-| MDT | 2024 | - | [paper](https://arxiv.org/abs/2401.12077) | - |
-| U-ViT | 2023 | - | [paper](https://arxiv.org/abs/2307.15979) | - |
-| DiffiT | 2024 | - | [paper](https://arxiv.org/abs/2401.10568) | - |
-| FastDiff 2 | 2023 | - | [paper](https://arxiv.org/abs/2311.11545) | - |
-| HLDM-TFIST | 2024 | - | [paper](https://arxiv.org/abs/2401.11605) | - |
-| ZeroShotCL | 2023 | - | [paper](https://arxiv.org/abs/2312.12419) | - |
-| MTID-MLLM | 2024 | - | [paper](https://arxiv.org/abs/2401.11708) | - |
-| MUMU | 2024 | - | [paper](https://arxiv.org/abs/2401.09711) | - |
-| Rectified Diffusion | 2024 | - | [paper](https://arxiv.org/abs/2402.02009) | - |
+These configurations retain an unresolved primary assignment.
 
-## Applications
+| Paper | Year | Output | Scope |
+|---|---:|---|---|
+| [Stereoscopic Neural Style Transfer](https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Stereoscopic_Neural_Style_CVPR_2018_paper.html) | 2018 | Video | Core |
+| [Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer](https://arxiv.org/abs/2203.13248) | 2022 | Image | Core |
+| [CCST-GAN: Generative Adversarial Networks for Chinese Calligraphy Style Transfer](https://doi.org/10.1109/ICIPMC62364.2024.10586662) | 2024 | Image | Core |
 
-### Portrait Style Transfer
+## Survey data
 
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| APDrawingGAN | 2019 | CVPR | [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Yi_APDrawingGAN_Generating_Artistic_Portrait_Drawings_From_Face_Photos_With_Hierarchical_CVPR_2019_paper.html) | [code](https://github.com/yiranran/APDrawingGAN) |
-| WarpGAN | 2020 | CVPR | [paper](https://arxiv.org/abs/1811.10100) | [code](https://github.com/seasonSH/WarpGAN) |
-| AiSketcher | 2020 | IROS | [paper](https://ricelll.github.io/AiSketcher/) | [code](https://github.com/fei-aiart/AiSketcher) |
-| Cartoon-StyleGAN | 2021 | Arxiv | [paper](https://arxiv.org/abs/2106.12445) | [code](https://github.com/happy-jihye/Cartoon-StyleGAN) |
-| SPatchGAN | 2021 | ICCV | [paper](https://arxiv.org/abs/2103.16219) | [code](https://github.com/NetEase-GameAI/SPatchGAN) |
-| StyleCariGAN | 2021 | SIGGRAPH | [paper](https://wonjongg.me/StyleCariGAN/) | [code](https://github.com/wonjongg/StyleCariGAN) |
-| CariMe | 2021 | TMM | [paper](https://ieeexplore.ieee.org/abstract/document/9454341) | [code](https://github.com/edward3862/CariMe-pytorch) |
-| BlendGAN | 2021 | NeurIPS | [paper](https://arxiv.org/abs/2110.11728) | [code](https://github.com/onion-liu/BlendGAN) |
-| DynaGAN | 2022 | SIGGRAPH | [paper](https://arxiv.org/pdf/2211.14554) | [code](https://github.com/blueGorae/DynaGAN) |
-| TargetCLIP | 2022 | ECCV | [paper](https://arxiv.org/abs/2110.12427) | [code](https://github.com/hila-chefer/TargetCLIP) |
-| DCT-Net | 2022 | TOG | [paper](https://arxiv.org/pdf/2207.02426) | [code](https://github.com/menyifang/DCT-Net) |
-| GODA | 2022 | NeurIPS | [paper](https://arxiv.org/pdf/2209.03665) | [code](https://github.com/zhangzc21/Generalized-One-shot-GAN-adaptation) |
-| Mind the Gap | 2022 | ICLR | [paper](https://arxiv.org/pdf/2110.08398) | [code](https://github.com/ZPdesu/MindTheGap) |
-| MMFS | 2023 | PG | [paper](https://arxiv.org/pdf/2305.18009) | [code](https://github.com/mmfs-paper/MMFS) |
-| Fix the Noise | 2023 | CVPR | [paper](https://arxiv.org/abs/2303.11545) | [code](https://github.com/LeeDongYeun/FixNoise) |
-| SSR-Encoder | 2024 | CVPR | [paper](https://arxiv.org/pdf/2312.16272) | [code](https://github.com/Xiaojiu-z/SSR_Encoder) |
-| InstantStyle | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2404.02733) | [code](https://github.com/InstantStyle/InstantStyle) |
-| Pair Customization | 2024 | ArXiv | [paper](https://arxiv.org/pdf/2405.01536) | [code](https://github.com/PairCustomization/PairCustomization) |
-| ZePo | 2024 | ACM MM | [paper](https://arxiv.org/pdf/2408.05492) | [code](https://github.com/liujin112/ZePo) |
-| DoesFS | 2024 | CVPR | [paper](https://arxiv.org/pdf/2403.00459) | [code](https://github.com/zichongc/DoesFS) |
+[Evidence guide](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/README.md) · [Paper selection](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/evidence_selection.csv) · [Source observations](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/evidence_register.csv) · [Protocol checks](https://github.com/00lostin00/Awesome-Style-Transfer/blob/codex/survey-v26-evidence/data/survey-v26/verify_counts.py)
 
-### Video Style Transfer
+Updated 25 October 2026. Source measurements retain their experimental units.
 
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| ReCoNet | 2018 | - | [paper](https://arxiv.org/abs/1807.01197) | [code](https://github.com/EmptySamurai/pytorch-reconet) |
-| Learning Linear Transformations | 2019 | CVPR | [paper](https://sites.google.com/view/linear-style-transfer-cvpr19/) | [code](https://github.com/sunshineatnoon/LinearStyleTransfer) |
-| Layered Neural Atlases | 2021 | - | [paper](https://layered-neural-atlases.github.io/) | [code](https://github.com/ykasten/layered-neural-atlases) |
-| VToonify | 2022 | - | [paper](https://arxiv.org/abs/2209.11224) | [code](https://github.com/williamyang1991/VToonify) |
-| CCPL | 2022 | - | [paper](https://link.springer.com/chapter/10.1007/978-3-031-19787-1_11) | [code](https://github.com/JarrentWu1031/CCPL) |
-| FateZero | 2023 | - | [paper](https://arxiv.org/abs/2303.09535) | [code](https://github.com/chenyangqiqi/fatezero) |
-| CAP-VSTNet | 2023 | - | [paper](https://arxiv.org/abs/2303.17867) | [code](https://github.com/linfengWen98/CAP-VSTNet) |
-| Control A Video | 2023 | - | [paper](https://arxiv.org/abs/2305.13840) | [code](https://github.com/weifeng-chen/control-a-video) |
-| Rerender A Video | 2023 | - | [paper](https://arxiv.org/pdf/2306.07954.pdf) | [code](https://www.mmlab-ntu.com/project/rerender/) |
-| Style-A-Video | 2023 | - | [paper](https://arxiv.org/abs/2305.05464) | [code](https://github.com/haha-lisa/Style-A-Video) |
-| Hallo1 | 2024 | - | [paper](https://arxiv.org/abs/2406.08801) | [code](https://fudan-generative-vision.github.io/hallo/) |
-| Hallo2 | 2024 | - | [paper](https://arxiv.org/abs/2410.07718) | [code](https://fudan-generative-vision.github.io/hallo2/) |
-| Hallo3 | 2024 | - | [paper](https://arxiv.org/abs/2412.00733v2) | [code](https://fudan-generative-vision.github.io/hallo3/) |
+## 📚 Datasets
 
-### 3D Style Transfer
-
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| RSMT | 2023 | SIGGRAPH | [paper](https://yuyujunjun.github.io/publications/Siggraph2023_RSMT/) | [code](https://github.com/youngseng/diffusestylegesture) |
-| DiffuseStyleGesture | 2023 | - | [paper](https://arxiv.org/abs/2305.04919) | [code](https://github.com/youngseng/diffusestylegesture) |
-| CAMDM | 2024 | - | [paper](https://arxiv.org/abs/2404.15121) | [code](https://github.com/AIGAnimation/CAMDM) |
-| Local Motion Phases | 2022 | - | [paper](https://arxiv.org/abs/2201.04439) | [code](https://github.com/ianxmason/local-phases) |
-
-### Text Style Transfer
-
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| Sequence to Better Sequence | 2017 | ICML | [paper](http://proceedings.mlr.press/v70/mueller17a.html) | [code](https://bitbucket.org/jwmueller/sequence-to-better-sequence/) |
-| Toward Controlled Generation of Text | 2017 | - | [paper](https://arxiv.org/pdf/1703.00955) | [code](https://github.com/asyml/texar) |
-| Style Transfer from Non-Parallel Text | 2017 | NeurIPS | [paper](https://papers.nips.cc/paper/7259-style-transfer-from-non-parallel-text-by-cross-alignment.pdf) | [code](https://github.com/shentianxiao/language-style-transfer) |
-| Adversarially Regularized Autoencoders | 2018 | - | [paper](https://arxiv.org/pdf/1706.04223) | [code](https://github.com/jakezhaojb/ARAE) |
-| Delete, Retrieve, Generate | 2018 | - | [paper](https://arxiv.org/pdf/1804.06437) | [code](https://worksheets.codalab.org/worksheets/0xe3eb416773ed4883bb737662b31b4948/) |
-| Style Transfer Through Back-Translation | 2018 | - | [paper](https://arxiv.org/pdf/1804.09000) | [code](https://github.com/shrimai/Style-Transfer-Through-Back-Translation) |
-| Disentangled Representation Learning | 2019 | - | [paper](https://arxiv.org/pdf/1808.04339) | [code](https://github.com/vineetjohn/linguistic-style-transfer) |
-| Learning Sentiment Memories | 2018 | - | [paper](https://arxiv.org/pdf/1808.07311) | [code](https://github.com/lancopku/SMAE) |
-| Unsupervised Controllable Text | 2019 | - | [paper](https://arxiv.org/pdf/1809.04556) | [code](https://github.com/parajain/uctf) |
-| Dual Reinforcement Learning | 2019 | - | [paper](https://arxiv.org/pdf/1905.10060) | [code](https://github.com/luofuli/DualLanST) |
-
-### Domain Adaptation
-
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| One-Shot Domain Adaptation | 2020 | CVPR | [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_One-Shot_Domain_Adaptation_for_Face_Generation_CVPR_2020_paper.pdf) | - |
-| Meta Face Recognition | 2020 | - | [paper](https://github.com/cleardusk/MFR) | [code](https://github.com/cleardusk/MFR) |
-| Cross-Domain Document Detection | 2020 | CVPR | [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Cross-Domain_Document_Object_Detection_Benchmark_Suite_and_Method_CVPR_2020_paper.pdf) | [code](https://github.com/kailigo/cddod) |
-| StereoGAN | 2020 | CVPR | [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_StereoGAN_Bridging_Synthetic-to-Real_Domain_Gap_by_Joint_Optimization_of_Domain_CVPR_2020_paper.pdf) | - |
-| Domain Adaptation for Dehazing | 2020 | CVPR | [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Shao_Domain_Adaptation_for_Image_Dehazing_CVPR_2020_paper.pdf) | - |
-| PointDAN | 2019 | - | [paper](https://arxiv.org/abs/1911.02744v1) | [code](https://github.com/canqin001/PointDAN) |
-| GCAN | 2019 | CVPR | [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ma_GCAN_Graph_Convolutional_Adversarial_Network_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.pdf) | - |
-| DCAN | 2020 | - | [paper](https://arxiv.org/abs/2005.06717) | [code](https://github.com/BIT-DA/DCAN) |
-
-## Datasets
-
-### Image Dataset
+<details open>
+<summary><b>🖼️ Image Datasets</b></summary>
 
 | Dataset | Year | Size | Description | Link |
 |---------|------|------|-------------|------|
-| Danbooru2017 | 2017 | 1.9TB, 2.94M images | Anime | [link](https://danbooru.donmai.us/posts?tags=2017) |
-| Chinese Style Transfer | 2018 | 1000 content, 100 style images | Chinese Painting | [link](https://github.com/lbsswu/Chinese_style_transfer) |
-| Stylized ImageNet | 2018 | ~134GB | Style Transfer | [link](https://github.com/rgeirhos/Stylized-ImageNet) |
 | WikiArt | 2018 | 42,129 images | Style, Artist, Genre | [link](https://huggingface.co/datasets/huggan/wikiart) |
+| Stylized ImageNet | 2018 | ~134GB | Style Transfer | [link](https://github.com/rgeirhos/Stylized-ImageNet) |
+| BAM | 2017 | 2.5M images | Artistic Media | [link](https://bam-dataset.org/) |
+| ArtBench-10 | 2022 | 60,000 images | Artwork Benchmark | [link](https://github.com/liaochongyang/ArtBench-10) |
 | FFHQ | 2019 | 70,000 images | Human Faces | [link](https://github.com/NVlabs/ffhq-dataset) |
-| Dark Zurich Dataset | 2019 | 8,779 images | Night, Twilight, Day | [link](https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/) |
-| Comic Faces | 2020 | 20K images | Paired Synthetic Comics | [link](https://www.kaggle.com/datasets/defileroff/comic-faces-paired-synthetic-v2) |
-| iFakeFaceDB | 2020 | 87,000 images | Face Images | [link](https://github.com/socialabubi/iFakeFaceDB) |
-| Ukiyo-e Faces | 2020 | 5,209 images | Aligned Ukiyo-e Faces | [link](https://www.justinpinkney.com/blog/2020/ukiyoe-dataset/) |
-| DFFD | 2020 | 299,039 images | Face Manipulation | [link](https://cvlab.cse.msu.edu/dffd-dataset.html) |
 | MetFaces | 2020 | 1,336 images | Artistic Faces | [link](https://github.com/NVlabs/metfaces-dataset) |
 | AAHQ | 2021 | 25,000 images | Artistic Faces | [link](https://github.com/onion-liu/aahq-dataset) |
-| StyleGAN Human | 2022 | 40K+ images | Human Generation | [link](https://stylegan-human.github.io/) |
+| Ukiyo-e Faces | 2020 | 5,209 images | Aligned Ukiyo-e Faces | [link](https://www.justinpinkney.com/blog/2020/ukiyoe-dataset/) |
 | DiffusionDB | 2022 | 14M images | Text-to-image | [link](https://github.com/poloclub/diffusiondb) |
-| 4SKST | 2023 | 25 color, 100 sketches | Sketch Style | [link](https://github.com/Chanuku/4skst) |
 | JourneyDB | 2023 | 4.4M images | Multimodal Vision | [link](https://journeydb.github.io/) |
-| DiffusionFace | 2024 | 600,000 images | Face Forgery | [link](https://github.com/Rapisurazurite/DiffFace) |
-| Trailer Faces HQ | 2024 | 187K faces | Facial Expressions | [link](https://www.justinpinkney.com/blog/2024/trailer-faces/) |
 | StyleShot | 2024 | - | Style Transfer | [link](https://styleshot.github.io/) |
+| Danbooru2017 | 2017 | 2.94M images | Anime | [link](https://danbooru.donmai.us/posts?tags=2017) |
+| Chinese Style Transfer | 2018 | 1000 content, 100 style | Chinese Painting | [link](https://github.com/lbsswu/Chinese_style_transfer) |
+| 4SKST | 2023 | 25 color, 100 sketches | Sketch Style | [link](https://github.com/Chanuku/4skst) |
 
-### Video Dataset
+</details>
+
+<details>
+<summary><b>🎬 Video Datasets</b></summary>
 
 | Dataset | Year | Size | Description | Link |
 |---------|------|------|-------------|------|
 | UADFV | 2018 | 100 videos | Video Style Transfer | [link](https://arxiv.org/abs/1811.00661) |
-| Deepfake-TIMIT | 2018 | 960 videos | Face Recognition | [link](https://conradsanderson.id.au/vidtimit/) |
-| DFFD | 2019 | 300 videos | Diverse Fake Face | [link](https://cvlab.cse.msu.edu/dffd-dataset.html) |
+| FaceForensics++ | 2019 | 6000 videos | Swapped Face | [link](https://github.com/ondyari/FaceForensics) |
 | Celeb-DF | 2020 | 408 original videos | DeepFake | [link](https://github.com/yuezunli/celeb-deepfakeforensics) |
 | DFDC | 2020 | 100,000 clips | DeepFake Detection | [link](https://www.kaggle.com/c/deepfake-detection-challenge) |
-| FaceForensics++ | 2019 | 6000 videos | Swapped Face | [link](https://github.com/ondyari/FaceForensics) |
-| ForgeryNet | 2021 | 221,247 videos | Forgery Analysis | [link](https://github.com/yinanhe/forgerynet) |
 | FFIW-10K | 2021 | 10,000 videos | Face Forgery | [link](https://github.com/tfzhou/FFIW) |
-| Wild Deepfake | 2024 | 7,314 sequences | Deepfake Detection | [link](https://github.com/OpenTAI/wild-deepfake) |
+| ForgeryNet | 2021 | 221,247 videos | Forgery Analysis | [link](https://github.com/yinanhe/forgerynet) |
 
-### 3D Dataset
+</details>
+
+<details>
+<summary><b>🧊 3D / Motion Datasets</b></summary>
 
 | Dataset | Year | Size | Description | Link |
 |---------|------|------|-------------|------|
 | 100STYLE | 2022 | 4M frames | Stylized Motion Capture | [link](https://zenodo.org/records/8127870) |
 | Motiondataset | 2023 | 36,673 frames | 3D Motion | [link](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset) |
 
-### Text Dataset
+</details>
 
-| Dataset | Year | Size | Description | Link |
-|---------|------|------|-------------|------|
-| Touchdown | 2020 | 9,326 instructions | Navigation | [link](https://github.com/lil-lab/touchdown) |
-| Yelp | 2020 | 6.99M comments | NLP Corpus | [link](https://www.yelp.com/dataset) |
-| YAFC Corpus | 2018 | Largest stylistic corpus | Style Transfer | [link](https://github.com/raosudha89/GYAFC-corpus) |
-| ParaDetox | 2020 | 10,000 toxic sentences | Detoxification | [link](https://github.com/s-nlp/paradetox) |
+## 🤝 Contributing
 
-### Data Augmentation
+We welcome contributions! When suggesting a paper, please indicate which **style carrier** it belongs to:
 
-| Title | Year | Publish | Paper | Code |
-|-------|------|---------|-------|------|
-| STaDA | 2019 | VISIGRAPP | [paper](https://arxiv.org/abs/1909.01688) | - |
-| CycleGAN-Emotion Augmentation | 2019 | VISIGRAPP | [paper](https://arxiv.org/abs/1903.11949) | - |
-| Cross-Domain NST Augmentation | 2019 | arXiv | [paper](https://arxiv.org/abs/1904.11617) | - |
-| AugMix | 2019 | arXiv | [paper](https://arxiv.org/abs/1912.02781) | [code](https://github.com/google-research/augmix) |
-| InstaBoost | 2019 | arXiv | [paper](https://arxiv.org/abs/1908.07801) | [code](https://github.com/GothicAi/Instaboost) |
-| CutMix | 2019 | arXiv | [paper](https://arxiv.org/abs/1905.04899) | [code](https://github.com/clovaai/CutMix-PyTorch) |
-| Parallel Formality Augmentation | 2020 | ACL | [paper](https://aclanthology.org/2020.acl-main.294/) | - |
-| Albumentations | 2020 | Information | [paper](https://www.mdpi.com/2078-2489/11/2/125) | [code](https://github.com/albumentations-team/albumentations) |
-| AugLy | 2022 | arXiv | [paper](https://arxiv.org/abs/2201.06494) | [code](https://github.com/facebookresearch/AugLy) |
+- 🎯 **Objective** — style lives only in the loss / score / guidance
+- 🧩 **Feature** — direct activation matching, transport, or attention coupling
+- 🌀 **Latent** — native generative latent, sampleable without a reference
+- ⚙️ **Parameter** — persistent style asset (weights / LoRA / tokens)
+- 🔌 **Condition** — reference-encoded standalone style condition
 
-## Contributing
-
-We welcome contributions! Here's how you can help:
+Ways to help:
 
 - 🐛 Report bugs and issues
 - 💡 Suggest new papers or resources
 - 🔧 Submit pull requests
 - ⭐ Star this repository if you find it helpful!
 
-Feel free to open an issue or submit a pull request if you:
-- Have any suggestions or corrections
-- Want to add new papers or resources
-- Find any broken links
-
-## Citation
+## 📖 Citation
 
 If you find this repository useful for your research, please consider citing:
 
@@ -460,11 +312,11 @@ If you find this repository useful for your research, please consider citing:
 }
 ```
 
-## Star History
+## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=neptune-T/Awesome-Style-Transfer&type=Date)](https://star-history.com/#neptune-T/Awesome-Style-Transfer&Date)
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 Thanks to all researchers and developers who made their work publicly available.
 
@@ -475,5 +327,3 @@ Thanks to all researchers and developers who made their work publicly available.
 <div align="center">
   <sub>By Monet's Impression of Sunrise</sub>
 </div>
-
-
