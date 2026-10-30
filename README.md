@@ -7,7 +7,7 @@
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/Papers-177-blue)](https://github.com/neptune-T/Awesome-Style-Transfer)
+[![Papers](https://img.shields.io/badge/Papers-242-blue)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![Carriers](https://img.shields.io/badge/Style%20Carriers-4-orangeviolet)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![Update](https://img.shields.io/badge/Update-Regularly-green.svg)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -91,9 +91,12 @@ A paper may appear under more than one carrier.
 2. [🧩 Style as Feature Operator](#feature) — 62 papers
 3. [⚙️ Style as Model Parameters](#parameter) — 30 papers
 4. [🔌 Style as Learned Condition](#condition) — 33 papers
-5. [Related Papers](#related) — 29 papers
-6. [📚 Datasets](#datasets)
-7. [🤝 Contributing](#contributing)
+5. [Related Papers](#related) — 62 papers
+6. [📖 Surveys](#surveys) — 7 papers
+7. [📏 Evaluation Metrics and Benchmarks](#evaluation) — 17 papers
+8. [🏗️ Generative Backbones](#backbones) — 8 papers
+9. [📚 Datasets](#datasets)
+10. [🤝 Contributing](#contributing)
 
 <a id="papers"></a>
 
@@ -179,7 +182,7 @@ A paper may appear under more than one carrier.
 | Style aligned image generation via shared attention | CVPR | 2024 | 🖼️ | [paper](https://arxiv.org/pdf/2312.02133v2) |
 | Style injection in diffusion: A training-free approach for adapting large-scale diffusion models for style transfer | CVPR | 2024 | 🖼️ | [paper](https://arxiv.org/pdf/2312.09008v2) |
 | StyleDyRF: Zero-shot 4D Style Transfer for Dynamic Neural Radiance Fields | arXiv | 2024 | ⏳ | [paper](https://arxiv.org/pdf/2403.08310v1) |
-| StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting | SIGASIA # { Technical Communications} | 2024 | 🧊 | [paper](https://arxiv.org/pdf/2403.07807v1) |
+| StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting | SIGASIA (Tech. Comm.) | 2024 | 🧊 | [paper](https://arxiv.org/pdf/2403.07807v1) |
 | Z*: Zero-shot Style Transfer via Attention Reweighting | CVPR | 2024 | 🖼️ | [paper](https://openaccess.thecvf.com/content/CVPR2024/html/Deng_Z_Zero-shot_Style_Transfer_via_Attention_Reweighting_CVPR_2024_paper.html) |
 | A3GS: Arbitrary Artistic Style into Arbitrary 3D Gaussian Splatting | ICCV | 2025 | 🧊 | [paper](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_A3GS_Arbitrary_Artistic_Style_into_Arbitrary_3D_Gaussian_Splatting_ICCV_2025_paper.html) |
 | AttenST: A Training-Free Attention-Driven Style Transfer Framework with Pre-Trained Diffusion Models | arXiv | 2025 | 🖼️ | [paper](https://arxiv.org/abs/2503.07307) |
@@ -297,35 +300,127 @@ A paper may appear under more than one carrier.
 
 | Paper | Venue | Year | Rep | Link |
 |-------|-------|:----:|:---:|------|
+| Blind Video Temporal Consistency | ACM TOG | 2015 | 🎬 | [paper](https://doi.org/10.1145/2816795.2818107) |
+| Image-to-image Translation with Conditional Adversarial Networks | CVPR | 2017 | 🖼️ | [paper](https://arxiv.org/abs/1611.07004) |
 | Occlusion-Aware Video Temporal Consistency | ACM MM | 2017 | 🎬 | [paper](https://doi.org/10.1145/3123266.3123363) |
+| Unpaired image-to-image translation using cycle-consistent adversarial networks | ICCV | 2017 | 🖼️ | [paper](https://arxiv.org/abs/1703.10593) |
 | Diverse image-to-image translation via disentangled representations | ECCV | 2018 | 🖼️ | [paper](https://arxiv.org/abs/1808.00948) |
+| Learning Blind Video Temporal Consistency | ECCV | 2018 | 🎬 | [paper](https://arxiv.org/abs/1808.00449) |
 | MoCoGAN: Decomposing motion and content for video generation | CVPR | 2018 | 🎬 | [paper](https://arxiv.org/abs/1707.04993) |
 | Multimodal Unsupervised Image-to-image Translation | ECCV | 2018 | 🖼️ | [paper](https://arxiv.org/abs/1804.04732) |
+| Recycle-GAN: Unsupervised Video Retargeting | ECCV | 2018 | 🎬 | [paper](https://arxiv.org/abs/1808.05174) |
 | Stereoscopic Neural Style Transfer | CVPR | 2018 | 🎬 | [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Stereoscopic_Neural_Style_CVPR_2018_paper.html) |
 | A style-based generator architecture for generative adversarial networks | CVPR | 2019 | 🖼️ | [paper](https://arxiv.org/abs/1812.04948) |
+| Attention-Guided Generative Adversarial Networks for Unsupervised Image-to-Image Translation | IJCNN | 2019 | 🖼️ | [paper](https://arxiv.org/abs/1903.12296) |
+| Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translat | CVPR | 2019 | 🖼️ | [paper](https://arxiv.org/abs/1904.06807) |
 | Analyzing and Improving the Image Quality of StyleGAN | CVPR | 2020 | 🖼️ | [paper](https://arxiv.org/abs/1912.04958) |
+| Contrastive learning for unpaired image-to-image translation | ECCV | 2020 | 🖼️ | [paper](https://arxiv.org/abs/2007.15651) |
+| Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Sce | CVPR | 2020 | 🖼️ | [paper](https://arxiv.org/abs/1912.12215) |
+| Unified Generative Adversarial Networks for Controllable Image-to-Image Translation | TIP | 2020 | 🖼️ | [paper](https://arxiv.org/abs/1912.06112) |
 | Learning Long-Term Style-Preserving Blind Video Temporal Consistency | ICME | 2021 | 🎬 | [paper](https://arxiv.org/abs/2103.07278) |
 | Styleclip: Text-driven manipulation of stylegan imagery | ICCV | 2021 | 🖼️ | [paper](https://arxiv.org/abs/2103.17249) |
 | Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer | CVPR | 2022 | 🖼️ | [paper](https://arxiv.org/abs/2203.13248) |
+| AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Net | TNNLS | 2023 | 🖼️ | [paper](https://arxiv.org/abs/1911.11897) |
 | Break-a-scene: Extracting multiple concepts from a single image | SIGASIA | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2305.16311) |
 | Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation | CVPR | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2208.12242) |
 | Elite: Encoding visual concepts into textual embeddings for customized text-to-image generation | ICCV | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2302.13848) |
+| Fatezero: Fusing attentions for zero-shot text-based video editing | ICCV | 2023 | 🎬 | [paper](https://arxiv.org/abs/2303.09535) |
+| Instruct-nerf2nerf: Editing 3d scenes with instructions | ICCV | 2023 | 🧊 | [paper](https://arxiv.org/abs/2303.12789) |
+| Instructpix2pix: Learning to follow image editing instructions | CVPR | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2211.09800) |
 | Interactive Control over Temporal Consistency while Stylizing Video Streams | CGF | 2023 | 🎬 | [paper](https://diglib.eg.org/items/c00f2450-d92f-42af-85fd-ac67a0589f0f) |
 | Key-locked rank one editing for text-to-image personalization | SIGGRAPH | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2305.01644) |
+| Local and Global GANs with Semantic-Aware Upsampling for Image Generation | TPAMI | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2203.00047) |
+| MasaCtrl: Tuning-Free Mutual Self-Attention Control for Consistent Image Synthesis and Editing | ICCV | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2304.08465) |
 | Mix-of-show: Decentralized low-rank adaptation for multi-concept customization of diffusion models | NeurIPS | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2305.18292) |
+| Multi-Channel Attention Selection GANs for Guided Image-to-Image Translation | TPAMI | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2002.01048) |
 | Multi-concept customization of text-to-image diffusion | CVPR | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2212.04488) |
+| Null-text inversion for editing real images using guided diffusion models | CVPR | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2211.09794) |
+| Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation | CVPR | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2211.12572) |
+| Prompt-to-prompt image editing with cross attention control | ICLR | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2208.01626) |
 | Prospect: Prompt spectrum for attribute-aware personalization of diffusion models | ACM TOG | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2305.16225) |
+| Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation | SIGASIA | 2023 | 🎬 | [paper](https://arxiv.org/abs/2306.07954) |
+| Text2video-zero: Text-to-image diffusion models are zero-shot video generators | ICCV | 2023 | 🎬 | [paper](https://arxiv.org/abs/2303.13439) |
+| Tune-a-video: One-shot tuning of image diffusion models for text-to-video generation | ICCV | 2023 | 🎬 | [paper](https://arxiv.org/abs/2212.11565) |
+| Videocomposer: Compositional video synthesis with motion controllability | NeurIPS | 2023 | 🎬 | [paper](https://arxiv.org/abs/2306.02018) |
+| Animatediff: Animate your personalized text-to-image diffusion models without specific tuning | ICLR | 2024 | 🎬 | [paper](https://arxiv.org/abs/2307.04725) |
 | CCST-GAN: Generative Adversarial Networks for Chinese Calligraphy Style Transfer | ICIPMC | 2024 | 🖼️ | [paper](https://doi.org/10.1109/ICIPMC62364.2024.10586662) |
+| Codef: Content deformation fields for temporally consistent video processing | CVPR | 2024 | 🎬 | [paper](https://arxiv.org/abs/2308.07926) |
 | Dreamvideo: Composing your dream videos with customized subject and motion | CVPR | 2024 | 🎬 | [paper](https://arxiv.org/abs/2312.04433) |
+| Freecontrol: Training-free spatial control of any text-to-image diffusion model with any condition | CVPR | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2312.07536) |
+| Gaussianeditor: Swift and controllable 3d editing with gaussian splatting | CVPR | 2024 | 🧊 | [paper](https://arxiv.org/abs/2311.14521) |
 | Instantid: Zero-shot identity-preserving generation in seconds | arXiv | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2401.07519) |
 | Photomaker: Customizing realistic human photos via stacked id embedding | CVPR | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2312.04461) |
+| Selectively Informative Description can Reduce Undesired Embedding Entanglements in Text-to-Image P | CVPR | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2403.15330) |
 | Ssr-encoder: Encoding selective subject representation for subject-driven generation | CVPR | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2312.16272) |
+| Tokenflow: Consistent diffusion features for consistent video editing | ICLR | 2024 | 🎬 | [paper](https://arxiv.org/abs/2307.10373) |
 | Training-free consistent text-to-image generation | ACM TOG | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2402.03286) |
+| Can Diffusion Models Disentangle? A Theoretical Perspective | arXiv | 2025 | 🖼️ | [paper](https://arxiv.org/abs/2504.00220) |
 | Nested attention: Semantic-aware attention values for concept personalization | SIGGRAPH | 2025 | 🖼️ | [paper](https://arxiv.org/abs/2501.01407) |
 | Neural Style Transfer for Synthesising a Dataset of Ancient Egyptian Hieroglyphs | arXiv | 2025 | 🖼️ | [paper](https://arxiv.org/abs/2504.02163) |
 | StructuReiser: A Structure-preserving Video Stylization Method | CGF | 2025 | 🎬 | [paper](https://arxiv.org/abs/2409.15341) |
 | A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space | CVPR | 2026 | 🖼️ | [paper](https://arxiv.org/html/2511.10555) |
 | Learning Personalized Photographic Style from Pairwise User Preferences | CVPR | 2026 | 🖼️ | [paper](https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Learning_Personalized_Photographic_Style_from_Pairwise_User_Preferences_CVPR_2026_paper.html) |
+| Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization | CVPR | 2026 | 🖼️ | [paper](https://arxiv.org/abs/2512.10955) |
+| Selectively Extracting and Injecting Visual Attributes into Text-to-Image Models | CVPR | 2026 | 🖼️ | [paper](https://openaccess.thecvf.com/content/CVPR2026/html/Choi_Selectively_Extracting_and_Injecting_Visual_Attributes_into_Text-to-Image_Models_CVPR_2026_paper.html) |
+
+<a id="surveys"></a>
+
+### 6. 📖 Surveys
+
+*Reviews and evaluation studies of style transfer and related generation tasks.*
+
+| Paper | Venue | Year | Rep | Link |
+|-------|-------|:----:|:---:|------|
+| Neural style transfer: A review | TVCG | 2020 | 🌐 | [paper](https://arxiv.org/abs/1705.04058) |
+| An analysis for image-to-image translation and style transfer | arXiv | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2408.06000) |
+| Evaluation in neural style transfer: a review | CGF | 2024 | 🌐 | [paper](https://arxiv.org/abs/2401.17109) |
+| A Comprehensive Evaluation of Arbitrary Image Style Transfer Methods | TVCG | 2025 | 🖼️ | [paper](https://doi.org/10.1109/TVCG.2024.3466964) |
+| Advances in 3D Neural Stylization: A Survey | IJCV | 2025 | 🧊 | [paper](https://arxiv.org/abs/2311.18328) |
+| Bridging the Metrics Gap in Image Style Transfer: A Comprehensive Survey of Models and Criteria | Neurocomputing | 2025 | 🖼️ | [paper](https://doi.org/10.1016/j.neucom.2025.129430) |
+| Personalized image generation with deep generative models: A decade survey | CVM | 2025 | 🖼️ | [paper](https://arxiv.org/abs/2502.13081) |
+
+<a id="evaluation"></a>
+
+### 7. 📏 Evaluation Metrics and Benchmarks
+
+*Style-specific scores, perceptual and preference metrics, and benchmarks for video, editing and 4D memory.*
+
+| Paper | Venue | Year | Rep | Link |
+|-------|-------|:----:|:---:|------|
+| Image quality assessment: from error visibility to structural similarity | TIP | 2004 | 🖼️ | [paper](https://doi.org/10.1109/TIP.2003.819861) |
+| The unreasonable effectiveness of deep features as a perceptual metric | CVPR | 2018 | 🖼️ | [paper](https://arxiv.org/abs/1801.03924) |
+| Clipscore: A reference-free evaluation metric for image captioning | EMNLP | 2021 | 🖼️ | [paper](https://arxiv.org/abs/2104.08718) |
+| ArtFID: Quantitative Evaluation of Neural Style Transfer | GCPR | 2022 | 🖼️ | [paper](https://arxiv.org/abs/2207.12280) |
+| Dreamsim: Learning new dimensions of human visual similarity using synthetic data | NeurIPS | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2306.09344) |
+| Human preference score v2: A solid benchmark for evaluating human preferences of text-to-image synt | arXiv | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2306.09341) |
+| Imagereward: Learning and evaluating human preferences for text-to-image generation | NeurIPS | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2304.05977) |
+| Quality Evaluation of Arbitrary Style Transfer: Subjective Study and Objective Metric | TCSVT | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2208.00623) |
+| Dinov2: Learning robust visual features without supervision | TMLR | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2304.07193) |
+| Measuring style similarity in diffusion models | arXiv | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2404.01292) |
+| Vbench: Comprehensive benchmark suite for video generative models | CVPR | 2024 | 🎬 | [paper](https://arxiv.org/abs/2311.17982) |
+| GIE-Bench: Towards Grounded Evaluation for Text-Guided Image Editing | arXiv | 2025 | 🖼️ | [paper](https://arxiv.org/abs/2505.11493) |
+| Can 4D Foundation Models Remember? | arXiv | 2026 | ⏳ | [paper](https://arxiv.org/abs/2609.20819) |
+| MemoBench: Benchmarking World Modeling in Dynamically Changing Environments | arXiv | 2026 | 🎬 | [paper](https://arxiv.org/abs/2606.27537) |
+| Perceptually Aligned Evaluation of Style Transfer | arXiv | 2026 | 🖼️ | [paper](https://arxiv.org/abs/2610.10003) |
+| StyleDoctor: Towards Specialist Reward Model for Style-centric Generation Tasks | CVPR | 2026 | 🖼️ | [paper](https://cvpr.thecvf.com/virtual/2026/poster/37704) |
+| The Algorithmic Gaze of Image Quality Assessment: An Audit and Trace Ethnography of the LAION-Aesth | FAccT | 2026 | 🖼️ | [paper](https://arxiv.org/abs/2601.09896) |
+
+<a id="backbones"></a>
+
+### 8. 🏗️ Generative Backbones
+
+*Diffusion, flow, autoregressive and adaptation backbones used by recent style-transfer methods.*
+
+| Paper | Venue | Year | Rep | Link |
+|-------|-------|:----:|:---:|------|
+| Denoising diffusion probabilistic models | NeurIPS | 2020 | 🖼️ | [paper](https://arxiv.org/abs/2006.11239) |
+| Denoising Diffusion Implicit Models | ICLR | 2021 | 🖼️ | [paper](https://arxiv.org/abs/2010.02502) |
+| High-resolution image synthesis with latent diffusion models | CVPR | 2022 | 🖼️ | [paper](https://arxiv.org/abs/2112.10752) |
+| LoRA: Low-Rank Adaptation of Large Language Models | ICLR | 2022 | 🌐 | [paper](https://arxiv.org/abs/2106.09685) |
+| Adding Conditional Control to Text-to-Image Diffusion Models | ICCV | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2302.05543) |
+| Scalable diffusion models with transformers | ICCV | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2212.09748) |
+| Scaling rectified flow transformers for high-resolution image synthesis | ICML | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2403.03206) |
+| Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction | NeurIPS | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2404.02905) |
 
 <a id="datasets"></a>
 
@@ -336,10 +431,12 @@ A paper may appear under more than one carrier.
 
 | Dataset | Year | Size | Description | Link |
 |---------|------|------|-------------|------|
+| MS-COCO | 2014 | 330K images | Content Images | [link](https://arxiv.org/abs/1405.0312) |
 | WikiArt | 2018 | 42,129 images | Style, Artist, Genre | [link](https://huggingface.co/datasets/huggan/wikiart) |
 | Stylized ImageNet | 2018 | ~134GB | Style Transfer | [link](https://github.com/rgeirhos/Stylized-ImageNet) |
 | BAM | 2017 | 2.5M images | Artistic Media | [link](https://bam-dataset.org/) |
 | ArtBench-10 | 2022 | 60,000 images | Artwork Benchmark | [link](https://github.com/liaochongyang/ArtBench-10) |
+| DEArt | 2022 | 15K images | European Artworks | [link](https://arxiv.org/abs/2211.01226) |
 | FFHQ | 2019 | 70,000 images | Human Faces | [link](https://github.com/NVlabs/ffhq-dataset) |
 | MetFaces | 2020 | 1,336 images | Artistic Faces | [link](https://github.com/NVlabs/metfaces-dataset) |
 | AAHQ | 2021 | 25,000 images | Artistic Faces | [link](https://github.com/onion-liu/aahq-dataset) |
@@ -347,9 +444,11 @@ A paper may appear under more than one carrier.
 | DiffusionDB | 2022 | 14M images | Text-to-image | [link](https://github.com/poloclub/diffusiondb) |
 | JourneyDB | 2023 | 4.4M images | Multimodal Vision | [link](https://journeydb.github.io/) |
 | StyleShot | 2024 | - | Style Transfer | [link](https://styleshot.github.io/) |
-| Danbooru2017 | 2017 | 2.94M images | Anime | [link](https://danbooru.donmai.us/posts?tags=2017) |
+| Danbooru2021 | 2022 | 4.9M images | Anime Illustrations | [link](https://gwern.net/danbooru2021) |
 | Chinese Style Transfer | 2018 | 1000 content, 100 style | Chinese Painting | [link](https://github.com/lbsswu/Chinese_style_transfer) |
 | 4SKST | 2023 | 25 color, 100 sketches | Sketch Style | [link](https://github.com/Chanuku/4skst) |
+| MagicBrush | 2023 | 10K edit triplets | Instruction-guided Editing | [link](https://arxiv.org/abs/2306.10012) |
+| Pico-Banana-400K | 2026 | 400K edits | Text-guided Editing | [link](https://arxiv.org/abs/2510.19808) |
 
 </details>
 
@@ -358,7 +457,7 @@ A paper may appear under more than one carrier.
 
 | Dataset | Year | Size | Description | Link |
 |---------|------|------|-------------|------|
-| UADFV | 2018 | 100 videos | Video Style Transfer | [link](https://arxiv.org/abs/1811.00661) |
+| UADFV | 2018 | 100 videos | DeepFake Detection | [link](https://arxiv.org/abs/1811.00661) |
 | FaceForensics++ | 2019 | 6000 videos | Swapped Face | [link](https://github.com/ondyari/FaceForensics) |
 | Celeb-DF | 2020 | 408 original videos | DeepFake | [link](https://github.com/yuezunli/celeb-deepfakeforensics) |
 | DFDC | 2020 | 100,000 clips | DeepFake Detection | [link](https://www.kaggle.com/c/deepfake-detection-challenge) |
