@@ -7,7 +7,7 @@
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/Papers-242-blue)](https://github.com/neptune-T/Awesome-Style-Transfer)
+[![Papers](https://img.shields.io/badge/Papers-249-blue)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![Carriers](https://img.shields.io/badge/Style%20Carriers-4-orangeviolet)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![Update](https://img.shields.io/badge/Update-Regularly-green.svg)](https://github.com/neptune-T/Awesome-Style-Transfer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -17,6 +17,7 @@
     <a href="#taxonomy">Taxonomy</a> |
     <a href="#papers">Papers</a> |
     <a href="#coverage">Coverage</a> |
+    <a href="#comparison-axes">F1–F3</a> |
     <a href="#datasets">Datasets</a> |
     <a href="#contributing">Contributing</a>
 </p>
@@ -26,6 +27,8 @@
 ## 🎨 About This Repository
 
 A curated collection of **style transfer** research papers spanning **🖼️ 2D image, 🎬 video, 🧊 3D (NeRF / mesh / point cloud / 3DGS) and ⏳ 4D (dynamic scene) stylization**, organized by the **Style-Carrier Taxonomy** from our survey *Style Transfer: A Decade Survey*.
+
+Representative methods are also compared along three axes: **F1 · reuse**, **F2 · selective binding** and **F3 · consistency** (see [F1–F3](#comparison-axes)).
 
 > **Domain tags:** 🖼️ Image · 🎬 Video · 🧊 3D · ⏳ 4D · 🌐 Multiple
 
@@ -95,8 +98,10 @@ A paper may appear under more than one carrier.
 6. [📖 Surveys](#surveys) — 7 papers
 7. [📏 Evaluation Metrics and Benchmarks](#evaluation) — 17 papers
 8. [🏗️ Generative Backbones](#backbones) — 8 papers
-9. [📚 Datasets](#datasets)
-10. [🤝 Contributing](#contributing)
+9. [🗃️ Dataset Papers](#dataset-papers) — 7 papers
+10. [🧪 F1–F3 Comparison Axes](#comparison-axes)
+11. [📚 Datasets](#datasets)
+12. [🤝 Contributing](#contributing)
 
 <a id="papers"></a>
 
@@ -421,6 +426,78 @@ A paper may appear under more than one carrier.
 | Scalable diffusion models with transformers | ICCV | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2212.09748) |
 | Scaling rectified flow transformers for high-resolution image synthesis | ICML | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2403.03206) |
 | Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction | NeurIPS | 2024 | 🖼️ | [paper](https://arxiv.org/abs/2404.02905) |
+
+<a id="dataset-papers"></a>
+
+### 9. 🗃️ Dataset Papers
+
+*Papers introducing the content, artwork and editing datasets cited in the survey.*
+
+| Paper | Venue | Year | Rep | Link |
+|-------|-------|:----:|:---:|------|
+| Microsoft coco: Common objects in context | ECCV | 2014 | 🖼️ | [paper](https://arxiv.org/abs/1405.0312) |
+| Bam! the behance artistic media dataset for recognition beyond photography | ICCV | 2017 | 🖼️ | [paper](https://arxiv.org/abs/1704.08614) |
+| Danbooru2021: A Large-Scale Crowdsourced and Tagged Anime Illustration Dataset | Online | 2022 | 🖼️ | [paper](https://gwern.net/danbooru2021) |
+| Deart: Dataset of european art | ECCVW | 2022 | 🖼️ | [paper](https://arxiv.org/abs/2211.01226) |
+| The artbench dataset: Benchmarking generative models with artworks | arXiv | 2022 | 🖼️ | [paper](https://arxiv.org/abs/2206.11404) |
+| Magicbrush: A manually annotated dataset for instruction-guided image editing | NeurIPS | 2023 | 🖼️ | [paper](https://arxiv.org/abs/2306.10012) |
+| Pico-Banana-400K: A Large-Scale Dataset for Text-Guided Image Editing | CVPR | 2026 | 🖼️ | [paper](https://arxiv.org/abs/2510.19808) |
+
+<a id="comparison-axes"></a>
+
+## 🧪 F1–F3 Comparison Axes
+
+These are comparison questions rather than exclusive method classes or performance scores. The representative cases below follow the survey.
+
+- **F1 · Reuse:** what state survives a change of target, style reference, adapter partner, receiving model or scene?
+- **F2 · Selective binding:** which reference factors are selected, and where are they assigned in the target?
+- **F3 · Consistency:** how is appearance linked across frames, views and dynamic scenes, including disappearance and return?
+
+### F1 · Reuse
+
+| Method | Mechanism | Key condition |
+|--------|-----------|---------------|
+| [Meta Networks](https://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Neural_Style_Transfer_CVPR_2018_paper.html) | Reference-predicted transformer weights | Reuse across contents within the trained architecture |
+| [ZipLoRA](https://arxiv.org/pdf/2311.13600v2) | Optimized merger of separate subject and style LoRAs | Pairwise fitting; reference content may persist |
+| [K-LoRA](https://arxiv.org/abs/2502.18461) | Layer-wise adapter selection with timestep scaling | No pairwise fitting after adapter acquisition |
+| [CRAFT-LoRA](https://arxiv.org/abs/2602.18936) | Rank-constrained adapters with routed guidance | Training-free fusion after component training |
+| [UnZipLoRA](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_UnZipLoRA_Separating_Content_and_Style_from_a_Single_Image_ICCV_2025_paper.html) | Joint subject and style fitting from one image | Direct composition of jointly acquired factors |
+| [Kingfisher](https://arxiv.org/abs/2610.23238) | Pair-specific code recombination in a frozen AR model | Less preparation than CSD-VAR; similar output latency |
+| [ARF](https://arxiv.org/pdf/2206.06360) | Scene-specific radiance-field optimization | New views reuse fitted state; new scenes require fitting |
+| [G3DST](https://arxiv.org/pdf/2408.13508v1) | Style-conditioned parameter prediction | Generalizes to posed scenes without pairwise fitting |
+| [FPGS (preparation)](https://arxiv.org/abs/2503.09635) | Feed-forward transformation of Gaussian features | Scene preparation remains; no per-style optimization |
+| [Portrait alignment](https://openaccess.thecvf.com/content/WACV2026/papers/Wang_One-shot_Portrait_Stylizaiton_via_Geometric_Alignment_WACV_2026_paper.pdf) | Geometric alignment with fitted portrait adapters | Requires aligned targets and adapter training |
+| [Edge portrait stylization](https://www.ijcai.org/proceedings/2022/0856.pdf) | Latency-driven portrait network search | Smartphone inference within learned style domains |
+
+### F2 · Selective binding
+
+| Method | Mechanism | Key condition |
+|--------|-----------|---------------|
+| [InstantStyle](https://arxiv.org/abs/2404.02733v2) | Content subtraction and selected-block injection | Transfer strength controls reference influence |
+| [MaskST](https://arxiv.org/abs/2502.07466) | Text-conditioned masking of reference elements | Selection depends on content text and cluster masks |
+| [StyleKeeper](https://arxiv.org/abs/2510.06827) | Negative visual queries and layer selection | Guidance balances style with prompt alignment |
+| [Only-Style](https://arxiv.org/abs/2506.09916) | Patch-level leakage detection with adaptive sharing | Suppression depends on detected source content |
+| [CleanStyle](https://arxiv.org/abs/2602.20721) | Spectral suppression with negative guidance | Balances leakage reduction with style fidelity |
+| [SafeStyle](https://arxiv.org/abs/2609.21242) | Calibrated style-residual injection | Requires calibration sets and a residual budget |
+| [CLeaR](https://arxiv.org/abs/2609.38136) | Content projection and calibrated style conditioning | Requires inversion and sampling calibration |
+| [Style-GRPO](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhao_Style-GRPO_Semantic-Aware_Preference_Optimization_for_Image_Style_Transfer_Guided_by_CVPR_2026_paper.pdf) | StyleScore-guided GRPO | Text-guided transfer after supervised adaptation |
+| [SCFlow](https://arxiv.org/abs/2508.03402) | Invertible merging of crossed style and content latents | Separation measured through latent clustering |
+| [CSD-VAR](https://arxiv.org/abs/2507.13984) | Scale-aware optimization, SVD-based embedding projection and key–value memory | Style control within the autoregressive model |
+| [SplitFlux](https://arxiv.org/abs/2511.15258) | Rank-constrained adaptation with saliency gating | Binding depends on adapted Flux blocks |
+| [SVD personalization](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_A_Training-Free_Style-Personalization_via_SVD-Based_Feature_Decomposition_CVPR_2026_paper.html) | Feature blending with attention correction | Balances style strength with prompt adherence |
+| [StyleGallery](https://arxiv.org/abs/2603.10354) | Semantic region matching with local guidance | Incorrect cluster masks can disrupt transfer |
+| [RegionRoute](https://arxiv.org/html/2602.19254) | Text-token routing to target regions | Regional style with protection of unedited areas |
+
+### F3 · Consistency
+
+| Method | Mechanism | Key condition |
+|--------|-----------|---------------|
+| [Occlusion-aware consistency](https://doi.org/10.1145/3123266.3123363) | Keyframe tracking with color-affine reconstruction | Stability depends on tracked correspondences |
+| [Recurrent video filtering](https://arxiv.org/abs/2103.07278) | Recurrent filtering with perceptual supervision | Reduces flicker in already stylized video |
+| [FPGS (rendering)](https://arxiv.org/abs/2503.09635) | Scene-level Gaussian stylization before rendering | Shared appearance across reconstructed views |
+| [StyleDyRF](https://arxiv.org/pdf/2403.08310v1) | Canonical features deformed with scene geometry | Persistence depends on deformation correspondence |
+| [UniVST](https://arxiv.org/abs/2410.20084) | Regional masks with point matching and flow smoothing | Propagation through observed correspondences |
+| [FlowStyler](https://openaccess.thecvf.com/content/ICCV2025/html/Gong_FlowStyler_Artistic_Video_Stylization_via_Transformation_Fields_Transports_ICCV_2025_paper.html) | Temporal transport with occlusion-aware lookup | Reduces motion trailing in artistic video |
 
 <a id="datasets"></a>
 
